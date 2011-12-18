@@ -1,0 +1,5 @@
+17Dec11
+1. Прочетох за lexicographicall compare
+http://www.cplusplus.com/reference/algorithm/lexicographical_compare/
+2. KeyValuePairs
+http://stackoverflow.com/questions/2805703/good-way-to-get-the-key-of-the-highest-value-of-a-dictionary-in-c-sharp

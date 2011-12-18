@@ -1,0 +1,10 @@
+T:\02_Academy\02_Homeworks\07_Arrays\Task09\bin\Debug\Task09.exe
+T:\02_Academy\02_Homeworks\07_Arrays\Task09\bin\Debug\Task09.pdb
+T:\02_Academy\02_Homeworks\07_Arrays\Task09\obj\x86\Debug\ResolveAssemblyReference.cache
+T:\02_Academy\02_Homeworks\07_Arrays\Task09\obj\x86\Debug\Task09.exe
+T:\02_Academy\02_Homeworks\07_Arrays\Task09\obj\x86\Debug\Task09.pdb
+T:\02__2_Academy\Homeworks\07_Arrays\Task09\obj\x86\Debug\Task09.exe
+T:\02__2_Academy\Homeworks\07_Arrays\Task09\obj\x86\Debug\Task09.pdb
+T:\02__2_Academy\Homeworks\07_Arrays\Task09\bin\Debug\Task09.exe
+T:\02__2_Academy\Homeworks\07_Arrays\Task09\bin\Debug\Task09.pdb
+T:\02__2_Academy\Homeworks\07_Arrays\Task09\obj\x86\Debug\ResolveAssemblyReference.cache
