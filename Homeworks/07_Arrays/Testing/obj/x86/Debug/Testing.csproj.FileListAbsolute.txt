@@ -1,0 +1,5 @@
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Testing\bin\Debug\Testing.exe
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Testing\bin\Debug\Testing.pdb
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Testing\obj\x86\Debug\ResolveAssemblyReference.cache
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Testing\obj\x86\Debug\Testing.exe
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Testing\obj\x86\Debug\Testing.pdb
