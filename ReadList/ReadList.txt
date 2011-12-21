@@ -1,5 +1,23 @@
 17Dec11
 1. Прочетох за lexicographicall compare
 http://www.cplusplus.com/reference/algorithm/lexicographical_compare/
-2. KeyValuePairs
-http://stackoverflow.com/questions/2805703/good-way-to-get-the-key-of-the-highest-value-of-a-dictionary-in-c-sharp
+2. ASP .NET MVC Video tutorials
+Изгледах няколко видеа за ASP .NET MVC
+http://www.youtube.com/watch?v=trpZuuTICWM
+http://www.youtube.com/watch?v=m-Vzf1rWmZQ&feature=related
+http://www.youtube.com/watch?v=JWOPptZU-yU&feature=related
+3. Реших няколко задачи за матрици
+11а - https://github.com/mitev-web/acad-part2/blob/master/Homeworks/07_Arrays/Task11/Program.cs
+11б - https://github.com/mitev-web/acad-part2/blob/master/Homeworks/07_Arrays/Task11_b/Program.cs
+25д - https://github.com/mitev-web/acad-part2/blob/master/Homeworks/07_Arrays/Task25_d/Program.cs
+и няколко други
+
+18Dec11
+Razor view engine
+http://blogs.popart.com/2011/06/razor-is-better/razor-view-engine-5-minutes/
+ASP NET Overview
+http://www.asp.net/mvc/tutorials/overview/asp-net-mvc-overview
+Music Store tutorial
+http://www.asp.net/mvc/tutorials/mvc-music-store/mvc-music-store-part-2
+
+19Dec11
