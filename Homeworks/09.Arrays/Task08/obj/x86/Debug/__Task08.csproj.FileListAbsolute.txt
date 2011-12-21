@@ -1,5 +1,0 @@
-T:\02__2_Academy\Homeworks\07_Arrays\Task08\bin\Debug\Task08.exe
-T:\02__2_Academy\Homeworks\07_Arrays\Task08\bin\Debug\Task08.pdb
-T:\02__2_Academy\Homeworks\07_Arrays\Task08\obj\x86\Debug\ResolveAssemblyReference.cache
-T:\02__2_Academy\Homeworks\07_Arrays\Task08\obj\x86\Debug\Task08.exe
-T:\02__2_Academy\Homeworks\07_Arrays\Task08\obj\x86\Debug\Task08.pdb
