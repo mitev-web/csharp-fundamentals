@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+
 
 namespace Task11_b
 {
@@ -10,6 +9,11 @@ namespace Task11_b
         static void Main(string[] args)
         {
             //Write a program that fills and prints a matrix of size (n, n) as shown below: (examples for n = 4)
+            //1  8  9 16
+            //2  7 10 15
+            //3  6 11 14
+            //4  5 12 13
+            
             int N = int.Parse(Console.ReadLine());
 
             int direction = 0;

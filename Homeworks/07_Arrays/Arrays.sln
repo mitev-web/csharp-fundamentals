@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11_c", "Task11_c\Task11
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task25_d", "Task25_d\Task25_d.csproj", "{09BC172A-3A12-448A-93AB-3D4E0E470D2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{B2D16621-D495-4855-B8CA-76BB3E2B9626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11_d", "Task_11d\Task11_d.csproj", "{681AB471-2023-46AD-ABB9-749318D07F05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -133,6 +137,14 @@ Global
 		{09BC172A-3A12-448A-93AB-3D4E0E470D2D}.Debug|x86.Build.0 = Debug|x86
 		{09BC172A-3A12-448A-93AB-3D4E0E470D2D}.Release|x86.ActiveCfg = Release|x86
 		{09BC172A-3A12-448A-93AB-3D4E0E470D2D}.Release|x86.Build.0 = Release|x86
+		{B2D16621-D495-4855-B8CA-76BB3E2B9626}.Debug|x86.ActiveCfg = Debug|x86
+		{B2D16621-D495-4855-B8CA-76BB3E2B9626}.Debug|x86.Build.0 = Debug|x86
+		{B2D16621-D495-4855-B8CA-76BB3E2B9626}.Release|x86.ActiveCfg = Release|x86
+		{B2D16621-D495-4855-B8CA-76BB3E2B9626}.Release|x86.Build.0 = Release|x86
+		{681AB471-2023-46AD-ABB9-749318D07F05}.Debug|x86.ActiveCfg = Debug|x86
+		{681AB471-2023-46AD-ABB9-749318D07F05}.Debug|x86.Build.0 = Debug|x86
+		{681AB471-2023-46AD-ABB9-749318D07F05}.Release|x86.ActiveCfg = Release|x86
+		{681AB471-2023-46AD-ABB9-749318D07F05}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

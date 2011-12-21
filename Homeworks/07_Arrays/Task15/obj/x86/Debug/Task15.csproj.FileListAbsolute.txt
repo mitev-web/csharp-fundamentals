@@ -3,3 +3,8 @@ T:\02_Academy\02_Homeworks\07_Arrays\Task15\bin\Debug\Task15.pdb
 T:\02_Academy\02_Homeworks\07_Arrays\Task15\obj\x86\Debug\ResolveAssemblyReference.cache
 T:\02_Academy\02_Homeworks\07_Arrays\Task15\obj\x86\Debug\Task15.exe
 T:\02_Academy\02_Homeworks\07_Arrays\Task15\obj\x86\Debug\Task15.pdb
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task15\bin\Debug\Task15.exe
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task15\bin\Debug\Task15.pdb
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task15\obj\x86\Debug\ResolveAssemblyReference.cache
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task15\obj\x86\Debug\Task15.exe
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task15\obj\x86\Debug\Task15.pdb

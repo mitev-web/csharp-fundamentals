@@ -3,3 +3,8 @@ T:\02__2_Academy\Homeworks\07_Arrays\Task11\obj\x86\Debug\Task11.pdb
 T:\02__2_Academy\Homeworks\07_Arrays\Task11\bin\Debug\Task11.exe
 T:\02__2_Academy\Homeworks\07_Arrays\Task11\bin\Debug\Task11.pdb
 T:\02__2_Academy\Homeworks\07_Arrays\Task11\obj\x86\Debug\ResolveAssemblyReference.cache
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task11\bin\Debug\Task11.exe
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task11\bin\Debug\Task11.pdb
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task11\obj\x86\Debug\ResolveAssemblyReference.cache
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task11\obj\x86\Debug\Task11.exe
+T:\02_Academy__part2\Data\Homeworks\07_Arrays\Task11\obj\x86\Debug\Task11.pdb

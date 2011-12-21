@@ -9,6 +9,13 @@ namespace Task25_d
     {
         static void Main(string[] args)
         {
+            //fill in ma3x like the following
+            //for N=4
+            //10 11 12 13
+            // 9  2  3 14
+            // 8  1  4 15
+            // 7  6  5 16
+
             Console.WriteLine("Enter size of the matrix (N)");
             int N = new int();
             int.TryParse(Console.ReadLine(), out N);
