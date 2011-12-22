@@ -1,5 +1,0 @@
-T:\02_Academy\Examples\17. Trees-Graphs-Demos\Trees\bin\Debug\Demos.exe
-T:\02_Academy\Examples\17. Trees-Graphs-Demos\Trees\bin\Debug\Demos.pdb
-T:\02_Academy\Examples\17. Trees-Graphs-Demos\Trees\obj\Debug\ResolveAssemblyReference.cache
-T:\02_Academy\Examples\17. Trees-Graphs-Demos\Trees\obj\Debug\Demos.exe
-T:\02_Academy\Examples\17. Trees-Graphs-Demos\Trees\obj\Debug\Demos.pdb
