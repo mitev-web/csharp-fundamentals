@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Task09
 {
@@ -18,13 +17,9 @@ namespace Task09
             foreach (var item in arr)
             {
                 if (dict.ContainsKey(item))
-                {
                     dict[item]++;
-                }
                 else
-                {
                     dict.Add(item, 1);
-                }
             }
             var k = (from e in dict
                      where e.Value == dict.Values.Max()

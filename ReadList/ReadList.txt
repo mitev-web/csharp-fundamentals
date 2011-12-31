@@ -16,8 +16,39 @@ http://www.youtube.com/watch?v=JWOPptZU-yU&feature=related
 Razor view engine
 http://blogs.popart.com/2011/06/razor-is-better/razor-view-engine-5-minutes/
 ASP NET Overview
-http://www.asp.net/mvc/tutorials/overview/asp-net-mvc-overview
+http://www.asp.net/mvc/tutorials/overview/asp-net-mvc-overvie
 Music Store tutorial
 http://www.asp.net/mvc/tutorials/mvc-music-store/mvc-music-store-part-2
 
-19Dec11
+19Dec11 - sent
+1. Regex matching как се мачва с regex и linq
+http://msdn.microsoft.com/en-us/library/bb882639.aspx
+2. 101 LinQ Samples - прочетох за cross joins в linq и 
+http://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b
+3. Работа с date i T-SQL по прочетох
+http://msdn.microsoft.com/en-us/library/ms186724.aspx#DateandTimeDataTypes
+
+24Dec11 - sent
+1. Why should I use entitiy framework
+http://blogs.msdn.com/b/esql/archive/2008/03/14/why_5f00_use_5f00_ef.aspx
+2. Move over LINQ to SQL - you have served your purpose - great article by  Simon Munro about transitioning to ADO .NET and the real history of http://consultingblogs.emc.com/simonmunro/archive/2008/11/02/move-over-linq-to-sql-you-have-served-your-purpose.aspx
+3. HTML задачите ASP MVC
+4.Реших полвината от задачите с ASP MVC с html5 семантика
+
+29Dec11 - sent
+1.JavaScript working with Date();
+http://www.tizag.com/javascriptT/javascriptdate.php
+2.Select custom child number with jquery
+ http://api.jquery.com/nth-child-selector/
+3. Traversing
+http://api.jquery.com/category/traversing/
+4. DateTime fields comaring
+http://stackoverflow.com/questions/275737/how-do-i-compare-two-datetime-fields-in-sql-2005
+5. Modifying submitted form:
+http://api.jquery.com/submit/
+6. Canvas tutorials http://dev.opera.com/articles/view/html-5-canvas-the-basics/
+http://thinkvitamin.com/code/how-to-draw-with-html-5-canvas/
+7. Save and restore of Canvas
+http://html5.litten.com/understanding-save-and-restore-for-the-canvas-context/
+
+30Dec11 - not sent
