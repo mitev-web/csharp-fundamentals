@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
+
 
 namespace Task01.D
 {
@@ -17,6 +16,7 @@ namespace Task01.D
 
         static void Main(string[] args)
         {
+
             Console.WriteLine("Enter size of the matrix (N)");
             int N = new int();
             int.TryParse(Console.ReadLine(), out N);
@@ -28,45 +28,40 @@ namespace Task01.D
 
         private static void PopulateMatrix(int[,] matrix)
         {
-            int positionX = new int();
-            int positionY = new int();
+            int positionX = 0;
+            int positionY = -1;
             int N = matrix.GetLength(0);
 
-            if (N % 2 == 1)
+
+            for (int i = 1; i < N+1; i++)
             {
-                positionX = (N / 2);
-                positionY = N / 2;
-            }
-            else
-            {
-                positionX = N / 2 - 1;
-                positionY = N / 2;
+                positionY++;
+                matrix[positionY, positionX] = i;
             }
 
 
             int direction = 0;
-            int currentStep = -1;
-            int stepChange = 0;
+            int currentStep = 0;
+            int stepChange = N-1;
 
-            matrix[positionY, positionX] = 1;
 
-            for (int i = 2; i <= N * N; i++)
+            for (int i = N+1; i <= N*N; i++)
             {
                 currentStep++;
 
-                switch (direction % 4)
+                switch (direction)
                 {
-                    case 3:
-                        positionX--;
-                        break;
 
-                    case 0://up
-                        positionY--;
-                        break;
-                    case 1://right
+                    case 0://right
                         positionX++;
                         break;
-                    case 2://down
+                    case 1://up
+                        positionY--;
+                        break;
+                    case 2://left
+                        positionX--;
+                        break;
+                    case 3://down
                         positionY++;
                         break;
                 }
@@ -74,14 +69,15 @@ namespace Task01.D
 
                 if (currentStep == stepChange)
                 {
-                    currentStep = -1;
-                    direction++;
+                    currentStep = 0;
+                    direction = ++direction % 4;
 
                     if (direction % 2 == 0)
                     {
-                        stepChange++;
+                        stepChange--;
                     }
                 }
+
                 matrix[positionY, positionX] = i;
 
             }

@@ -18,6 +18,8 @@ namespace Task03
             {
                 Console.WriteLine(arr1[i].CompareTo(arr2[i]));
             }
+
+
         }
     }
 }

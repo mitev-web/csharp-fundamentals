@@ -11,7 +11,7 @@ namespace Task05
         {
             //Write a program that finds the maximal increasing sequence in an array. Example: {3, 2, 3, 4, 2, 2, 4}  {2, 3, 4}.
 
-            int[] arr = { 2, 2, 63, 2, 3, 4, 5, 6, 5, 5, 5, 5, 7, 7, 2, 2, 6, 7, 8, 2, 1, 1, 1, 6, 7, 73, 3, 6 };
+            int[] arr = { 2, 2, 63, 2, 3, 4, 5, 6, 5, 5, 5, 5, 7, 7, 2, 2, 6, 7, 8, 2, 1, 7, 8, 9, 10, 11, 12, 6 };
             List<int[]> repeatedArrays = new List<int[]>();
             List<int> tempNumbers = new List<int>();
             bool firstAdd = true;
