@@ -16,7 +16,6 @@ namespace Task12
 
             char[] alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
             string word = Console.ReadLine();
-
             word = word.ToUpper();
 
             foreach (char c in word)

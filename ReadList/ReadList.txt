@@ -51,4 +51,31 @@ http://thinkvitamin.com/code/how-to-draw-with-html-5-canvas/
 7. Save and restore of Canvas
 http://html5.litten.com/understanding-save-and-restore-for-the-canvas-context/
 
-30Dec11 - not sent
+01Jan12 - sent
+
+Merge Sort algorithm
+1. http://www.cs.nyu.edu/~vs667/articles/mergesort/
+2. http://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Merge_sort#C.23
+3. Binary Search
+http://www.dotnetperls.com/array-binarysearch
+4. Security update .NET
+http://www.zdnet.com/blog/bott/microsoft-releases-out-of-band-security-update-to-plug-net-hole/4305?tag=search-results-rivers;item4
+5.Node JS for VS (API for accessing the network and file system)
+http://www.zdnet.com/blog/microsoft/microsoft-joyent-deliver-first-stable-build-of-nodejs-on-windows/11178?tag=search-results-rivers;item0
+
+03Jan12 -  sent
+Прочето за алгоритми и гледах live animation demo-ta тук:
+1. http://www.sorting-algorithms.com/selection-sort
+2. http://www.algorithmist.com/index.php/Longest_Increasing_Subsequence
+разгледах и изтествах някои примери с HTML5 и новото JS API
+http://ie.microsoft.com/testdrive/
+Реших няколко задачи от MultyDim Arrays
+3. https://github.com/mitev-web/acad-part2/blob/master/Homeworks/10.MultidimensionalArrays/Task01.A/Program.cs
+4. https://github.com/mitev-web/acad-part2/blob/master/Homeworks/10.MultidimensionalArrays/Task01.B/Program.cs
+5. https://github.com/mitev-web/acad-part2/blob/master/Homeworks/10.MultidimensionalArrays/Task01.D/Program.cs
+и няколко от Arrays
+6. https://github.com/mitev-web/acad-part2/blob/master/Homeworks/09.Arrays/Task12/Program.cs
+7. https://github.com/mitev-web/acad-part2/blob/master/Homeworks/09.Arrays/Task18/Program.cs
+
+04Jan12 -  not sent
+
