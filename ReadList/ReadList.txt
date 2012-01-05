@@ -77,5 +77,22 @@ http://ie.microsoft.com/testdrive/
 6. https://github.com/mitev-web/acad-part2/blob/master/Homeworks/09.Arrays/Task12/Program.cs
 7. https://github.com/mitev-web/acad-part2/blob/master/Homeworks/09.Arrays/Task18/Program.cs
 
-04Jan12 -  not sent
+04Jan12 -  sent
+Реших задачите:
+3та от Multidimentional Arrays
+1. https://github.com/mitev-web/acad-part2/blob/master/Homeworks/10.MultidimensionalArrays/Task03/Program.cs
+2. 4та от Multidimentional Arrays
+https://github.com/mitev-web/acad-part2/blob/master/Homeworks/10.MultidimensionalArrays/Task04/Program.cs
+3. Task 16 от Arrays
+https://github.com/mitev-web/acad-part2/blob/master/Homeworks/09.Arrays/Task16/Program.cs
+4. Task 17 от Arrays
+https://github.com/mitev-web/acad-part2/blob/master/Homeworks/09.Arrays/Task17/Program.cs
+5. Task 18 от Arrays
+https://github.com/mitev-web/acad-part2/blob/master/Homeworks/09.Arrays/Task18/Program.cs
+6. Task 9 от Arrays
+https://github.com/mitev-web/acad-part2/blob/master/Homeworks/09.Arrays/Task09/Program.cs
+7. Task 7 (SSort) от Arrays
+https://github.com/mitev-web/acad-part2/blob/master/Homeworks/09.Arrays/Task07/Program.cs
 
+
+05Jan12 - not sent
