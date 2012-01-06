@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+
 
 namespace DecimalToBinary
 {
@@ -11,7 +10,28 @@ namespace DecimalToBinary
             //Write a program to convert 
             //decimal numbers to their binary representation.
         {
-            decimal
+            int number = 17;
+
+            Console.WriteLine(ConvertIntToBinary(number));
+
         }
+
+
+        static string ConvertIntToBinary(int number)
+        {
+            string binaryNumber = "";
+
+            while (number > 0)
+            {
+                binaryNumber += number % 2;
+                number /= 2;
+            }
+
+            char[] arr = binaryNumber.ToCharArray();
+            Array.Reverse(arr);
+
+            return new string(arr);
+        }
+
     }
 }

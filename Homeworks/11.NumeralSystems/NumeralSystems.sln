@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.NumeralToAnother", "Nume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.ShortToBinary", "ShortToBinary\08.ShortToBinary.csproj", "{456A9D31-D563-4C5B-8868-34F525F3038E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Task09", "Task09\09.Task09.csproj", "{A3D335AA-EBE8-42D3-98E0-A278CF28CBDB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -57,10 +55,6 @@ Global
 		{456A9D31-D563-4C5B-8868-34F525F3038E}.Debug|x86.Build.0 = Debug|x86
 		{456A9D31-D563-4C5B-8868-34F525F3038E}.Release|x86.ActiveCfg = Release|x86
 		{456A9D31-D563-4C5B-8868-34F525F3038E}.Release|x86.Build.0 = Release|x86
-		{A3D335AA-EBE8-42D3-98E0-A278CF28CBDB}.Debug|x86.ActiveCfg = Debug|x86
-		{A3D335AA-EBE8-42D3-98E0-A278CF28CBDB}.Debug|x86.Build.0 = Debug|x86
-		{A3D335AA-EBE8-42D3-98E0-A278CF28CBDB}.Release|x86.ActiveCfg = Release|x86
-		{A3D335AA-EBE8-42D3-98E0-A278CF28CBDB}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
