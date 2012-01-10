@@ -13,7 +13,7 @@ namespace Task21
     //        Example:
     //N = 5, K = 2  {1, 2}, {1, 3}, {1, 4}, {1, 5}, {2, 3}, {2, 4}, {2, 5}, {3, 4}, {3, 5}, {4, 5}
 
-                    public static void Main()
+        public static void Main()
         {
             int n = 5;
             int k = 2;
@@ -25,7 +25,7 @@ namespace Task21
 
         public static void GenerateCombination(int i, int after, 
             int n, int k, int[] numbers)
-        {
+            {
             if (i > k)
             {
                 return;

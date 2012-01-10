@@ -18,18 +18,7 @@ namespace Task12
             string word = Console.ReadLine();
             word = word.ToUpper();
 
-            foreach (char c in word)
-            {
-
-                for (int i = 0; i < alphabet.Length; i++)
-                {
-                    if (c == alphabet[i])
-                    {
-                        Console.WriteLine("index of {0} is {1}", c, i);
-                    }
-                }
-
-            }
+            foreach (char c in word) for (int i = 0; i < alphabet.Length; i++) if (c == alphabet[i]) Console.WriteLine("index of {0} is {1}", c, i);
         }
     }
 }

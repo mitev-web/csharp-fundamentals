@@ -12,38 +12,28 @@ namespace Task04
             //using the method Array.BinSearch() finds the largest number 
             //in the array which is ≤ K. 
 
-            int K = 9;
-            int[] arr = { 3, 52, 5, 77 };
 
-            Array.Sort(arr);
+            int k = 77;
 
-            int exist = Array.BinarySearch(arr, K);
+            int[] array = { 3, 25, 42, 55, 68, 72 };
 
-            if (arr[0] > K)
-            {
-                Console.WriteLine("There is no solution");
-                return;
-            }
+            
+
+            Array.Sort(array);
+            int position = Array.BinarySearch(array, k);
+            Console.WriteLine(position);
 
 
-            if (exist >= 0)
-            {
-                Console.WriteLine("The number {0} exists at postion {1}", K, exist);
+              if (k < array[0])
+             {
+                Console.WriteLine("There is no such number.");
             }
             else
             {
-
-                for (int i = 1; i < K; i++)
-                {
-                    exist = Array.BinarySearch(arr, K - i);
-
-                    if (exist >= 0)
-                    {
-                        Console.WriteLine("The number {0} exists at postion {1}", K - i, exist);
-                        break;
-                    }
-                }
-
+                if (position < 0)
+                    position = -2 - position;
+                Console.Write("The number is: ");
+                Console.WriteLine(array[position]);
             }
 
         }
