@@ -19,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task09", "Task09\Task09.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task10 [subset sequence]", "Task10\Task10 [subset sequence].csproj", "{376FF056-7AA6-4A31-8640-783FAC14DA38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11", "Task11\Task11.csproj", "{AAB91A85-193D-4C01-83FE-A0F5397AE05A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11 [binary search]", "Task11\Task11 [binary search].csproj", "{AAB91A85-193D-4C01-83FE-A0F5397AE05A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task12", "Task12\Task12.csproj", "{BBCD87B4-004E-4080-A2FB-954A125F2262}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task12 [AlphabetArray]", "Task12\Task12 [AlphabetArray].csproj", "{BBCD87B4-004E-4080-A2FB-954A125F2262}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13 [Merge Sort]", "Task13\Task13 [Merge Sort].csproj", "{ED0E080D-FF4A-4775-BE90-B97A163CF4A8}"
 EndProject
@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task14 [QuickSort]", "Task1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task17 [subset K,N,S]", "Task17\Task17 [subset K,N,S].csproj", "{C0189AF6-3294-4554-88BB-0A0F3D94C168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task15", "Task15\Task15.csproj", "{9A2F13F2-49CB-4372-9DCE-1364E9F7BC3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task15 [Primes sieve of Eratosthenes alg]", "Task15\Task15 [Primes sieve of Eratosthenes alg].csproj", "{9A2F13F2-49CB-4372-9DCE-1364E9F7BC3D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task16  [subset sum]", "Task16\Task16  [subset sum].csproj", "{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}"
 EndProject
@@ -37,9 +37,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task18", "Task18\Task18.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task19 [Permutations]", "Task19\Task19 [Permutations].csproj", "{8258A725-A812-43CE-A548-53F40F6C4C2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task20", "Task20\Task20.csproj", "{AE1F887F-0C27-457D-9CF2-1293BF12B851}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task20 [All Combinations]", "Task20\Task20 [All Combinations].csproj", "{AE1F887F-0C27-457D-9CF2-1293BF12B851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task21", "Task21\Task21.csproj", "{274FB46E-A4CF-4BB3-8C72-D0977525D320}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task21 [CombinationsDistinct]", "Task21\Task21 [CombinationsDistinct].csproj", "{274FB46E-A4CF-4BB3-8C72-D0977525D320}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task07.A", "Task07.A\Task07.A.csproj", "{4EE26FBE-B2DD-46E9-B07C-165874BBA2E0}"
 EndProject

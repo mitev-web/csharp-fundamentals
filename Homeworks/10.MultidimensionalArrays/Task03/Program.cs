@@ -5,102 +5,106 @@ using System.Text;
 
 namespace Task03
 {
+        //We are given a matrix of strings of size N x M. 
+        //Sequences in the matrix we define as sets of several
+        //    neighbor elements located on the same line, column 
+        //or diagonal. Write a program that finds the longest 
+        //    sequence of equal strings in the matrix. Example:
+
+        //ha  fifi ho   hi
+        //fo  ha   hi   xx
+        //xxx ho   ha   xx
+        //
+        //answer: ha, ha, ha
     class Program
     {
-       static Random rand = new Random();
+     public struct Point
+        {
+           public int y;
+           public int x;
+
+            public Point(int y, int x)
+            {
+                this.y = y;
+                this.x = x;
+            }
+        }
+
+      public static bool[,] isVisited = null;
+      public static Random rand = new Random();
+      public static string value = "";
+      public static int N = 3;
+      public static int K = 4;
+      public static int counter = 0;
+      public static int maxCounter = 0;
+      public static string maxElementValue = "";
+      public static string lastPosition = "";
+
+      public static string[,] arr = null;
 
         static void Main(string[] args)
         {
-            //We are given a matrix of strings of size N x M. 
-            //Sequences in the matrix we define as sets of several
-            //    neighbor elements located on the same line, column 
-            //or diagonal. Write a program that finds the longest 
-            //    sequence of equal strings in the matrix. Example:
-
-           //ha  fifi ho   hi
-           //fo  ha   hi   xx
-           //xxx ho   ha   xx
-            //
-          //answer: ha, ha, ha
-
-            // s  qq  s
-            //pp  pp  s
-            //pp  qq  s
-            //answer: s, s, s
-            int N = 3;
-            int K = 4;
-
-            string[,] arr = new string[N, K];
+            arr = new string[N,K];
+            isVisited = new bool[N, K];
 
             FillMatrix(arr);
-
             PrintMatrix(arr);
 
-            SearchForMatches(arr);
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    Point p = new Point(i, j);
+                    value = arr[i, j];
+
+                    FindEqualNeighbors(p, value);
+                }
+            }
+
+            Console.WriteLine("There are {0} neighbor elements with value {1}",maxCounter,maxElementValue);
+
         }
 
-        public static void SearchForMatches(string[,] arr){
-            int N = arr.GetLength(0);
-            int K = arr.GetLength(1);
 
-            int curentMax = 0;
-            int max = 0;
-            string maxStr = "";
-            bool sequence = false;
+        public static void FindEqualNeighbors(Point p, string value, string position = "", string lastPosition = "")
+        {
+            if (p.y < 0 || p.y >= arr.GetLength(0) || p.x < 0 || p.x >= arr.GetLength(1)) return;
 
-            for (int i = 0; i < N; i++){
+            if (isVisited[p.y, p.x]) return;
 
-                for (int j = 0;j < K-1; j++) {
-
-                    if (sequence)
-                    {
-                        if (arr[i, j] == arr[i, j + 1])
-                        {
-                            curentMax++;
-                            if (max < curentMax)
-                            {
-                                maxStr = arr[i, j];
-                                max = curentMax;
-                            }
-                        }
-                        else
-                        {
-                            curentMax = 0;
-                            if (max < curentMax)
-                            {
-                                maxStr = arr[i, j];
-                                max = curentMax;
-                            }
-                            sequence = false;
-                        }
-
-
-                    }
-                    else
-                    {
-                        if (arr[i, j] == arr[i, j + 1])
-                        {
-                            curentMax = 2;
-                            if (max < curentMax)
-                            {
-                                maxStr = arr[i, j];
-                                max = curentMax;
-                            }
-                            sequence = true;
-                        }
-
-                    }
-                  
-                }
-                          
-            }
-
-            for (int i = 0; i < max; i++)
+            if (position.Length > 0 && position != lastPosition) return;
+ 
+            if (arr[p.y, p.x] != value)
+                return;
+            else
             {
-                Console.Write(maxStr+",");
-                
+                isVisited[p.y,p.x] = true;
+                counter++;
+                if (maxCounter < counter)
+                {
+                    maxCounter++;
+                    maxElementValue = value;
+                }
             }
-            Console.WriteLine();
+
+            Point up = new Point(--p.y, p.x);
+            Point down = new Point(++p.y, p.x);
+            Point left = new Point(p.y, --p.x);
+            Point right = new Point(p.y, ++p.x);
+
+            //Point downLeft = new Point(++p.y, --p.x);
+            //Point downRight = new Point(++p.y, ++p.x);
+
+            lastPosition = position;
+
+            FindEqualNeighbors(up, value, "vert", lastPosition);
+            FindEqualNeighbors(down, value, "vert", lastPosition);
+            FindEqualNeighbors(left, value, "horz", lastPosition);
+            FindEqualNeighbors(right, value, "horz", lastPosition);
+
+            //FindEqualNeighbors(downLeft, value, "diag1", lastPosition);
+            //FindEqualNeighbors(downRight, value, "diag2", lastPosition);
+
         }
 
 

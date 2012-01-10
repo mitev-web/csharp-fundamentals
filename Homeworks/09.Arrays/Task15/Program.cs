@@ -11,36 +11,26 @@ namespace Task15
         {
             //Write a program that finds all prime numbers in the range [1...10 000 000].
             //    Use the sieve of Eratosthenes algorithm (find it in Wikipedia).
-            int num;
-            bool[] flags = new bool[51];
-            long i, k;
-            int count = 0;
+  
+                int n = 100000;
+                bool[] notPrime = new bool[n + 1];
+                notPrime[0] = true;
+                notPrime[1] = true;
 
-            num = System.Convert.ToInt32(args[0]);
-            if (num < 1) num = 1;
-
-            while (num-- > 0)
-            {
-                count = 0;
-                for (i = 2; i <= 50; i++)
+                for (long i = 2; i < Math.Sqrt(n); i++)
                 {
-                    flags[i] = true;
-                }
-                for (i = 2; i <= 50; i++)
-                {
-                    if (flags[i])
+                    if (notPrime[i] == false)
                     {
-                        for (k = i + i; k <= 50; k += i)
+                        Console.WriteLine(i);
+                        for (long j = i * 2; j <= n; j += i)
                         {
-                            flags[k] = false;
+                            notPrime[j] = true;
                         }
-                        count++;
                     }
                 }
-            }
+                }
 
-            Console.WriteLine("Count: " + count.ToString());
-         
+
         }
     }
-}
+
