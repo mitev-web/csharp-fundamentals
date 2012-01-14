@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{06C43183-8E70-4265-8AF1-C26C7EB33207}</ProjectGuid>
+    <ProjectGuid>{CCA43FC2-2E28-4F67-AD9E-D645AB82FFBC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NestedLoops</RootNamespace>

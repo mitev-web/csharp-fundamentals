@@ -16,7 +16,7 @@ namespace Task01.C
         //1  3  6  10
         static void Main(string[] args)
         {
-            int N = 4;
+            int N = 8;
             matrix = new int[N, N];
             int value = 1;
             int diagonalColumns = 0;

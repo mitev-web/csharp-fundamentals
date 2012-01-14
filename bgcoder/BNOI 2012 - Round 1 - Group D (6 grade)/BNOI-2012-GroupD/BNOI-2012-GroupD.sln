@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. FishGlobe", "FishGlobe\01. FishGlobe.csproj", "{E9ABEEF1-2991-4150-9E87-D4A1D4DEFC03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPoker", "MiniPoker\MiniPoker.csproj", "{B9FBF579-0396-4643-A81C-812BABF66DB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. MiniPoker", "MiniPoker\02. MiniPoker.csproj", "{B9FBF579-0396-4643-A81C-812BABF66DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Lottery", "Lottery\03. Lottery.csproj", "{6E1D7406-0809-47CB-935D-1C3AB9E2D09A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{B9FBF579-0396-4643-A81C-812BABF66DB4}.Debug|x86.Build.0 = Debug|x86
 		{B9FBF579-0396-4643-A81C-812BABF66DB4}.Release|x86.ActiveCfg = Release|x86
 		{B9FBF579-0396-4643-A81C-812BABF66DB4}.Release|x86.Build.0 = Release|x86
+		{6E1D7406-0809-47CB-935D-1C3AB9E2D09A}.Debug|x86.ActiveCfg = Debug|x86
+		{6E1D7406-0809-47CB-935D-1C3AB9E2D09A}.Debug|x86.Build.0 = Debug|x86
+		{6E1D7406-0809-47CB-935D-1C3AB9E2D09A}.Release|x86.ActiveCfg = Release|x86
+		{6E1D7406-0809-47CB-935D-1C3AB9E2D09A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
