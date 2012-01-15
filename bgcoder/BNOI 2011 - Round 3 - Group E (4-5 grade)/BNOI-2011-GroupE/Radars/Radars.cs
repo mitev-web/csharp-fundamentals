@@ -1,7 +1,7 @@
-﻿using System;
+﻿﻿using System;
 using System.Linq;
 
-class Radar
+class Radars
 {
     //        Напишете програма radars, която намира възможно най-голямата мощност на
     //излъчване на телевизионните предавания.
@@ -26,7 +26,7 @@ class Radar
 
         string[] strNumbers = Console.ReadLine().Split(' ');
         long[] arr = strNumbers.Select(x => long.Parse(x)).ToArray();
-           
+
         Array.Sort(arr);
 
         //the 3 radar podoubles will be a, b and c

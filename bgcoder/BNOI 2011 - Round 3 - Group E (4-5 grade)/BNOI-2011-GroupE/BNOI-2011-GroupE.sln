@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. House", "House\01. House.csproj", "{0AF46F4E-16EB-451B-9508-5E8CF87D7479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Radar", "Radar\02. Radar.csproj", "{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. HiddenMessage", "Message\03. HiddenMessage.csproj", "{BB5343DB-77E5-44ED-A21B-BEB76F588D83}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Words", "Words\04. Words.csproj", "{2DBA0A63-9B90-4ED6-A0F0-487D20BC4E28}"
@@ -12,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Cubes", "Cubes\05. Cubes.csproj", "{42F9C53D-DD5D-4D87-9EC4-D7BF3D0D9976}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Ptime", "ptime\06. Ptime.csproj", "{62D73C1F-1B54-47E0-B519-2AF60B7F518C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Radars", "Radars\02. Radars.csproj", "{A620D45E-FEBF-4741-B630-7FE893326B2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,16 +33,6 @@ Global
 		{0AF46F4E-16EB-451B-9508-5E8CF87D7479}.Release|Mixed Platforms.Build.0 = Release|x86
 		{0AF46F4E-16EB-451B-9508-5E8CF87D7479}.Release|x86.ActiveCfg = Release|x86
 		{0AF46F4E-16EB-451B-9508-5E8CF87D7479}.Release|x86.Build.0 = Release|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Debug|x86.ActiveCfg = Debug|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Debug|x86.Build.0 = Debug|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Release|Any CPU.ActiveCfg = Release|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Release|Mixed Platforms.Build.0 = Release|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Release|x86.ActiveCfg = Release|x86
-		{B88BD7B0-7052-4F98-B93C-53ABCAFEC803}.Release|x86.Build.0 = Release|x86
 		{BB5343DB-77E5-44ED-A21B-BEB76F588D83}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{BB5343DB-77E5-44ED-A21B-BEB76F588D83}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{BB5343DB-77E5-44ED-A21B-BEB76F588D83}.Debug|Mixed Platforms.Build.0 = Debug|x86
@@ -83,6 +73,16 @@ Global
 		{62D73C1F-1B54-47E0-B519-2AF60B7F518C}.Release|Mixed Platforms.Build.0 = Release|x86
 		{62D73C1F-1B54-47E0-B519-2AF60B7F518C}.Release|x86.ActiveCfg = Release|x86
 		{62D73C1F-1B54-47E0-B519-2AF60B7F518C}.Release|x86.Build.0 = Release|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Debug|x86.ActiveCfg = Debug|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Debug|x86.Build.0 = Debug|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Release|Any CPU.ActiveCfg = Release|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Release|x86.ActiveCfg = Release|x86
+		{A620D45E-FEBF-4741-B630-7FE893326B2A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
