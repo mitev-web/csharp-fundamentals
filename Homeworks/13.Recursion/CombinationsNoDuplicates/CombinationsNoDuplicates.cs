@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace NestedLoops
 {
-    class NestedLoops
+    class CombinationsNoDuplicates
     {
 
         //Write a recursive program that simulates execution of n nested loops from 1 to n
@@ -20,6 +20,7 @@ namespace NestedLoops
 
             if (startIndex == -1)
             {
+                if (arr.Distinct().Count() == N || arr.Distinct().Count() == 1)
                 Print(arr);
             }
             else

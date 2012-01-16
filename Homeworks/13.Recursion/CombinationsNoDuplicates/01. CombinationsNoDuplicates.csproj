@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{171FBC20-5AD3-487F-BBF9-70A53A8A7A3C}</ProjectGuid>
+    <ProjectGuid>{E7A02462-3169-49D7-99CA-4531976AB3FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NestedLoopsForK</RootNamespace>
-    <AssemblyName>NestedLoopsForK</AssemblyName>
+    <RootNamespace>NestedLoops</RootNamespace>
+    <AssemblyName>NestedLoops</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NestedLoopsForKElements.cs" />
+    <Compile Include="CombinationsNoDuplicates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

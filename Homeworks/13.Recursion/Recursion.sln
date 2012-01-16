@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.NestedLoops", "NestedLoops\01.NestedLoops.csproj", "{06C43183-8E70-4265-8AF1-C26C7EB33207}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Permutations", "Permutations\03. Permutations.csproj", "{65A8C277-BB4B-4FFC-9370-FE72C023A818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. NestedLoopsForKElements", "NestedLoopsForK\02. NestedLoopsForKElements.csproj", "{171FBC20-5AD3-487F-BBF9-70A53A8A7A3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. CombinationsNoDuplicates", "CombinationsNoDuplicates\01. CombinationsNoDuplicates.csproj", "{E7A02462-3169-49D7-99CA-4531976AB3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. CombinationsWithDuplicates", "CombinationsWithDuplicates\02. CombinationsWithDuplicates.csproj", "{171FBC20-5AD3-487F-BBF9-70A53A8A7A3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. TraverseDirectory", "TraverseDirectory\10. TraverseDirectory.csproj", "{7B4C3F53-E26D-4F54-B529-61D6BD654212}"
 EndProject
@@ -15,14 +15,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{06C43183-8E70-4265-8AF1-C26C7EB33207}.Debug|x86.ActiveCfg = Debug|x86
-		{06C43183-8E70-4265-8AF1-C26C7EB33207}.Debug|x86.Build.0 = Debug|x86
-		{06C43183-8E70-4265-8AF1-C26C7EB33207}.Release|x86.ActiveCfg = Release|x86
-		{06C43183-8E70-4265-8AF1-C26C7EB33207}.Release|x86.Build.0 = Release|x86
 		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|x86.ActiveCfg = Debug|x86
 		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|x86.Build.0 = Debug|x86
 		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|x86.ActiveCfg = Release|x86
 		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|x86.Build.0 = Release|x86
+		{E7A02462-3169-49D7-99CA-4531976AB3FB}.Debug|x86.ActiveCfg = Debug|x86
+		{E7A02462-3169-49D7-99CA-4531976AB3FB}.Debug|x86.Build.0 = Debug|x86
+		{E7A02462-3169-49D7-99CA-4531976AB3FB}.Release|x86.ActiveCfg = Release|x86
+		{E7A02462-3169-49D7-99CA-4531976AB3FB}.Release|x86.Build.0 = Release|x86
 		{171FBC20-5AD3-487F-BBF9-70A53A8A7A3C}.Debug|x86.ActiveCfg = Debug|x86
 		{171FBC20-5AD3-487F-BBF9-70A53A8A7A3C}.Debug|x86.Build.0 = Debug|x86
 		{171FBC20-5AD3-487F-BBF9-70A53A8A7A3C}.Release|x86.ActiveCfg = Release|x86

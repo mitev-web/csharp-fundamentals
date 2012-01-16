@@ -11,36 +11,43 @@ namespace Permutations
     //{2, 3, 1}, {3, 1, 2},{3, 2, 1}
         static void Main(string[] args)
         {
-            int N = 2;
+            int N = 3;
             int[] arr = new int[N];
-
-            GeneratePermunation(N - 1, arr, N);
+            GeneratePermutation(N - 1, arr, N);
         }
-  
-        private static void GeneratePermunation(int startindex, int[] arr, int N)
+
+
+        static void GeneratePermutation(int startIndex, int[] arr, int N)
         {
-            if (startindex == -1)
+
+            if (startIndex == -1)
             {
-                PrintArray(arr);
+                if(arr.Distinct().Count() == N)
+                Print(arr);
             }
             else
             {
-                for (int i = 0; i < N; i++)
+                for (int i = 1; i <= N; i++)
                 {
-                    startindex = startindex - 1;
-                    GeneratePermunation(startindex, arr, N);
+                    arr[startIndex] = i;
+
+                    GeneratePermutation(startIndex - 1, arr, N);
                 }
 
             }
+
         }
-  
-        private static void PrintArray(int[] arr)
+
+
+        static void Print(int[] arr)
         {
             foreach (var item in arr)
             {
-                Console.Write("{0:00}",item);
+                Console.Write("{0,2}", item);
             }
             Console.WriteLine();
+
         }
+
     }
 }
