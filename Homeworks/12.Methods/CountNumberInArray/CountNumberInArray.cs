@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CountNumberInArray
 {
-    class Program
+    class CountNumbers
     {
         static void Main(string[] args)
         {

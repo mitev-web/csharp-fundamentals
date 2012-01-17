@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LastDigitToWord
 {
-    class Program
+    class ConvLastDigitToWord
     {
         static void Main(string[] args)
         {

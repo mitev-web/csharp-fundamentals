@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{50E76BF5-5ED7-4DE2-81BF-4AF4F7F0E008}</ProjectGuid>
+    <ProjectGuid>{637016A5-63E9-4431-B1CD-0DA642DF5CAB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CheckForBiggerNeighborsII</RootNamespace>
-    <AssemblyName>CheckForBiggerNeighborsII</AssemblyName>
+    <RootNamespace>Random</RootNamespace>
+    <AssemblyName>Random</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CheckForBiggerNeighborsII.cs" />
+    <Compile Include="RandomNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

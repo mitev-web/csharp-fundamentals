@@ -7,10 +7,6 @@ namespace SubstrMultyOfPolynomials
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            //Extend the program to support also subtraction and multiplication of polynomials.
-
-        }
+       
     }
 }

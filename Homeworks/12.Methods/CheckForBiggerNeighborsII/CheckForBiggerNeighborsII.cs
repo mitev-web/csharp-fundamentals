@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CheckForBiggerNeighborsII
 {
-    class Program
+    class CheckForBiggerNeighborsII
     {
 
         //        Write a method that returns the index of the first element in array 

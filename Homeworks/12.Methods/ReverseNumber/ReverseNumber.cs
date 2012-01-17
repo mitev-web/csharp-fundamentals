@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ReverseNumber
 {
-    class Program
+    class ReverseNumb
     {
         //Write a method that reverses the digits of given decimal number. Example: 256  652
 

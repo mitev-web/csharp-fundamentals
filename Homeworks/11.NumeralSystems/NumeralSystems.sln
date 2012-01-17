@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.BinaryToHex", "BinaryToH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.NumeralToAnother", "NumeralToAnother\07.NumeralToAnother.csproj", "{A33144D9-074C-447D-9059-DE7D57479D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.ShortToBinary", "ShortToBinary\08.ShortToBinary.csproj", "{456A9D31-D563-4C5B-8868-34F525F3038E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. ShortToBinary", "ShortToBinary\08. ShortToBinary.csproj", "{456A9D31-D563-4C5B-8868-34F525F3038E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

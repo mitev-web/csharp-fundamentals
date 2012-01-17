@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. DayOfTheWeek", "DayOfTheWeek\03. DayOfTheWeek.csproj", "{56C774A4-7741-4BF5-9355-E9AA703C16A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. YearIsLeap", "YearIsLeap\01. YearIsLeap.csproj", "{9C163590-259B-45FA-94BB-44D5F10A48C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. RandomNumbers", "RandomNumbers\02. RandomNumbers.csproj", "{637016A5-63E9-4431-B1CD-0DA642DF5CAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C774A4-7741-4BF5-9355-E9AA703C16A6}.Debug|x86.ActiveCfg = Debug|x86
+		{56C774A4-7741-4BF5-9355-E9AA703C16A6}.Debug|x86.Build.0 = Debug|x86
+		{56C774A4-7741-4BF5-9355-E9AA703C16A6}.Release|x86.ActiveCfg = Release|x86
+		{56C774A4-7741-4BF5-9355-E9AA703C16A6}.Release|x86.Build.0 = Release|x86
+		{9C163590-259B-45FA-94BB-44D5F10A48C0}.Debug|x86.ActiveCfg = Debug|x86
+		{9C163590-259B-45FA-94BB-44D5F10A48C0}.Debug|x86.Build.0 = Debug|x86
+		{9C163590-259B-45FA-94BB-44D5F10A48C0}.Release|x86.ActiveCfg = Release|x86
+		{9C163590-259B-45FA-94BB-44D5F10A48C0}.Release|x86.Build.0 = Release|x86
+		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Debug|x86.ActiveCfg = Debug|x86
+		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Debug|x86.Build.0 = Debug|x86
+		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Release|x86.ActiveCfg = Release|x86
+		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
