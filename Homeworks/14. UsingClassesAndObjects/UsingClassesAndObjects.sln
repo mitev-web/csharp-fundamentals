@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. YearIsLeap", "YearIsLea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. RandomNumbers", "RandomNumbers\02. RandomNumbers.csproj", "{637016A5-63E9-4431-B1CD-0DA642DF5CAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingDaysInPeriod", "WorkingDaysInPeriod\WorkingDaysInPeriod.csproj", "{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +27,10 @@ Global
 		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Debug|x86.Build.0 = Debug|x86
 		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Release|x86.ActiveCfg = Release|x86
 		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Release|x86.Build.0 = Release|x86
+		{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}.Debug|x86.ActiveCfg = Debug|x86
+		{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}.Debug|x86.Build.0 = Debug|x86
+		{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}.Release|x86.ActiveCfg = Release|x86
+		{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
