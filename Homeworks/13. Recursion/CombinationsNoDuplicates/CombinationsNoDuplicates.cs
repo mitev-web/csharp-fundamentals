@@ -11,25 +11,25 @@ namespace NestedLoops
         {
             int N = 2;
             int[] arr = new int[N];
-            Generate(N - 1, arr, N);
+            GenerateVariations(arr,N - 1, N);
         }
 
 
-        static void Generate(int startIndex, int[] arr, int N)
+        static void GenerateVariations(int[] arr, int startIndex, int endIndex)
         {
 
             if (startIndex == -1)
             {
-                if (arr.Distinct().Count() == N || arr.Distinct().Count() == 1)
+  
                 Print(arr);
             }
             else
             {
-                for (int i = 1; i <= N; i++)
+                for (int i = 1; i <= endIndex; i++)
                 {
                     arr[startIndex] = i;
 
-                    Generate(startIndex - 1, arr, N);
+                    GenerateVariations(arr, startIndex - 1, endIndex);
                 }
 
             }
@@ -46,9 +46,6 @@ namespace NestedLoops
             Console.WriteLine();
 
         }
-
-
-
 
 
     }

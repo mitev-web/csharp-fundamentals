@@ -8,7 +8,7 @@ class PathsInLabyrinth
         {'*', '*', ' ', '*', ' ', '*', ' '},
         {' ', ' ', ' ', ' ', ' ', ' ', ' '},
         {' ', '*', '*', '*', '*', '*', ' '},
-        {' ', ' ', ' ', ' ', ' ', ' ', 'е'},
+        {' ', ' ', ' ', ' ', ' ', ' ', 'e'},
     };
 
     static void FindPathToExit(int row, int col)
@@ -20,7 +20,7 @@ class PathsInLabyrinth
         }
 
         // Check if we have found the exit
-        if (lab[row, col] == 'е')
+        if (lab[row, col] == 'e')
         {
             Console.WriteLine("Found the exit!");
         }

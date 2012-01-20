@@ -11,11 +11,11 @@ namespace NestedLoopsForK
         {
             int N = 3;
             int[] arr = new int[N];
-            Generate(N - 1, arr, N);
+            Generate(arr, N - 1, N);
         }
 
 
-        static void Generate(int startIndex, int[] arr, int N)
+        static void Generate(int[] arr, int startIndex, int endIndex)
         {
 
             if (startIndex == -1)
@@ -24,11 +24,11 @@ namespace NestedLoopsForK
             }
             else
             {
-                for (int i = 1; i <= N; i++)
+                for (int i = 1; i <= endIndex; i++)
                 {
                     arr[startIndex] = i;
 
-                    Generate(startIndex - 1, arr, N);
+                    Generate(arr, startIndex - 1, endIndex);
                 }
 
             }

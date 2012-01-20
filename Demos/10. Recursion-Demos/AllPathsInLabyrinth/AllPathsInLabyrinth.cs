@@ -29,6 +29,7 @@ class AllPathsInLabyrinth
         // Check if we have found the exit
         if (lab[row, col] == 'е')
         {
+            Console.WriteLine(position);
             PrintPath(path, 1, position-1);
         }
 
@@ -54,9 +55,11 @@ class AllPathsInLabyrinth
 
     static void PrintPath(char[] path, int startPos, int endPos) {
 	    Console.Write("Found path to the exit: ");
-	    for (int pos = startPos; pos<=endPos; pos++) {
-		    Console.Write(path[pos]);
-	    }
+        Console.WriteLine(position);
+        for (int pos = startPos; pos <= endPos; pos++)
+        {
+            Console.Write(path[pos]);
+        }
         Console.WriteLine();
     }
 
