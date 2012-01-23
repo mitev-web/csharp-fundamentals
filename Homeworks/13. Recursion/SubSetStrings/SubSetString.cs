@@ -16,21 +16,16 @@ namespace SubSetStrings
 
         static void Main(string[] args)
         {
-            
             int[] arr = new int[K];
-
-            GenerateVariations(arr, 0, words.Length-1);
-
+            GenerateVariations(arr, 0, words.Length - 1);
         }
 
         public static void GenerateVariations(int[] arr, int startIndex, int endIndex)
         {
-
             if (startIndex >= arr.Length)
             {
-                if(arr.Distinct().Count() == K)
-                Print(arr);
-        
+                if (arr.Distinct().Count() == K)
+                    Print(arr);
             }
             else
             {
@@ -39,20 +34,16 @@ namespace SubSetStrings
                     arr[startIndex] = i;
                     GenerateVariations(arr, startIndex + 1, endIndex);
                 }
-
             }
-
         }
 
         private static void Print(int[] arr)
         {
             foreach (var item in arr)
             {
-                Console.Write(" {0} ",words[item]);
+                Console.Write(" {0} ", words[item]);
             }
             Console.WriteLine();
         }
-   
-
     }
 }

@@ -5,7 +5,6 @@ namespace NestedLoopsForK
 {
     class CombinationsWithDuplicates
     {
-
         //Write a recursive program that simulates execution of n nested loops from 1 to n
         static void Main(string[] args)
         {
@@ -14,10 +13,8 @@ namespace NestedLoopsForK
             Generate(arr, N - 1, N);
         }
 
-
         static void Generate(int[] arr, int startIndex, int endIndex)
         {
-
             if (startIndex == -1)
             {
                 Print(arr);
@@ -30,11 +27,8 @@ namespace NestedLoopsForK
 
                     Generate(arr, startIndex - 1, endIndex);
                 }
-
             }
-
         }
-
 
         static void Print(int[] arr)
         {
@@ -43,7 +37,6 @@ namespace NestedLoopsForK
                 Console.Write("{0,2}", item);
             }
             Console.WriteLine();
-
         }
     }
 }

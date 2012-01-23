@@ -10,8 +10,9 @@ class PathsInLabyrinth
         { ' ', '*', '*', '*', '*', '*', ' ' },
         { ' ', ' ', ' ', ' ', ' ', ' ', 'e' },
     };
-   static int minPathLenght = 0;
-   static void FindPathToExit(int row, int col, int pathCount)
+    static int minPathLenght = 0;
+
+    static void FindPathToExit(int row, int col, int pathCount)
     {
         if ((col < 0) || (row < 0) || (col >= lab.GetLength(1)) || (row >= lab.GetLength(0)))
         {
@@ -54,9 +55,9 @@ class PathsInLabyrinth
 
     static void Main()
     {
-        FindPathToExit(0, 0,0 );
+        FindPathToExit(0, 0, 0);
         Console.WriteLine();
-        Console.WriteLine("The Minimum Path to Target is {0}",minPathLenght);
+        Console.WriteLine("The Minimum Path to Target is {0}", minPathLenght);
     }
 
     static void Print(int pathCount)
@@ -64,14 +65,12 @@ class PathsInLabyrinth
         Console.WriteLine(pathCount);
         for (int i = 0; i < lab.GetLength(0); i++)
         {
-   
             for (int j = 0; j < lab.GetLength(1); j++)
             {
-                Console.Write("{0}", lab[i,j]);
+                Console.Write("{0}", lab[i, j]);
             }
             Console.WriteLine();
         }
         Console.WriteLine();
-        
     }
 }

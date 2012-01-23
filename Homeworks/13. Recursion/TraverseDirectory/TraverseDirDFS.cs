@@ -3,7 +3,6 @@ using System.IO;
 
 public static class DirectoryTraverserDFS
 {
-
     public static void Main()
     {
         string directoryPath = @"C:\Windows";
