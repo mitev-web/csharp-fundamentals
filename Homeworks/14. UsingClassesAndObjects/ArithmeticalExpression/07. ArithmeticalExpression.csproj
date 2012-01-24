@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9C163590-259B-45FA-94BB-44D5F10A48C0}</ProjectGuid>
+    <ProjectGuid>{8C964D48-8826-4808-907C-5452E73E560A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>YearIsLeap</RootNamespace>
-    <AssemblyName>YearIsLeap</AssemblyName>
+    <RootNamespace>ArithmeticalExpression</RootNamespace>
+    <AssemblyName>ArithmeticalExpression</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IsLeapYear.cs" />
+    <Compile Include="ArithmeticalExpression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

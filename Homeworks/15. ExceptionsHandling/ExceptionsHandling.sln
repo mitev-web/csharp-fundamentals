@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. IntegerException", "IntegerException\01. IntegerException.csproj", "{BDA7F3AE-602A-4F91-886C-210402E80F94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. ReadNumbers", "ReadNumbers\02. ReadNumbers.csproj", "{43E39826-C343-4124-8D28-3CB29E2BD506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. FullFilePath", "FullFilePath\03. FullFilePath.csproj", "{13D27446-7ED6-4EC9-B051-9AD90EA3D25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownloader", "FileDownloader\FileDownloader.csproj", "{4B532059-03FC-48CE-A03A-CD7157024742}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +19,18 @@ Global
 		{BDA7F3AE-602A-4F91-886C-210402E80F94}.Debug|x86.Build.0 = Debug|x86
 		{BDA7F3AE-602A-4F91-886C-210402E80F94}.Release|x86.ActiveCfg = Release|x86
 		{BDA7F3AE-602A-4F91-886C-210402E80F94}.Release|x86.Build.0 = Release|x86
+		{43E39826-C343-4124-8D28-3CB29E2BD506}.Debug|x86.ActiveCfg = Debug|x86
+		{43E39826-C343-4124-8D28-3CB29E2BD506}.Debug|x86.Build.0 = Debug|x86
+		{43E39826-C343-4124-8D28-3CB29E2BD506}.Release|x86.ActiveCfg = Release|x86
+		{43E39826-C343-4124-8D28-3CB29E2BD506}.Release|x86.Build.0 = Release|x86
+		{13D27446-7ED6-4EC9-B051-9AD90EA3D25A}.Debug|x86.ActiveCfg = Debug|x86
+		{13D27446-7ED6-4EC9-B051-9AD90EA3D25A}.Debug|x86.Build.0 = Debug|x86
+		{13D27446-7ED6-4EC9-B051-9AD90EA3D25A}.Release|x86.ActiveCfg = Release|x86
+		{13D27446-7ED6-4EC9-B051-9AD90EA3D25A}.Release|x86.Build.0 = Release|x86
+		{4B532059-03FC-48CE-A03A-CD7157024742}.Debug|x86.ActiveCfg = Debug|x86
+		{4B532059-03FC-48CE-A03A-CD7157024742}.Debug|x86.Build.0 = Debug|x86
+		{4B532059-03FC-48CE-A03A-CD7157024742}.Release|x86.ActiveCfg = Release|x86
+		{4B532059-03FC-48CE-A03A-CD7157024742}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9C163590-259B-45FA-94BB-44D5F10A48C0}</ProjectGuid>
+    <ProjectGuid>{0E60272B-F205-4A0E-B3D7-34B4EC4F2CB8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>YearIsLeap</RootNamespace>
-    <AssemblyName>YearIsLeap</AssemblyName>
+    <RootNamespace>TriangleSurface</RootNamespace>
+    <AssemblyName>TriangleSurface</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IsLeapYear.cs" />
+    <Compile Include="CalculateTriangleSurface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

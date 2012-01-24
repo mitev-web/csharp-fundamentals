@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class TreeMapDemo
+class CaseInsensitiveComparer : IComparer<string>
 {
     private static readonly string TEXT =
         "Mary had a little lamb " +
-        "little lamb, little lamb, " +
-        "Mary had a little lamb, " +
+        "little Lamb, little Lamb, " +
+        "Mary had a Little lamb, " +
         "whose fleece was white as snow.";
 
     static void Main()
@@ -24,7 +24,7 @@ class TreeMapDemo
             text.Split(' ', '.', ',', '-', '?', '!');
 
         IDictionary<string, int> words =
-            new SortedDictionary<string, int>();
+            new SortedDictionary<string, int>(new CaseInsensitiveComparer());
 
         foreach (string word in tokens)
         {
@@ -55,5 +55,11 @@ class TreeMapDemo
         }
 
         Console.ReadKey();
+    }
+
+
+    public int Compare(string s1, string s2)
+    {
+        return string.Compare(s1, s2, true);
     }
 }

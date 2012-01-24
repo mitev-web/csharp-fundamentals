@@ -7,7 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. YearIsLeap", "YearIsLea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. RandomNumbers", "RandomNumbers\02. RandomNumbers.csproj", "{637016A5-63E9-4431-B1CD-0DA642DF5CAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingDaysInPeriod", "WorkingDaysInPeriod\WorkingDaysInPeriod.csproj", "{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. SumNumbersFromString", "SumNumbersFromString\06. SumNumbersFromString.csproj", "{250482E5-548D-4B49-8B3E-85C8F493C1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. TriangleSurface", "TriangleSurface\04. TriangleSurface.csproj", "{0E60272B-F205-4A0E-B3D7-34B4EC4F2CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. ArithmeticalExpression", "ArithmeticalExpression\07. ArithmeticalExpression.csproj", "{8C964D48-8826-4808-907C-5452E73E560A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. BusinessDaysInPeriod", "BusinessDaysInPeriod\05. BusinessDaysInPeriod.csproj", "{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Debug|x86.Build.0 = Debug|x86
 		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Release|x86.ActiveCfg = Release|x86
 		{637016A5-63E9-4431-B1CD-0DA642DF5CAB}.Release|x86.Build.0 = Release|x86
+		{250482E5-548D-4B49-8B3E-85C8F493C1A7}.Debug|x86.ActiveCfg = Debug|x86
+		{250482E5-548D-4B49-8B3E-85C8F493C1A7}.Debug|x86.Build.0 = Debug|x86
+		{250482E5-548D-4B49-8B3E-85C8F493C1A7}.Release|x86.ActiveCfg = Release|x86
+		{250482E5-548D-4B49-8B3E-85C8F493C1A7}.Release|x86.Build.0 = Release|x86
+		{0E60272B-F205-4A0E-B3D7-34B4EC4F2CB8}.Debug|x86.ActiveCfg = Debug|x86
+		{0E60272B-F205-4A0E-B3D7-34B4EC4F2CB8}.Debug|x86.Build.0 = Debug|x86
+		{0E60272B-F205-4A0E-B3D7-34B4EC4F2CB8}.Release|x86.ActiveCfg = Release|x86
+		{0E60272B-F205-4A0E-B3D7-34B4EC4F2CB8}.Release|x86.Build.0 = Release|x86
+		{8C964D48-8826-4808-907C-5452E73E560A}.Debug|x86.ActiveCfg = Debug|x86
+		{8C964D48-8826-4808-907C-5452E73E560A}.Debug|x86.Build.0 = Debug|x86
+		{8C964D48-8826-4808-907C-5452E73E560A}.Release|x86.ActiveCfg = Release|x86
+		{8C964D48-8826-4808-907C-5452E73E560A}.Release|x86.Build.0 = Release|x86
 		{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}.Debug|x86.ActiveCfg = Debug|x86
 		{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}.Debug|x86.Build.0 = Debug|x86
 		{98EAD984-ADFF-4653-BCA8-F8E211AD4E6C}.Release|x86.ActiveCfg = Release|x86

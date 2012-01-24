@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace YearIsLeap
 {
-    class Program
+    class IsLeapYear
     {
         //Write a program that reads a year from the console 
         //    and checks whether it is a leap. Use DateTime.
