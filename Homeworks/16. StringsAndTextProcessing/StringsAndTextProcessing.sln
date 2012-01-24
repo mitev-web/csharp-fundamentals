@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25. ExtractHTML", "ExtractH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23. DistinctLettersInString", "DistinctLettersInString\23. DistinctLettersInString.csproj", "{D0BC5930-278B-4019-86AB-5222EBEFAB7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctCount", "DistinctCount\DistinctCount.csproj", "{2E7B7AFD-CD6B-4EA8-BEE6-7927BABBBBD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. DistinctCount", "DistinctCount\22. DistinctCount.csproj", "{2E7B7AFD-CD6B-4EA8-BEE6-7927BABBBBD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. ExtractEmails", "ExtractEmails\18. ExtractEmails.csproj", "{B227E247-29E0-4A97-AF53-0103AB4C9296}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{2E7B7AFD-CD6B-4EA8-BEE6-7927BABBBBD7}.Debug|x86.Build.0 = Debug|x86
 		{2E7B7AFD-CD6B-4EA8-BEE6-7927BABBBBD7}.Release|x86.ActiveCfg = Release|x86
 		{2E7B7AFD-CD6B-4EA8-BEE6-7927BABBBBD7}.Release|x86.Build.0 = Release|x86
+		{B227E247-29E0-4A97-AF53-0103AB4C9296}.Debug|x86.ActiveCfg = Debug|x86
+		{B227E247-29E0-4A97-AF53-0103AB4C9296}.Debug|x86.Build.0 = Debug|x86
+		{B227E247-29E0-4A97-AF53-0103AB4C9296}.Release|x86.ActiveCfg = Release|x86
+		{B227E247-29E0-4A97-AF53-0103AB4C9296}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
