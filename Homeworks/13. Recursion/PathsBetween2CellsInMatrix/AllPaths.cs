@@ -31,6 +31,7 @@ class PathsBetweenCells
         if (matix[row, col] == 'e')
         {
             numberOfPaths++;
+            Print();
         }
 
         if (matix[row, col] != ' ')
@@ -56,11 +57,12 @@ class PathsBetweenCells
         FindNumberOfPaths(0, 0);
         Console.WriteLine();
         Console.WriteLine("The Number of paths is {0}", numberOfPaths);
+      
     }
 
-    static void Print(int pathCount)
+    static void Print()
     {
-        Console.WriteLine(pathCount);
+
         for (int i = 0; i < matix.GetLength(0); i++)
         {
 
