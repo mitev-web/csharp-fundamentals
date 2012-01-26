@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. ReverseWordsInText", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. ReplaceHTMLTags", "ReplaceHTMLTags\15. ReplaceHTMLTags.csproj", "{06063B54-8387-4A54-ADF9-6ECFB40A248B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Dictionary", "Dictionary\14. Dictionary.csproj", "{14F06F60-04FA-46FD-946B-42013D7481AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstractDates", "SubstractDates\SubstractDates.csproj", "{961CE156-7B2F-4BF0-B836-6B0597963CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -121,6 +125,14 @@ Global
 		{06063B54-8387-4A54-ADF9-6ECFB40A248B}.Debug|x86.Build.0 = Debug|x86
 		{06063B54-8387-4A54-ADF9-6ECFB40A248B}.Release|x86.ActiveCfg = Release|x86
 		{06063B54-8387-4A54-ADF9-6ECFB40A248B}.Release|x86.Build.0 = Release|x86
+		{14F06F60-04FA-46FD-946B-42013D7481AB}.Debug|x86.ActiveCfg = Debug|x86
+		{14F06F60-04FA-46FD-946B-42013D7481AB}.Debug|x86.Build.0 = Debug|x86
+		{14F06F60-04FA-46FD-946B-42013D7481AB}.Release|x86.ActiveCfg = Release|x86
+		{14F06F60-04FA-46FD-946B-42013D7481AB}.Release|x86.Build.0 = Release|x86
+		{961CE156-7B2F-4BF0-B836-6B0597963CEF}.Debug|x86.ActiveCfg = Debug|x86
+		{961CE156-7B2F-4BF0-B836-6B0597963CEF}.Debug|x86.Build.0 = Debug|x86
+		{961CE156-7B2F-4BF0-B836-6B0597963CEF}.Release|x86.ActiveCfg = Release|x86
+		{961CE156-7B2F-4BF0-B836-6B0597963CEF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
