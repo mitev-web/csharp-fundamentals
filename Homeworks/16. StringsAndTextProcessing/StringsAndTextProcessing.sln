@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01,2 ReverseString", "Rever
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. ValidateMathExpression", "ValidateMathExpression\03. ValidateMathExpression.csproj", "{1DBB8681-0139-417A-AB1B-2143916E3C01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. CaseInsensitiveSearch", "CaseInsensitiveSearch\04. CaseInsensitiveSearch.csproj", "{CC5013CF-099A-481E-86DE-35718FC0AC5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. RegexCaseInsensitiveSearch", "CaseInsensitiveSearch\04. RegexCaseInsensitiveSearch.csproj", "{CC5013CF-099A-481E-86DE-35718FC0AC5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. RegularExprGrouping", "RegularExprGrouping\05. RegularExprGrouping.csproj", "{AF67225A-F875-4459-8B16-A3606B239002}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.B RegularExprGrouping", "RegularExprGrouping\05.B RegularExprGrouping.csproj", "{AF67225A-F875-4459-8B16-A3606B239002}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. FillString", "FillString\06. FillString.csproj", "{C70267D9-CA86-4159-A62D-498745A13FAC}"
 EndProject
@@ -20,6 +20,24 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. DistinctCount", "DistinctCount\22. DistinctCount.csproj", "{2E7B7AFD-CD6B-4EA8-BEE6-7927BABBBBD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. ExtractEmails", "ExtractEmails\18. ExtractEmails.csproj", "{B227E247-29E0-4A97-AF53-0103AB4C9296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.A StringAutomation", "StringAutomation\05.A StringAutomation.csproj", "{8F94A6BC-4E9D-40AC-A541-23BB5A12B548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. EncryptString !!!", "EncryptString\07. EncryptString !!!.csproj", "{EC002E3B-B1C0-4C02-BEC2-525962A89081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. ExtractSubString", "ExtractSubString\08. ExtractSubString.csproj", "{8D311407-5643-4AE2-B368-1CFCCB2BD292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ReplaceString", "ReplaceString\09. ReplaceString.csproj", "{08886E44-DA40-4DC7-93A0-F4CA95FBEDCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. StringToUnicodeChars !!!", "StringToUnicodeChars\10. StringToUnicodeChars !!!.csproj", "{24B019A4-8F39-4687-8894-4F7CAD972BE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. FormatNumber !!!", "FormatNumber\11. FormatNumber !!!.csproj", "{42A59AD7-C3EE-4F37-BDF7-AB8B5F4E7AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. ParseURL", "ParseURL\12. ParseURL.csproj", "{5040A12E-5047-4BBE-BC8C-91BD0A4AEAB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. ReverseWordsInText", "ReverseWordsInText\13. ReverseWordsInText.csproj", "{99A53EB8-DB3A-4289-B7EF-03072A60335E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. ReplaceHTMLTags", "ReplaceHTMLTags\15. ReplaceHTMLTags.csproj", "{06063B54-8387-4A54-ADF9-6ECFB40A248B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +85,42 @@ Global
 		{B227E247-29E0-4A97-AF53-0103AB4C9296}.Debug|x86.Build.0 = Debug|x86
 		{B227E247-29E0-4A97-AF53-0103AB4C9296}.Release|x86.ActiveCfg = Release|x86
 		{B227E247-29E0-4A97-AF53-0103AB4C9296}.Release|x86.Build.0 = Release|x86
+		{8F94A6BC-4E9D-40AC-A541-23BB5A12B548}.Debug|x86.ActiveCfg = Debug|x86
+		{8F94A6BC-4E9D-40AC-A541-23BB5A12B548}.Debug|x86.Build.0 = Debug|x86
+		{8F94A6BC-4E9D-40AC-A541-23BB5A12B548}.Release|x86.ActiveCfg = Release|x86
+		{8F94A6BC-4E9D-40AC-A541-23BB5A12B548}.Release|x86.Build.0 = Release|x86
+		{EC002E3B-B1C0-4C02-BEC2-525962A89081}.Debug|x86.ActiveCfg = Debug|x86
+		{EC002E3B-B1C0-4C02-BEC2-525962A89081}.Debug|x86.Build.0 = Debug|x86
+		{EC002E3B-B1C0-4C02-BEC2-525962A89081}.Release|x86.ActiveCfg = Release|x86
+		{EC002E3B-B1C0-4C02-BEC2-525962A89081}.Release|x86.Build.0 = Release|x86
+		{8D311407-5643-4AE2-B368-1CFCCB2BD292}.Debug|x86.ActiveCfg = Debug|x86
+		{8D311407-5643-4AE2-B368-1CFCCB2BD292}.Debug|x86.Build.0 = Debug|x86
+		{8D311407-5643-4AE2-B368-1CFCCB2BD292}.Release|x86.ActiveCfg = Release|x86
+		{8D311407-5643-4AE2-B368-1CFCCB2BD292}.Release|x86.Build.0 = Release|x86
+		{08886E44-DA40-4DC7-93A0-F4CA95FBEDCC}.Debug|x86.ActiveCfg = Debug|x86
+		{08886E44-DA40-4DC7-93A0-F4CA95FBEDCC}.Debug|x86.Build.0 = Debug|x86
+		{08886E44-DA40-4DC7-93A0-F4CA95FBEDCC}.Release|x86.ActiveCfg = Release|x86
+		{08886E44-DA40-4DC7-93A0-F4CA95FBEDCC}.Release|x86.Build.0 = Release|x86
+		{24B019A4-8F39-4687-8894-4F7CAD972BE0}.Debug|x86.ActiveCfg = Debug|x86
+		{24B019A4-8F39-4687-8894-4F7CAD972BE0}.Debug|x86.Build.0 = Debug|x86
+		{24B019A4-8F39-4687-8894-4F7CAD972BE0}.Release|x86.ActiveCfg = Release|x86
+		{24B019A4-8F39-4687-8894-4F7CAD972BE0}.Release|x86.Build.0 = Release|x86
+		{42A59AD7-C3EE-4F37-BDF7-AB8B5F4E7AFA}.Debug|x86.ActiveCfg = Debug|x86
+		{42A59AD7-C3EE-4F37-BDF7-AB8B5F4E7AFA}.Debug|x86.Build.0 = Debug|x86
+		{42A59AD7-C3EE-4F37-BDF7-AB8B5F4E7AFA}.Release|x86.ActiveCfg = Release|x86
+		{42A59AD7-C3EE-4F37-BDF7-AB8B5F4E7AFA}.Release|x86.Build.0 = Release|x86
+		{5040A12E-5047-4BBE-BC8C-91BD0A4AEAB6}.Debug|x86.ActiveCfg = Debug|x86
+		{5040A12E-5047-4BBE-BC8C-91BD0A4AEAB6}.Debug|x86.Build.0 = Debug|x86
+		{5040A12E-5047-4BBE-BC8C-91BD0A4AEAB6}.Release|x86.ActiveCfg = Release|x86
+		{5040A12E-5047-4BBE-BC8C-91BD0A4AEAB6}.Release|x86.Build.0 = Release|x86
+		{99A53EB8-DB3A-4289-B7EF-03072A60335E}.Debug|x86.ActiveCfg = Debug|x86
+		{99A53EB8-DB3A-4289-B7EF-03072A60335E}.Debug|x86.Build.0 = Debug|x86
+		{99A53EB8-DB3A-4289-B7EF-03072A60335E}.Release|x86.ActiveCfg = Release|x86
+		{99A53EB8-DB3A-4289-B7EF-03072A60335E}.Release|x86.Build.0 = Release|x86
+		{06063B54-8387-4A54-ADF9-6ECFB40A248B}.Debug|x86.ActiveCfg = Debug|x86
+		{06063B54-8387-4A54-ADF9-6ECFB40A248B}.Debug|x86.Build.0 = Debug|x86
+		{06063B54-8387-4A54-ADF9-6ECFB40A248B}.Release|x86.ActiveCfg = Release|x86
+		{06063B54-8387-4A54-ADF9-6ECFB40A248B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
