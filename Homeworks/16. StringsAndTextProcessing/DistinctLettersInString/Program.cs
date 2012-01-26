@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
@@ -13,31 +12,22 @@ namespace DistinctLettersInString
         //Example: "aaaaabbbbbcdddeeeedssaa"  "abcdedsa".
         static void Main(string[] args)
         {
-            string jj = "aaaaabbbbbcdddeeeedssaa";
-
-            StringBla(jj);
-
-            Console.WriteLine(newWord);
-        }
-        //TODO: NOT READY
-        static string newWord = "";
-
-        private static void StringBla(string word, int index =0, string temp = "")
-        {
-
-            for (int i = index; index < word.Length-1; i++)
+            string str = "aaaaabbbbbcdddeeeedssaa";
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < str.Length-1; i++)
             {
-                index++;
-                if (word[index] == word[index - 1] || word[index] == word[index + 1])
+                if (str[i] != str[i+1])
                 {
-                    StringBla(word, index, temp);
+                    sb.Append(str[i]);
                 }
-                else
-                {
-                    newWord += word[index-1];
-                    temp += word[index-1];
-                }
+                
             }
+            if (str[str.Length - 2] == str[str.Length - 1] && str.Length > 1)
+            {
+                sb.Append(str[str.Length - 1]);
+            }
+            Console.WriteLine(sb.ToString());
         }
+     
     }
 }

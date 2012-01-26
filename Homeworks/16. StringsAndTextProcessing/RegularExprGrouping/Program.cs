@@ -15,7 +15,7 @@ namespace ReplaceRegions
             string text = "You are given a text. <upcase>Write a program that changes " +
                           "the text in all regions surrounded by the tags to uppercase.</upcase> ererer ";
 
-            string pattern = @"(?<normalTextStart>.*)<upcase>" + @"(?<upperText>.*)</upcase>" + @"(?<normalTextEnd>.*)";
+            string pattern = @"(?<normalTextStart>.*)<upcase>(?<upperText>.*)</upcase>(?<normalTextEnd>.*)";
             Regex regex = new Regex(pattern);
             MatchCollection matches = regex.Matches(text);
             foreach (Match match in matches)
