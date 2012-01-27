@@ -18,6 +18,7 @@ namespace ArithmeticalExpression
    
         static void Main(string[] args)
         {
+           
             //TODO: solve task 7
         }
     }
