@@ -1,0 +1,36 @@
+Exercises
+Define a class that holds information about a mobile phone device: model, manufacturer, price, owner, battery characteristics (model, hours idle and hours talk) and display characteristics (size and number of colors). Define 3 separate classes (class GSM holding instances of the classes Battery and Display).
+Define several constructors for the defined classes that take different sets of arguments (the full information for the class or part of it). Assume that model and manufacturer are mandatory. All unknown data fill with null.
+Add an enumeration BatteryType (Li-Ion, NiMH, NiCd, …) and use it as a new field for the batteries.
+Exercises (2)
+Add a method in the GSM class for displaying all information about it. Try to override ToString().
+Use properties to encapsulate data fields inside the GSM, Battery and Display classes. Ensure all fields hold correct data at any given time.
+Add a static field and a property IPhone4S in the GSM class to hold the information about iPhone 4S.
+Write a class GSMTest to test the GSM class:
+Create an array of few instances of the GSM class.
+Display the information about the GSMs in the array.
+Display the information about the static property IPhone4S.
+Exercises (3)
+Create a class Call to hold a call performed through a GSM. It should contain date, time, dialed phone number and duration (in seconds).
+Add a property CallHistory in the GSM class to hold a list of the performed calls. Try to use the system class List<Call>.
+Add methods in the GSM class for adding and deleting calls from the calls history. Add a method to clear the call history.
+Add a method that calculates the total price of the calls in the call history. Assume the price per minute is fixed and is given as parameter.
+Exercises (4)
+Write a class GSMCallHistoryTest to test the call history functionality of the GSM class.
+Create an instance of the GSM class.
+Add few calls.
+Display the information about the calls.
+Assuming that the price per minute is 0.37 calculate and print the total price of the calls in the history.
+Remove the longest call from the history 
+and calculate the total price again.
+Finally clear the call history and print it.
+Exercises (5)
+Exercises (6)
+Define a class Fraction that holds information about fractions: numerator and denominator. The format is "numerator/denominator", e.g. 1/4. Implement the + and – operators between fractions.
+Define a static method Parse() which is trying to parse the input string (e.g. -3/4) to a fraction and passes the values to a constructor.
+Define appropriate constructors and properties. Define a property DecimalValue which converts fraction to a rounded decimal value (e.g. 0.25).
+Write a class FractionTest to test the functionality of the Fraction class. Parse a sequence of fractions and print their sum as fraction and as decimal value.
+Exercises (7)
+We are given a library of books. Define classes for the library and the books. The library should have name and a list of books. The books have title, author, publisher, year of publishing and ISBN. Keep the books in List<Book> (first find how to use the class System.Collections.Generic.List<T>).
+Implement methods for adding, searching by title and author, displaying and deleting books.
+Write a test class that creates a library, adds few books to it and displays them. Find all books by "Nakov", delete them and print again the library.
