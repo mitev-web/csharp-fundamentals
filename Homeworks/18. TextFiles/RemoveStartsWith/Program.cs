@@ -4,12 +4,29 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace RemovePrefix
+namespace RemoveStartsWith
 {
     class Program
     {
         static void Main(string[] args)
         {
+            string filePath = "../../../remove_starts_with_test.txt";
+            string text = FileToString(filePath);
+
+            List<string> words = text.Split(' ').ToList();
+
+
+            for(int i=0;i<words.Count;i++)
+            {
+                if (words[i].StartsWith("test") && words[i].Length > 4)
+                {
+                    words.Remove(words[i]);
+                }
+            }
+            text = string.Join(" ", words);
+            Console.WriteLine(text);
+
+
         }
         public static string FileToString(string filePath)
         {
