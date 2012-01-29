@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. CalculateAverage", "CalculateAverage\01. CalculateAverage.csproj", "{57468958-6ABD-42BF-9246-1ECF08EB62AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. StackReverseNumbers", "StackReverseNumbers\02. StackReverseNumbers.csproj", "{3B24ECC9-563F-42FF-8830-964A81664EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. IncreasingOrder", "IncreasingOrder\03. IncreasingOrder.csproj", "{F7C88FE5-CCA8-4EAC-827A-2D81EBCBA0B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. LongestEqualSubsequence", "LongestEqualSubsequence\04. LongestEqualSubsequence.csproj", "{C4FA9E4A-37ED-4E3B-8C8F-FBE03E948F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. RemoveNegative", "RemoveNegative\05. RemoveNegative.csproj", "{A6C45CCF-9A55-4844-A885-AEC8B3FDD374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. RemoveOddOccurance", "RemoveOddOccurance\06. RemoveOddOccurance.csproj", "{7F578555-75DC-4C35-AC19-4AF815B8E5BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountOccurance", "CountOccurance\CountOccurance.csproj", "{941EE95B-E0FE-4148-A164-22447E1549E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majorant", "Majorant\Majorant.csproj", "{F463BE01-1EAE-4EF0-9F4C-046508254A70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57468958-6ABD-42BF-9246-1ECF08EB62AA}.Debug|x86.ActiveCfg = Debug|x86
+		{57468958-6ABD-42BF-9246-1ECF08EB62AA}.Debug|x86.Build.0 = Debug|x86
+		{57468958-6ABD-42BF-9246-1ECF08EB62AA}.Release|x86.ActiveCfg = Release|x86
+		{57468958-6ABD-42BF-9246-1ECF08EB62AA}.Release|x86.Build.0 = Release|x86
+		{3B24ECC9-563F-42FF-8830-964A81664EDF}.Debug|x86.ActiveCfg = Debug|x86
+		{3B24ECC9-563F-42FF-8830-964A81664EDF}.Debug|x86.Build.0 = Debug|x86
+		{3B24ECC9-563F-42FF-8830-964A81664EDF}.Release|x86.ActiveCfg = Release|x86
+		{3B24ECC9-563F-42FF-8830-964A81664EDF}.Release|x86.Build.0 = Release|x86
+		{F7C88FE5-CCA8-4EAC-827A-2D81EBCBA0B3}.Debug|x86.ActiveCfg = Debug|x86
+		{F7C88FE5-CCA8-4EAC-827A-2D81EBCBA0B3}.Debug|x86.Build.0 = Debug|x86
+		{F7C88FE5-CCA8-4EAC-827A-2D81EBCBA0B3}.Release|x86.ActiveCfg = Release|x86
+		{F7C88FE5-CCA8-4EAC-827A-2D81EBCBA0B3}.Release|x86.Build.0 = Release|x86
+		{C4FA9E4A-37ED-4E3B-8C8F-FBE03E948F73}.Debug|x86.ActiveCfg = Debug|x86
+		{C4FA9E4A-37ED-4E3B-8C8F-FBE03E948F73}.Debug|x86.Build.0 = Debug|x86
+		{C4FA9E4A-37ED-4E3B-8C8F-FBE03E948F73}.Release|x86.ActiveCfg = Release|x86
+		{C4FA9E4A-37ED-4E3B-8C8F-FBE03E948F73}.Release|x86.Build.0 = Release|x86
+		{A6C45CCF-9A55-4844-A885-AEC8B3FDD374}.Debug|x86.ActiveCfg = Debug|x86
+		{A6C45CCF-9A55-4844-A885-AEC8B3FDD374}.Debug|x86.Build.0 = Debug|x86
+		{A6C45CCF-9A55-4844-A885-AEC8B3FDD374}.Release|x86.ActiveCfg = Release|x86
+		{A6C45CCF-9A55-4844-A885-AEC8B3FDD374}.Release|x86.Build.0 = Release|x86
+		{7F578555-75DC-4C35-AC19-4AF815B8E5BE}.Debug|x86.ActiveCfg = Debug|x86
+		{7F578555-75DC-4C35-AC19-4AF815B8E5BE}.Debug|x86.Build.0 = Debug|x86
+		{7F578555-75DC-4C35-AC19-4AF815B8E5BE}.Release|x86.ActiveCfg = Release|x86
+		{7F578555-75DC-4C35-AC19-4AF815B8E5BE}.Release|x86.Build.0 = Release|x86
+		{941EE95B-E0FE-4148-A164-22447E1549E9}.Debug|x86.ActiveCfg = Debug|x86
+		{941EE95B-E0FE-4148-A164-22447E1549E9}.Debug|x86.Build.0 = Debug|x86
+		{941EE95B-E0FE-4148-A164-22447E1549E9}.Release|x86.ActiveCfg = Release|x86
+		{941EE95B-E0FE-4148-A164-22447E1549E9}.Release|x86.Build.0 = Release|x86
+		{F463BE01-1EAE-4EF0-9F4C-046508254A70}.Debug|x86.ActiveCfg = Debug|x86
+		{F463BE01-1EAE-4EF0-9F4C-046508254A70}.Debug|x86.Build.0 = Debug|x86
+		{F463BE01-1EAE-4EF0-9F4C-046508254A70}.Release|x86.ActiveCfg = Release|x86
+		{F463BE01-1EAE-4EF0-9F4C-046508254A70}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
