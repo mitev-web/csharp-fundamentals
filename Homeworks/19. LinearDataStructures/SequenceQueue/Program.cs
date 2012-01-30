@@ -17,10 +17,12 @@ namespace SequenceQueue
         //S7 = S2 + 2;
         //...
         //Using the Queue<T> class write a program to print its first 50 members for given N.
+        //+1+2+1+0+2-2+1+5-4-2+4-3
         //Example: N=2  2, 3, 5, 4, 4, 7, 5, 6, 11, 7, 5, 9, 6, ...
 
         static void Main(string[] args)
         {
+            int N = 2; 
             Queue<int> queue = new Queue<int>();
 
             for (int i = 0; i < 10; i++)
@@ -31,6 +33,14 @@ namespace SequenceQueue
             foreach (var item in queue)
             {
                 Console.WriteLine(item);
+            }
+
+            int addition = N;
+            for (int i = 0; i < 50; i++)
+            {
+                queue.Enqueue(N + i);
+
+
             }
         }
     }
