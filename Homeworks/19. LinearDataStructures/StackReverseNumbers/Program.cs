@@ -37,6 +37,7 @@ namespace StackReverseNumbers
             {
                 Console.WriteLine(item);
             }
+        
         }
     }
 }

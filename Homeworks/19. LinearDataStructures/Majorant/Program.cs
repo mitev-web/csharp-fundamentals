@@ -16,15 +16,18 @@ namespace Majorant
 
         static void Main(string[] args)
         {
-            
-
-
-
+            foreach (var item in allNumbers)
+            {
+                KeyValuePair<bool, int> kvp = ContainedTimes(item, allNumbers);
+                if (kvp.Key == true)
+                {
+                    Console.WriteLine("Majorant is {0}", kvp.Value);
+                    break;
+                }
+            }
         }
 
-
-
-        public static KeyValuePair<bool,int> ContainedTimes(int number, List<int> numbers, int times = 0)
+        public static KeyValuePair<bool, int> ContainedTimes(int number, List<int> numbers, int times = 0)
         {
             List<int> tempNumbers = new List<int>();
             tempNumbers.AddRange(numbers);
@@ -38,12 +41,11 @@ namespace Majorant
             {
                 if (times > allNumbers.Count() / 2)
                 {
-                    new KeyValuePair<bool,int>()
-                    return ;
+                    return new KeyValuePair<bool, int>(true, number);
                 }
                 else
                 {
-                    ret
+                    return new KeyValuePair<bool, int>(false, number);
                 }
             }
         }
