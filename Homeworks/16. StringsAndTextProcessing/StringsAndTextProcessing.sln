@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23. DistinctLettersInString
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. DistinctCount", "DistinctCount\22. DistinctCount.csproj", "{2E7B7AFD-CD6B-4EA8-BEE6-7927BABBBBD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. ExtractEmails", "ExtractEmails\18. ExtractEmails.csproj", "{B227E247-29E0-4A97-AF53-0103AB4C9296}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. RegexEmails", "ExtractEmails\18. RegexEmails.csproj", "{B227E247-29E0-4A97-AF53-0103AB4C9296}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.A StringAutomation", "StringAutomation\05.A StringAutomation.csproj", "{8F94A6BC-4E9D-40AC-A541-23BB5A12B548}"
 EndProject
@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. ReverseWordsInText", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Dictionary", "Dictionary\14. Dictionary.csproj", "{14F06F60-04FA-46FD-946B-42013D7481AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. RegexReplace", "RegexReplace\15. RegexReplace.csproj", "{06063B54-8387-4A54-ADF9-6ECFB40A248B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.A RegexReplace", "RegexReplace\15.A RegexReplace.csproj", "{06063B54-8387-4A54-ADF9-6ECFB40A248B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.A CultureInfo", "CultureInfo\16.A CultureInfo.csproj", "{961CE156-7B2F-4BF0-B836-6B0597963CEF}"
 EndProject
@@ -47,11 +47,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.B CultureInfo", "B Cultu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. DateTimeFormat !!!", "DateTimeFormat\17. DateTimeFormat !!!.csproj", "{6A040E13-6064-463F-A9CF-0DD15659A539}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. ExtractCustomDate !!!", "ExtractCustomDate\19. ExtractCustomDate !!!.csproj", "{4BB7A334-0940-43BC-A151-C83F1BA0B3C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. RegexMatchCustomDate", "ExtractCustomDate\19. RegexMatchCustomDate.csproj", "{4BB7A334-0940-43BC-A151-C83F1BA0B3C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. ExtractPalindromes", "ExtractPalindromes\20. ExtractPalindromes.csproj", "{4C8A80FC-8880-4384-BE96-699512670CD2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. DictionaryDistinctChars", "DictionaryDistinctChars\21. DictionaryDistinctChars.csproj", "{B9D7D44D-E405-48A8-A505-304026348852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.C RegexEval", "RegexEval\05.C RegexEval.csproj", "{0A6B0B40-D6D0-4A27-950C-FD15B91B5879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.B RegexEvalReplace", "RegexEvalReplace\15.B RegexEvalReplace.csproj", "{CE6C5D21-4D63-499C-883D-8415DAD0F085}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -163,6 +167,14 @@ Global
 		{B9D7D44D-E405-48A8-A505-304026348852}.Debug|x86.Build.0 = Debug|x86
 		{B9D7D44D-E405-48A8-A505-304026348852}.Release|x86.ActiveCfg = Release|x86
 		{B9D7D44D-E405-48A8-A505-304026348852}.Release|x86.Build.0 = Release|x86
+		{0A6B0B40-D6D0-4A27-950C-FD15B91B5879}.Debug|x86.ActiveCfg = Debug|x86
+		{0A6B0B40-D6D0-4A27-950C-FD15B91B5879}.Debug|x86.Build.0 = Debug|x86
+		{0A6B0B40-D6D0-4A27-950C-FD15B91B5879}.Release|x86.ActiveCfg = Release|x86
+		{0A6B0B40-D6D0-4A27-950C-FD15B91B5879}.Release|x86.Build.0 = Release|x86
+		{CE6C5D21-4D63-499C-883D-8415DAD0F085}.Debug|x86.ActiveCfg = Debug|x86
+		{CE6C5D21-4D63-499C-883D-8415DAD0F085}.Debug|x86.Build.0 = Debug|x86
+		{CE6C5D21-4D63-499C-883D-8415DAD0F085}.Release|x86.ActiveCfg = Release|x86
+		{CE6C5D21-4D63-499C-883D-8415DAD0F085}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

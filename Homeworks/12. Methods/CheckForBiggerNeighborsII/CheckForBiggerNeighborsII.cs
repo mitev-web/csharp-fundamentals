@@ -16,6 +16,9 @@ namespace CheckForBiggerNeighborsII
         {
             int[] arr = { 2, 5, 6, 2, 8, 93, 5, 2, 6, 673, 2, 5, 7, 83, 65 };
             Console.WriteLine(GetFirstElementWithSmallerNeighbors(arr));
+
+
+        
         }
 
 

@@ -31,11 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task17 [subset K,N,S]", "Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task15 [Primes sieve of Eratosthenes alg]", "Task15\Task15 [Primes sieve of Eratosthenes alg].csproj", "{9A2F13F2-49CB-4372-9DCE-1364E9F7BC3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task16  [subset sum]", "Task16\Task16  [subset sum].csproj", "{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task18", "Task18\Task18.csproj", "{1DFFAD8D-F05D-4C6F-8FC3-5061DEFD064A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task19 [Permutations]", "Task19\Task19 [Permutations].csproj", "{8258A725-A812-43CE-A548-53F40F6C4C2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task20 [All Combinations]", "Task20\Task20 [All Combinations].csproj", "{AE1F887F-0C27-457D-9CF2-1293BF12B851}"
 EndProject
@@ -44,6 +40,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task07.A", "Task07.A\Task07.A.csproj", "{4EE26FBE-B2DD-46E9-B07C-165874BBA2E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task08", "Task08\Task08.csproj", "{CC1DB7B6-85F1-4C36-9E8C-6191048D5218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. SubSetSum", "SubSetSum\16. SubSetSum.csproj", "{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Permutations", "Permutations\19. Permutations.csproj", "{8258A725-A812-43CE-A548-53F40F6C4C2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,18 +111,10 @@ Global
 		{9A2F13F2-49CB-4372-9DCE-1364E9F7BC3D}.Debug|x86.Build.0 = Debug|x86
 		{9A2F13F2-49CB-4372-9DCE-1364E9F7BC3D}.Release|x86.ActiveCfg = Release|x86
 		{9A2F13F2-49CB-4372-9DCE-1364E9F7BC3D}.Release|x86.Build.0 = Release|x86
-		{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}.Debug|x86.ActiveCfg = Debug|x86
-		{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}.Debug|x86.Build.0 = Debug|x86
-		{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}.Release|x86.ActiveCfg = Release|x86
-		{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}.Release|x86.Build.0 = Release|x86
 		{1DFFAD8D-F05D-4C6F-8FC3-5061DEFD064A}.Debug|x86.ActiveCfg = Debug|x86
 		{1DFFAD8D-F05D-4C6F-8FC3-5061DEFD064A}.Debug|x86.Build.0 = Debug|x86
 		{1DFFAD8D-F05D-4C6F-8FC3-5061DEFD064A}.Release|x86.ActiveCfg = Release|x86
 		{1DFFAD8D-F05D-4C6F-8FC3-5061DEFD064A}.Release|x86.Build.0 = Release|x86
-		{8258A725-A812-43CE-A548-53F40F6C4C2E}.Debug|x86.ActiveCfg = Debug|x86
-		{8258A725-A812-43CE-A548-53F40F6C4C2E}.Debug|x86.Build.0 = Debug|x86
-		{8258A725-A812-43CE-A548-53F40F6C4C2E}.Release|x86.ActiveCfg = Release|x86
-		{8258A725-A812-43CE-A548-53F40F6C4C2E}.Release|x86.Build.0 = Release|x86
 		{AE1F887F-0C27-457D-9CF2-1293BF12B851}.Debug|x86.ActiveCfg = Debug|x86
 		{AE1F887F-0C27-457D-9CF2-1293BF12B851}.Debug|x86.Build.0 = Debug|x86
 		{AE1F887F-0C27-457D-9CF2-1293BF12B851}.Release|x86.ActiveCfg = Release|x86
@@ -139,6 +131,14 @@ Global
 		{CC1DB7B6-85F1-4C36-9E8C-6191048D5218}.Debug|x86.Build.0 = Debug|x86
 		{CC1DB7B6-85F1-4C36-9E8C-6191048D5218}.Release|x86.ActiveCfg = Release|x86
 		{CC1DB7B6-85F1-4C36-9E8C-6191048D5218}.Release|x86.Build.0 = Release|x86
+		{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}.Debug|x86.ActiveCfg = Debug|x86
+		{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}.Debug|x86.Build.0 = Debug|x86
+		{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}.Release|x86.ActiveCfg = Release|x86
+		{A414CC5E-4DC0-47EF-959C-ACE6C48341C5}.Release|x86.Build.0 = Release|x86
+		{8258A725-A812-43CE-A548-53F40F6C4C2E}.Debug|x86.ActiveCfg = Debug|x86
+		{8258A725-A812-43CE-A548-53F40F6C4C2E}.Debug|x86.Build.0 = Debug|x86
+		{8258A725-A812-43CE-A548-53F40F6C4C2E}.Release|x86.ActiveCfg = Release|x86
+		{8258A725-A812-43CE-A548-53F40F6C4C2E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

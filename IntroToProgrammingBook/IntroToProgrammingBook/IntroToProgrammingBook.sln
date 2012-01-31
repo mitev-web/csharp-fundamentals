@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedDictionaryCountWords", "SortedDictionaryCountWords\SortedDictionaryCountWords.csproj", "{E194467C-A611-4A24-AFF5-E4EE81BCBFCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentMarks", "StudentMarks\StudentMarks.csproj", "{4A3141C8-42CF-4C37-8F6B-6E0EFB836D47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{E194467C-A611-4A24-AFF5-E4EE81BCBFCE}.Debug|x86.Build.0 = Debug|x86
 		{E194467C-A611-4A24-AFF5-E4EE81BCBFCE}.Release|x86.ActiveCfg = Release|x86
 		{E194467C-A611-4A24-AFF5-E4EE81BCBFCE}.Release|x86.Build.0 = Release|x86
+		{4A3141C8-42CF-4C37-8F6B-6E0EFB836D47}.Debug|x86.ActiveCfg = Debug|x86
+		{4A3141C8-42CF-4C37-8F6B-6E0EFB836D47}.Debug|x86.Build.0 = Debug|x86
+		{4A3141C8-42CF-4C37-8F6B-6E0EFB836D47}.Release|x86.ActiveCfg = Release|x86
+		{4A3141C8-42CF-4C37-8F6B-6E0EFB836D47}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

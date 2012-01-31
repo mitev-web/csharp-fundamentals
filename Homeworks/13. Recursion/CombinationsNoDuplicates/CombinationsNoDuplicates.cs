@@ -7,8 +7,8 @@ namespace NestedLoops
     {
         //Write a recursive program that simulates execution of n nested loops from 1 to n
         static void Main(string[] args)
-        {
-            int N = 2;
+        { 
+            int N = 4;
             int[] arr = new int[N];
             GenerateVariations(arr, N - 1, N);
         }

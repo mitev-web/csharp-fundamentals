@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace ReplaceHTMLTags
+namespace RegexEvalReplace
 {
     class Program
     {
@@ -25,11 +25,6 @@ namespace ReplaceHTMLTags
 
             Regex regex = new Regex(pattern);
 
-            text = regex.Replace(text, "$1[URL=$2]$3[/URL]$4");
-
-            Console.WriteLine(text);
-
-
             MatchEvaluator eval = new MatchEvaluator(Replace);
             string result = regex.Replace(text, eval);
 
@@ -39,7 +34,7 @@ namespace ReplaceHTMLTags
 
         static string Replace(Match m)
         {
-            return m.Result("$1[URL=$2]$3[/URL]$4").ToString();
+            return m.Result("$1[URL=$2]$3[/URL]$4");
         }
     }
 }

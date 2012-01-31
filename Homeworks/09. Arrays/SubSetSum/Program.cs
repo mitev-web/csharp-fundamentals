@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Task16
 {
@@ -13,12 +11,11 @@ namespace Task16
             //Write a program to find if there exists a subset of the elements of the 
             //array that has a sum S. Example:
             //    arr={2, 1, 2, 4, 3, 5, 2, 6}, S=14  yes (1+2+5+6)
+            int S = 45;
 
-                        int S = int.Parse(Console.ReadLine());
-
-            int[] numbers = { 7, 2, 63, 7, 1, 2, 3, 8, 9};
+            int[] numbers = { 1, 2, 4,  7};
             int result = FindSubSets(numbers, S);
-
+            Console.WriteLine(result);
 
             if (result > 0)
             {
@@ -66,7 +63,5 @@ namespace Task16
             }
             return 0;
         }
-
-        }
     }
-
+}
