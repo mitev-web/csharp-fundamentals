@@ -26,7 +26,6 @@ namespace ReplaceHTMLTags
             Regex regex = new Regex(pattern);
 
             text = regex.Replace(text, "$1[URL=$2]$3[/URL]$4");
-
             Console.WriteLine(text);
 
 

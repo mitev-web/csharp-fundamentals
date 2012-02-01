@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace ExtractSubString
 {
@@ -25,14 +23,11 @@ namespace ExtractSubString
 
             foreach (string sentence in sentences)
             {
-
                 string[] words = sentence.Split(' ');
 
                 if(words.Contains("in")){
                     Console.WriteLine(sentence);
                 }
-
-
             }
 
         }

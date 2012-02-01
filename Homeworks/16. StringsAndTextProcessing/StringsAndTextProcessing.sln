@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.C RegexEval", "RegexEval
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.B RegexEvalReplace", "RegexEvalReplace\15.B RegexEvalReplace.csproj", "{CE6C5D21-4D63-499C-883D-8415DAD0F085}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.C RegexReplace", "C RegexReplace\15.C RegexReplace.csproj", "{89731A24-7FE7-4608-82D6-E282DAE81ECF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -175,6 +177,10 @@ Global
 		{CE6C5D21-4D63-499C-883D-8415DAD0F085}.Debug|x86.Build.0 = Debug|x86
 		{CE6C5D21-4D63-499C-883D-8415DAD0F085}.Release|x86.ActiveCfg = Release|x86
 		{CE6C5D21-4D63-499C-883D-8415DAD0F085}.Release|x86.Build.0 = Release|x86
+		{89731A24-7FE7-4608-82D6-E282DAE81ECF}.Debug|x86.ActiveCfg = Debug|x86
+		{89731A24-7FE7-4608-82D6-E282DAE81ECF}.Debug|x86.Build.0 = Debug|x86
+		{89731A24-7FE7-4608-82D6-E282DAE81ECF}.Release|x86.ActiveCfg = Release|x86
+		{89731A24-7FE7-4608-82D6-E282DAE81ECF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
