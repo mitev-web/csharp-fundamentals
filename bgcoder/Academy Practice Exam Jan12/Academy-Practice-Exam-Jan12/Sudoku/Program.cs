@@ -7,30 +7,18 @@ namespace Sudoku
     class Program
     {
         //public static int[,] board =
-        //{//#777
-        //    { 7, 0, 0, 5, 0, 0, 2, 8, 0 },
-        //    { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-        //    { 0, 0, 0, 6, 0, 0, 0, 0, 0 },
-        //    { 0, 0, 0, 0, 0, 0, 4, 3, 2 },
-        //    { 0, 0, 7, 0, 3, 0, 8, 0, 0 },
-        //    { 2, 4, 3, 0, 0, 0, 0, 0, 0 },
-        //    { 0, 0, 0, 0, 0, 8, 0, 0, 0 },
-        //    { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-        //    { 0, 9, 6, 0, 0, 4, 0, 0, 8 },
+        //{ //15726
+        //    { 9, 0, 0, 0, 0, 0, 0, 0, 0 },
+        //    { 0, 7, 0, 3, 0, 0, 0, 0, 0 },
+        //    { 5, 1, 3, 4, 0, 0, 7, 2, 0 },
+        //    { 0, 4, 0, 0, 1, 0, 3, 0, 6 },
+        //    { 0, 2, 0, 5, 6, 3, 0, 9, 0 },
+        //    { 6, 0, 5, 0, 7, 0, 0, 8, 0 },
+        //    { 0, 9, 7, 0, 0, 8, 5, 6, 4 },
+        //    { 0, 0, 0, 0, 0, 5, 0, 7, 0 },
+        //    { 0, 0, 0, 0, 0, 0, 0, 0, 3 },
         //};
-        public static int[,] board =
-        {//15726
-            { 9, 0, 0, 0, 0, 0, 0, 0, 0 },
-            { 0, 7, 0, 3, 0, 0, 0, 0, 0 },
-            { 5, 1, 3, 4, 0, 0, 7, 2, 0 },
-            { 0, 4, 0, 0, 1, 0, 3, 0, 6 },
-            { 0, 2, 0, 5, 6, 3, 0, 9, 0 },
-            { 6, 0, 5, 0, 7, 0, 0, 8, 0 },
-            { 0, 9, 7, 0, 0, 8, 5, 6, 4 },
-            { 0, 0, 0, 0, 0, 5, 0, 7, 0 },
-            { 0, 0, 0, 0, 0, 0, 0, 0, 3 },
-        };
-        //static int[,] board = new int[9, 9];
+          static int[,] board = new int[9, 9];
 
         public static string[,] boardStr =
         {
@@ -47,274 +35,92 @@ namespace Sudoku
 
         static void Main(string[] args)
         {
-            //FillBoard();
-            CopyMatrix(board, boardStr);
-
-            for (int i = 0; i <10; i++)
+            FillBoardFromInput();
+            //CopyMatrix(board, boardStr);
+            //OptimizeBoard();
+            try
             {
-                OptimizeBoard();
-                CheckForSingletonsAndPairs();
+                FillBoard(0, 0);
             }
+            catch (Exception){}
 
-            Print(boardStr);
-            // FillEmptyCells();
+            Print(board);
         }
 
-        static bool ArePairs(int row, int col, int lenght)
+        private static void FillBoard(int row, int col)
         {
-            bool result = false;
-            int count = 1;
-            for (int i = 0; i < 9; i++)
+            // Skip cells which are not empty
+            while (board[row, col] != 0)
             {
-                
-                if (i != row)
+                if (++col > 8)
                 {
-                    if (boardStr[i, col]== boardStr[row, col])
-                    {
-                        count++;
-                    }
-
+                    col = 0;
+                    row++;
                 }
+
+                if (row > 8)
+                    break;
             }
-            for (int i = 0; i < 9; i++)
+         
+            // Find a valid number for the empty cell
+            for (int num = 1; num < 10; num++)
             {
-                if (i != col)
+                if (NumberIsValidForPosition(row, col, num))
                 {
-                    if (boardStr[row, i] == boardStr[row, col])
+                    board[row, col] = num;
+
+                    // Delegate work on the next cell to a recursive call
+                    if (col < 8)
                     {
-                        count++;
-                    }
-
-                }
-            }
-            if (count == lenght)
-            {
-
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-
-        }
-
-        static void FixPairs(int row, int col)
-        {
-
-                for (int i = 0; i < 9; i++)
-                {
-                    if (i != row)
-                    {
-                        if (boardStr[i, col].Length > boardStr[row, col].Length)
-                        {
-                            if (boardStr[i, col].Contains(boardStr[row, col]))
-                            {
-                                int index = boardStr[i, col].IndexOf(boardStr[row, col]);
-                                boardStr[i, col] = boardStr[i, col].Remove(index, boardStr[row, col].Length);
-                            }
-                        }
-
-                    }
-                }
-                for (int i = 0; i < 9; i++)
-                {
-                    if (i != col)
-                    {
-                        if (boardStr[row, i].Length > boardStr[row, col].Length)
-                        {
-                            if (boardStr[row, i].Contains(boardStr[row, col]))
-                            {
-                                int index = boardStr[row, i].IndexOf(boardStr[row, col]);
-                                boardStr[row, i] = boardStr[row, i].Remove(index, boardStr[row, col].Length);
-                            }
-                        }
-
-                    }
-                }
-        }
-
-        
-
-        static void CheckRowsAndColsForSingletons(int row, int col)
-        {
-            Dictionary<char, int> keyValue = new Dictionary<char, int>();
-
-            for (int i = 0; i < 9; i++)
-            {
-                foreach (char c in boardStr[i, col])
-                {
-                    if (keyValue.ContainsKey(c))
-                    {
-                        keyValue[c]++;
+                        FillBoard(row, col + 1);
                     }
                     else
                     {
-                        keyValue.Add(c, 1);
+                        FillBoard(1+row, 0);
                     }
                 }
             }
 
-            for (int i = 0; i < 9; i++)
-            {           
-                foreach (char c in boardStr[row, i])
-                {
-                    if (keyValue.ContainsKey(c))
-                    {
-                        keyValue[c]++;
-                    }
-                    else
-                    {
-                        keyValue.Add(c, 1);
-                    }
-                }
-            }
-            foreach (KeyValuePair<char, int> item in keyValue)
-            {
-                if (item.Value == 1 && boardStr[row, col].Contains(item.Key.ToString()))
-                {
-                    Console.WriteLine("adding {0} at position {1} {2}", item.Key.ToString(), row, col);
-                    boardStr[row, col] = item.Key.ToString();
-                }
-            }
+            // No valid number was found, clean up and return to caller
+            board[row, col] = 0;
         }
 
-        static void FillEmptyCells()
+        private static bool NumberIsValidForPosition(int row, int col, int num)
         {
-            for (int i = 0; i < 9; i++)
-            {
-                FillMissingCellInRows(i);
-            }
+            return NumberIsValidForRow(row, num) && NumberIsValidForCol(col, num) && NumberIsValidForBox(row, col, num);
         }
 
-        static void CheckForSingletonsAndPairs()
+        private static bool NumberIsValidForRow(int row, int num)
         {
-            for (int i = 0; i < 9; i++)
-            {
-                for (int j = 0; j < 9; j++)
-                {
-                    if (boardStr[i, j].Length > 1)
-                    {
-                        CheckRowsAndColsForSingletons(i, j);
-                    }
-
-                    if (boardStr[i, j].Length > 1 && ArePairs(i, j, boardStr[i, j].Length))
-                    {
-                        FixPairs(i, j);
-                    }
-
-                }
-            }
-            for (int i = 0; i < 9; i++)
-            {
-                 CheckAreaForSingletons(i);
-            }
-        }
-
-        static void CheckAreaForSingletons(int area)
-        {
-            int row = 0;
-            int col = 0;
-
-            switch (area)
-            {
-                case 0:
-                    row = 0;
-                    col = 0;
-                    break;
-                case 1:
-                    row = 0;
-                    col = 3;
-                    break;
-                case 2:
-                    row = 0;
-                    col = 6;
-                    break;
-                case 3:
-                    row = 3;
-                    col = 0;
-                    break;
-                case 4:
-                    row = 3;
-                    col = 3;
-                    break;
-                case 5:
-                    row = 3;
-                    col = 6;
-                    break;
-                case 6:
-                    row = 6;
-                    col = 0;
-                    break;
-                case 7:
-                    row = 6;
-                    col = 3;
-                    break;
-                case 8:
-                    row = 6;
-                    col = 6;
-                    break;
-            }
-            Dictionary<int, int> keyValue = new Dictionary<int, int>();
-            Dictionary<int, int> keyRow = new Dictionary<int, int>();
-            Dictionary<int, int> keyCol = new Dictionary<int, int>();
-            for (int i = row; i < row + 3; i++)
-            {
-                for (int j = col; j < col + 3; j++)
-                {
-                    if (boardStr[i, j].Length > 1)
-                    {
-                        foreach (char item in boardStr[row, col])
-                        {
-                            int num = int.Parse(item.ToString());
-
-                            if (keyValue.ContainsKey(num))
-                            {
-                                keyValue[num]++;
-                            }
-                            else
-                            {
-                                keyValue.Add(num, 1);
-                                keyRow.Add(num, row);
-                                keyCol.Add(num, col);
-                            }
-                        }
-                    }
-                }
-            }
-            foreach (KeyValuePair<int, int> item in keyValue)
-            {
-                if (item.Value == 1)
-                {
-                    Console.WriteLine("{0} added at pos: {1} {2})", item.Key.ToString(), keyRow[item.Key], keyCol[item.Key]);
-                    boardStr[keyRow[item.Key], keyCol[item.Key]] = item.Key.ToString();
-                }
-            }
-        }
-
-        static void FillMissingCellInRows(int row)
-        {
-            int tempRow = 0;
-            int tempCol = 0;
-            int sum = 0;
             for (int col = 0; col < 9; col++)
-            {
-                if (boardStr[row, col] == "")
-                {
-                    tempCol = col;
-                    tempRow = row;
-                }
-                else
-                {
-                    Console.WriteLine("num is is {0}", int.Parse(boardStr[row, col]));
-                    sum += int.Parse(boardStr[row, col]);
-                }
-            }
-            Console.WriteLine("the number should be {0}", 45 - sum);
-            //boardStr[tempRow, tempCol] = (45 - sum).ToString();
+                if (board[row, col] == num)
+                    return false;
+
+            return true;
         }
 
-        static void FillBoard()
+        private static bool NumberIsValidForCol(int col, int num)
+        {
+            for (int row = 0; row < 9; row++)
+                if (board[row, col] == num)
+                    return false;
+            return true;
+        }
+
+        private static bool NumberIsValidForBox(int row, int col, int num)
+        {
+            row = (row / 3) * 3;
+            col = (col / 3) * 3;
+
+            for (int r = 0; r < 3; r++)
+                for (int c = 0; c < 3; c++)
+                    if (board[row + r, col + c] == num)
+                        return false;
+
+            return true;
+        }
+
+        static void FillBoardFromInput()
         {
             for (int i = 0; i < 9; i++)
             {
@@ -335,7 +141,6 @@ namespace Sudoku
 
         static void OptimizeBoard()
         {
-            
             bool needOptimization = true;
             while (needOptimization)
             {
@@ -347,7 +152,7 @@ namespace Sudoku
                         if (boardStr[i, j].Length > 1)
                         {
                             List<int> numbers = new List<int>();
-                            numbers.AddRange(OptimizeArea(i, j));
+                            numbers.AddRange(OptimizeBox(i, j));
                             numbers.AddRange(OptimizeRow(i));
                             numbers.AddRange(OptimizeColumn(j));
 
@@ -368,65 +173,35 @@ namespace Sudoku
                     }
                 }
             }
+            ImportStringData();
+        }
+
+        static void ImportStringData()
+        {
+            for (int row = 0; row < 9; row++)
+            {
+                for (int col = 0; col < 9; col++)
+                {
+                    if (boardStr[row, col].Length == 1)
+                    {
+                        board[row, col] = int.Parse(boardStr[row, col]);
+                    }
+                }
+            }
         }
         
-        static List<int> OptimizeArea(int row, int col)
+        static List<int> OptimizeBox(int row, int col)
         {
-            //get top left index of the area
-            //there are 9 cases (areas)
-            if (row < 3 && col < 3)
-            {
-                row = 0;
-                col = 0;
-            }
-            if (row < 3 && col > 2 && col < 6)
-            {
-                row = 0;
-                col = 3;
-            }
-            if (row < 3 && col > 5 && col < 9)
-            {
-                row = 0;
-                col = 6;
-            }
-            if (row > 2 && row < 6 && col < 3)
-            {
-                row = 3;
-                col = 0;
-            }
-            if (row > 2 && row < 6 && col > 2 && col < 6)
-            {
-                row = 3;
-                col = 3;
-            }
-            if (row > 2 && row < 6 && col > 5 && col < 9)
-            {
-                row = 3;
-                col = 6;
-            }
-            if (row > 5 && row < 9 && col < 3)
-            {
-                row = 6;
-                col = 0;
-            }
-            if (row > 5 && row < 9 && col > 2 && col < 6)
-            {
-                row = 6;
-                col = 3;
-            }
-            if (row > 5 && row < 9 && col > 5 && col < 9)
-            {
-                row = 6;
-                col = 6;
-            }
+            row = (row / 3) * 3;
+            col = (col / 3) * 3;
 
             List<int> numbers = new List<int>();
-            //traverse the area
-            for (int i = row; i < row + 3; i++)
+
+            for (int i = 0; i < 3; i++)
             {
-                for (int j = col; j < col + 3; j++)
+                for (int j = 0; j < 3; j++)
                 {
-                    if (boardStr[i, j].Length == 1)
+                    if (boardStr[row + i, col + j].Length == 1)
                     {
                         numbers.Add(int.Parse(boardStr[i, j]));
                     }
@@ -445,7 +220,6 @@ namespace Sudoku
                     numbers.Add(int.Parse(boardStr[row, i]));
                 }
             }
-
             return numbers;
         }
 
@@ -459,7 +233,6 @@ namespace Sudoku
                     numbers.Add(int.Parse(boardStr[i, column]));
                 }
             }
-
             return numbers;
         }
 
@@ -487,11 +260,11 @@ namespace Sudoku
             {
                 if (i % 3 == 0)
                 {
-                    Console.WriteLine();
+                    //Console.WriteLine();
                 }
                 for (int j = 0; j < arr.GetLength(1); j++)
                 {
-                    Console.Write("{0} \t", arr[i, j]);
+                    Console.Write("{0}", arr[i, j]);
                 }
                 Console.WriteLine();
             }

@@ -41,7 +41,7 @@ namespace FiveDigitNumbers
         private static int IsPartOfSet(string number)
         {
             int firstDigit = int.Parse(number[0].ToString());
-            int secondtDigit = int.Parse(number[1].ToString());
+            int secondtDigit = int.Parse(number[1].ToString()); d
             int thirdDigit = int.Parse(number[2].ToString());
             int fourthDigit = int.Parse(number[3].ToString());
             int fithDigit = int.Parse(number[4].ToString());

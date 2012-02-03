@@ -1,29 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace test
-{
-    class Program
+﻿using System; // no comment...
+class JustClass
+{ /* Just
+multiline
+comment  */
+    static void Main()
     {
-        static void Main(string[] args)
+
+        string j = Environment.NewLine;
+        string f = Environment.NewLine.ToString();
+        Console.WriteLine(Environment.NewLine.ToString().Length);
+        foreach (char c in Environment.NewLine.ToString())
         {
-
-            string text = Console.ReadLine();
-            string[] words = text.Split('-');
-            string name = words[0].Trim();
-            string[] names = name.Split(' ');
-
-            string fname = names[0];
-            string lname = names[1];
-
-            string position = words[1].Trim();
-
-            Console.WriteLine(fname);
-            Console.WriteLine(lname);
-            Console.WriteLine(position);
-
+            Console.WriteLine(c);
         }
+
+        Console.WriteLine();
     }
 }
