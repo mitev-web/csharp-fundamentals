@@ -16,9 +16,15 @@ namespace Problem_4_3D_Max_Walk
         static void Main()
         {
             ReadCuboid();
-            long sum = CalculateWalkSum();
-            Console.WriteLine(sum);
+            //long sum = CalculateWalkSum();
+            //Console.WriteLine(sum);
+
+            PrintCuboid();
+
+       
         }
+  
+
 
         private static long CalculateWalkSum()
         {
@@ -147,5 +153,22 @@ namespace Problem_4_3D_Max_Walk
                 }
             }
         }
+
+        static void PrintCuboid()
+        {
+            for (int h = 0; h < height; h++)
+            {
+                for (int d = 0; d < depth; d++)
+                {
+                    for (int w = 0; w < width; w++)
+                    {
+                        Console.Write(cuboid[w, h, d]);
+                    }
+                    Console.Write(" ");
+                }
+                Console.WriteLine();
+            }
+        }
+
     }
 }

@@ -25,16 +25,18 @@ namespace RegexEvalReplace
 
             Regex regex = new Regex(pattern);
 
-            MatchEvaluator eval = new MatchEvaluator(Replace);
-            string result = regex.Replace(text, eval);
+            //MatchEvaluator eval = new MatchEvaluator(Replace);
+            //string result = regex.Replace(text, eval);
+
+            string result = regex.Replace(text, "$1[URL=$2]$3[/URL]$4");
 
             Console.WriteLine(result);
         }
 
 
-        static string Replace(Match m)
-        {
-            return m.Result("$1[URL=$2]$3[/URL]$4");
-        }
+        //static string Replace(Match m)
+        //{
+        //    return m.Result("$1[URL=$2]$3[/URL]$4");
+        //}
     }
 }

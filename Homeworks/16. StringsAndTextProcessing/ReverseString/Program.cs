@@ -10,10 +10,8 @@ namespace ReverseString
         //Describe the strings in C#. What is typical for the string data type? D
         //    escribe the most important methods of the String class.
         //
-
         //Write a program that reads a string, 
         //reverses it and prints it on the console. Example: "sample"  "elpmas".
-
         static void Main(string[] args)
         {
             Console.WriteLine(StringReverse("sample"));
@@ -26,6 +24,5 @@ namespace ReverseString
                 sb.Append(s[i]);
             return sb.ToString();
         }
-
     }
 }

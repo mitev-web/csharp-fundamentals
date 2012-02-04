@@ -18,8 +18,17 @@ namespace ExtractEmails
               " dd orum</a> to discuss pesho@abv.bg the courses.</p> Also visit mary.ana@gmail.com <a href=www.devbg.org>" +
               " our forum</a> seliandur@yahoo.com to discuss the courses.</p>";
 
-            string[] words = text.Split(' ');
+            
+            //first variant
+            MatchCollection matches = new Regex(@"\b[a-z0-9]{3,15}@(.*?)\.([a-z]{2,4})\b").Matches(text);
+            foreach (Match m in matches)
+            {
+                Console.WriteLine(m);
+            }
 
+
+            //second variant
+            string[] words = text.Split(' ');
             foreach (var item in words)
             {
                 if (isEmail(item))

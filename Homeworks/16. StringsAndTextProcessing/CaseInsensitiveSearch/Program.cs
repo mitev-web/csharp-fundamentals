@@ -19,9 +19,9 @@ namespace CaseInsensitiveSearch
                           "We don't have anything else. Inside the"+
                           "submarine is very tight. So we are drinking all " +
                           "the day. We will move out of it in 5 days.";
-
        
           Console.WriteLine(new Regex("IN").Matches(text.ToUpper()).Count);
+
         }
 
 

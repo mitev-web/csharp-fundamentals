@@ -7,7 +7,7 @@ namespace Problem_4_3D_Max_Walk
 {
     public class TestGenerator
     {
-        static void Main2()
+       public static void Test()
         {
             int width = 99;
             int height = 99;

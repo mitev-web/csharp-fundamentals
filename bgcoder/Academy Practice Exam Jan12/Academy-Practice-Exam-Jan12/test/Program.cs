@@ -1,19 +1,28 @@
-﻿using System; // no comment...
-class JustClass
-{ /* Just
-multiline
-comment  */
-    static void Main()
+﻿using System;
+public class MyClass
+{
+    public static void TestRef(ref char i)
     {
 
-        string j = Environment.NewLine;
-        string f = Environment.NewLine.ToString();
-        Console.WriteLine(Environment.NewLine.ToString().Length);
-        foreach (char c in Environment.NewLine.ToString())
-        {
-            Console.WriteLine(c);
-        }
+        i = 'b';
+    }
 
-        Console.WriteLine();
+    public static void TestNoRef(char i){
+
+        i = 'c';
+    }
+
+
+    public static void Main()
+    {
+
+        char i = 'a';
+        TestRef(i);
+        Console.WriteLine(i);
+
+
+
+        //TestNoRef(i);
+        //Console.WriteLine(i);
     }
 }

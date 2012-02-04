@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01,2 ReverseString", "Rever
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. ValidateMathExpression", "ValidateMathExpression\03. ValidateMathExpression.csproj", "{1DBB8681-0139-417A-AB1B-2143916E3C01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. RegexCaseInsensitiveSearch", "CaseInsensitiveSearch\04. RegexCaseInsensitiveSearch.csproj", "{CC5013CF-099A-481E-86DE-35718FC0AC5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. ShortRegex", "CaseInsensitiveSearch\04. ShortRegex.csproj", "{CC5013CF-099A-481E-86DE-35718FC0AC5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.B RegularExprGrouping", "RegularExprGrouping\05.B RegularExprGrouping.csproj", "{AF67225A-F875-4459-8B16-A3606B239002}"
 EndProject
@@ -23,15 +23,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. RegexEmails", "ExtractE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.A StringAutomation", "StringAutomation\05.A StringAutomation.csproj", "{8F94A6BC-4E9D-40AC-A541-23BB5A12B548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. EncryptString !!!", "EncryptString\07. EncryptString !!!.csproj", "{EC002E3B-B1C0-4C02-BEC2-525962A89081}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. EncryptString", "EncryptString\07. EncryptString.csproj", "{EC002E3B-B1C0-4C02-BEC2-525962A89081}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. ExtractSubString", "ExtractSubString\08. ExtractSubString.csproj", "{8D311407-5643-4AE2-B368-1CFCCB2BD292}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ReplaceString", "ReplaceString\09. ReplaceString.csproj", "{08886E44-DA40-4DC7-93A0-F4CA95FBEDCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. StringToUnicodeChars !!!", "StringToUnicodeChars\10. StringToUnicodeChars !!!.csproj", "{24B019A4-8F39-4687-8894-4F7CAD972BE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. StringToUnicodeChars", "StringToUnicodeChars\10. StringToUnicodeChars.csproj", "{24B019A4-8F39-4687-8894-4F7CAD972BE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. FormatNumber !!!", "FormatNumber\11. FormatNumber !!!.csproj", "{42A59AD7-C3EE-4F37-BDF7-AB8B5F4E7AFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. FormatNumber", "FormatNumber\11. FormatNumber.csproj", "{42A59AD7-C3EE-4F37-BDF7-AB8B5F4E7AFA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. ParseURL", "ParseURL\12. ParseURL.csproj", "{5040A12E-5047-4BBE-BC8C-91BD0A4AEAB6}"
 EndProject
@@ -45,7 +45,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.A CultureInfo", "Culture
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.B CultureInfo", "B CultureInfo\16.B CultureInfo.csproj", "{9C8157B0-44B3-46F6-AD0B-2EE5E96636D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. DateTimeFormat !!!", "DateTimeFormat\17. DateTimeFormat !!!.csproj", "{6A040E13-6064-463F-A9CF-0DD15659A539}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. DateTimeFormat", "DateTimeFormat\17. DateTimeFormat.csproj", "{6A040E13-6064-463F-A9CF-0DD15659A539}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. RegexMatchCustomDate", "ExtractCustomDate\19. RegexMatchCustomDate.csproj", "{4BB7A334-0940-43BC-A151-C83F1BA0B3C3}"
 EndProject
@@ -58,6 +58,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.B RegexEvalReplace", "RegexEvalReplace\15.B RegexEvalReplace.csproj", "{CE6C5D21-4D63-499C-883D-8415DAD0F085}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.C RegexReplace", "C RegexReplace\15.C RegexReplace.csproj", "{89731A24-7FE7-4608-82D6-E282DAE81ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.B RegexEmails", "B RegexEmails\18.B RegexEmails.csproj", "{DC9797FB-DD4D-49FB-9897-CFA8CC2336CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +183,10 @@ Global
 		{89731A24-7FE7-4608-82D6-E282DAE81ECF}.Debug|x86.Build.0 = Debug|x86
 		{89731A24-7FE7-4608-82D6-E282DAE81ECF}.Release|x86.ActiveCfg = Release|x86
 		{89731A24-7FE7-4608-82D6-E282DAE81ECF}.Release|x86.Build.0 = Release|x86
+		{DC9797FB-DD4D-49FB-9897-CFA8CC2336CF}.Debug|x86.ActiveCfg = Debug|x86
+		{DC9797FB-DD4D-49FB-9897-CFA8CC2336CF}.Debug|x86.Build.0 = Debug|x86
+		{DC9797FB-DD4D-49FB-9897-CFA8CC2336CF}.Release|x86.ActiveCfg = Release|x86
+		{DC9797FB-DD4D-49FB-9897-CFA8CC2336CF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 
-
 namespace Employees
 {
     struct Position
@@ -16,7 +15,7 @@ namespace Employees
             this.priority = priority;
         }
     }
-
+   
     struct Employee
     {
         public string firstName;
@@ -55,22 +54,18 @@ namespace Employees
             for (int i = 0; i < M; i++)
             {
                 string text = Console.ReadLine();
-                string[] words = text.Split('-');
+                string[] words = text.Split(new string[] { " - " }, StringSplitOptions.None);
                 string name = words[0].Trim();
-                string[] names = name.Split(' ');
+                string[] names = name.Split(new string[] { " " }, StringSplitOptions.None);
 
                 string fname = names[0];
                 string lname = names[1];
 
                 string position = words[1].Trim();
 
-
                 employees.Add(new Employee(fname, lname, position));
             }
 
-
-               
-            
             //positions.Add(new Position("Trainee", 0));
             //positions.Add(new Position("Owner", 100));
             //positions.Add(new Position("CEO", 98));
@@ -92,8 +87,7 @@ namespace Employees
             //employees.Add(new Employee("Blagoy","Makendzhiev", "CEO"));
 
             List<Employee> emp = (from e in employees
-                                  join p in positions
-                                  on e.position equals p.name
+                                  join p in positions on e.position equals p.name
                                   orderby p.priority descending, e.lastName ascending, e.firstName ascending
                                   select e).ToList();
             foreach (Employee e in emp)
