@@ -2,15 +2,9 @@
 
 class PathsBetweenCells
 {
-
-//Task 6
-//We are given a matrix of passable and non-passable cells. 
-//Write a recursive program for finding all paths between two cells in the matrix.
-
-
-
-
-
+    //Task 6
+    //We are given a matrix of passable and non-passable cells. 
+    //Write a recursive program for finding all paths between two cells in the matrix.
     static char[,] matix = 
     {
         { ' ', ' ', ' ', '*', ' ', ' ', ' ' },
@@ -57,15 +51,12 @@ class PathsBetweenCells
         FindNumberOfPaths(0, 0);
         Console.WriteLine();
         Console.WriteLine("The Number of paths is {0}", numberOfPaths);
-      
     }
 
     static void Print()
     {
-
         for (int i = 0; i < matix.GetLength(0); i++)
         {
-
             for (int j = 0; j < matix.GetLength(1); j++)
             {
                 Console.Write("{0}", matix[i, j]);
@@ -73,6 +64,5 @@ class PathsBetweenCells
             Console.WriteLine();
         }
         Console.WriteLine();
-
     }
 }

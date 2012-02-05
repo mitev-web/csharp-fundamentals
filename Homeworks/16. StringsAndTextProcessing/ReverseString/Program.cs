@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
@@ -7,9 +6,8 @@ namespace ReverseString
 {
     class Program
     {
-        //Describe the strings in C#. What is typical for the string data type? D
-        //    escribe the most important methods of the String class.
-        //
+        //Describe the strings in C#. What is typical for the string data type? 
+        //Describe the most important methods of the String class.
         //Write a program that reads a string, 
         //reverses it and prints it on the console. Example: "sample"  "elpmas".
         static void Main(string[] args)

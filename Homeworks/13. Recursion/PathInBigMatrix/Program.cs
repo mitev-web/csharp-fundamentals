@@ -11,6 +11,10 @@ class PathsBetweenCells
 
     static void FindNumberOfPaths(int row, int col)
     {
+        if (isComplete)
+        {
+            return;
+        }
         if ((col < 0) || (row < 0) || (col >= matrix.GetLength(1)) || (row >= matrix.GetLength(0)))
         {
             return;

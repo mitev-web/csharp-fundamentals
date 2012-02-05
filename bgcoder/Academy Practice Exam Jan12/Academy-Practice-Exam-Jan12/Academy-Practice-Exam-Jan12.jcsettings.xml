@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings>
+  <CSharpCodeStyleSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <General>
+      <AddDocumentation>false</AddDocumentation>
+      <AdjustNewlines>true</AdjustNewlines>
+      <AdjustSpaces>true</AdjustSpaces>
+      <ArrangeThisQualifier>Always</ArrangeThisQualifier>
+      <BlockUsage>
+        <DoStatements>Always</DoStatements>
+        <FixedStatements>Always</FixedStatements>
+        <ForEachStatements>Always</ForEachStatements>
+        <ForStatements>Always</ForStatements>
+        <IfStatements>Always</IfStatements>
+        <UsingStatements>Always</UsingStatements>
+        <WhileStatements>Always</WhileStatements>
+      </BlockUsage>
+      <UseImplicitlyTypedVariable>OnlyIfObvious</UseImplicitlyTypedVariable>
+    </General>
+    <Indentation>
+      <ArgumentIndent>true</ArgumentIndent>
+      <ArrayArgumentIndent>true</ArrayArgumentIndent>
+      <CaseIndent>true</CaseIndent>
+      <CaseLabelIndent>true</CaseLabelIndent>
+      <ConstructorInitializerIndent>true</ConstructorInitializerIndent>
+      <LabelLeftIndent>false</LabelLeftIndent>
+      <NestedUsingsIndent>true</NestedUsingsIndent>
+      <NextLineIndent>true</NextLineIndent>
+      <ParameterIndent>true</ParameterIndent>
+    </Indentation>
+    <SpacesSettings>
+      <AccessorSpaceBeforeOpenBrace>true</AccessorSpaceBeforeOpenBrace>
+      <AnonymousClassSpaceAfterComma>true</AnonymousClassSpaceAfterComma>
+      <AnonymousClassSpaceAfterOpenBrace>true</AnonymousClassSpaceAfterOpenBrace>
+      <AnonymousClassSpaceBeforeCloseBrace>true</AnonymousClassSpaceBeforeCloseBrace>
+      <AnonymousClassSpaceBeforeComma>false</AnonymousClassSpaceBeforeComma>
+      <AnonymousClassSpaceBeforeOpenBrace>true</AnonymousClassSpaceBeforeOpenBrace>
+      <AnonymousMethodSpaceAfterOpenBrace>true</AnonymousMethodSpaceAfterOpenBrace>
+      <AnonymousMethodSpaceBeforeCloseBrace>true</AnonymousMethodSpaceBeforeCloseBrace>
+      <AnonymousMethodSpaceBeforeOpenBrace>true</AnonymousMethodSpaceBeforeOpenBrace>
+      <ArrayCloseBracketSpaceBefore>false</ArrayCloseBracketSpaceBefore>
+      <ArrayCommaInIndexSpaceAfter>true</ArrayCommaInIndexSpaceAfter>
+      <ArrayCommaInIndexSpaceBefore>false</ArrayCommaInIndexSpaceBefore>
+      <ArrayInitializerSpaceAfterComma>true</ArrayInitializerSpaceAfterComma>
+      <ArrayInitializerSpaceAfterOpenBrace>true</ArrayInitializerSpaceAfterOpenBrace>
+      <ArrayInitializerSpaceBeforeCloseBrace>true</ArrayInitializerSpaceBeforeCloseBrace>
+      <ArrayInitializerSpaceBeforeComma>false</ArrayInitializerSpaceBeforeComma>
+      <ArrayInitializerSpaceBeforeOpenBrace>true</ArrayInitializerSpaceBeforeOpenBrace>
+      <ArrayOpenBracketSpaceAfter>false</ArrayOpenBracketSpaceAfter>
+      <ArrayOpenBracketSpaceBefore>false</ArrayOpenBracketSpaceBefore>
+      <AssignmentOperatorInNamespaceAliasSpaceAfter>true</AssignmentOperatorInNamespaceAliasSpaceAfter>
+      <AssignmentOperatorInNamespaceAliasSpaceBefore>true</AssignmentOperatorInNamespaceAliasSpaceBefore>
+      <AssignmentOperatorSpaceAfter>true</AssignmentOperatorSpaceAfter>
+      <AssignmentOperatorSpaceBefore>true</AssignmentOperatorSpaceBefore>
+      <BlockSpaceAfterCloseBrace>false</BlockSpaceAfterCloseBrace>
+      <BlockSpaceAfterOpenBrace>true</BlockSpaceAfterOpenBrace>
+      <BlockSpaceBeforeCloseBrace>true</BlockSpaceBeforeCloseBrace>
+      <BlockSpaceBeforeOpenBrace>true</BlockSpaceBeforeOpenBrace>
+      <CaseAndDefaultLabelSpaceBeforeOpenBrace>true</CaseAndDefaultLabelSpaceBeforeOpenBrace>
+      <CatchCloseParenthesisSpaceBefore>false</CatchCloseParenthesisSpaceBefore>
+      <CatchOpenParenthesisSpaceAfter>false</CatchOpenParenthesisSpaceAfter>
+      <ClassDeclarationColonSpaceAfter>true</ClassDeclarationColonSpaceAfter>
+      <ClassDeclarationColonSpaceBefore>true</ClassDeclarationColonSpaceBefore>
+      <ClassDeclarationCommaSpaceAfter>true</ClassDeclarationCommaSpaceAfter>
+      <ClassDeclarationCommaSpaceBefore>false</ClassDeclarationCommaSpaceBefore>
+      <ColonInTernaryOperatorSpaceAfter>true</ColonInTernaryOperatorSpaceAfter>
+      <ColonInTernaryOperatorSpaceBefore>true</ColonInTernaryOperatorSpaceBefore>
+      <ExplicitLambdaSpaceAfterOpenBrace>true</ExplicitLambdaSpaceAfterOpenBrace>
+      <ExplicitLambdaSpaceBeforeCloseBrace>true</ExplicitLambdaSpaceBeforeCloseBrace>
+      <FixedCloseParenthesisSpaceBefore>false</FixedCloseParenthesisSpaceBefore>
+      <FixedOpenParenthesisSpaceAfter>false</FixedOpenParenthesisSpaceAfter>
+      <ForCloseParenthesisSpaceBefore>false</ForCloseParenthesisSpaceBefore>
+      <ForEachCloseParenthesisSpaceBefore>false</ForEachCloseParenthesisSpaceBefore>
+      <ForEachOpenParenthesisSpaceAfter>false</ForEachOpenParenthesisSpaceAfter>
+      <ForOpenParenthesisSpaceAfter>false</ForOpenParenthesisSpaceAfter>
+      <IfCloseParenthesisSpaceBefore>false</IfCloseParenthesisSpaceBefore>
+      <IfOpenParenthesisSpaceAfter>false</IfOpenParenthesisSpaceAfter>
+      <ImplicitLambdaSpaceAfterOpenBrace>true</ImplicitLambdaSpaceAfterOpenBrace>
+      <ImplicitLambdaSpaceBeforeCloseBrace>true</ImplicitLambdaSpaceBeforeCloseBrace>
+      <IndexerSpaceBeforeOpenBrace>true</IndexerSpaceBeforeOpenBrace>
+      <KeywordSpace>true</KeywordSpace>
+      <LockCloseParenthesisSpaceBefore>false</LockCloseParenthesisSpaceBefore>
+      <LockOpenParenthesisSpaceAfter>false</LockOpenParenthesisSpaceAfter>
+      <MethodBodySpaceBeforeOpenBrace>true</MethodBodySpaceBeforeOpenBrace>
+      <MethodCloseParenthesisInDeclarationSpaceBefore>false</MethodCloseParenthesisInDeclarationSpaceBefore>
+      <MethodCloseParenthesisInInvocationSpaceBefore>false</MethodCloseParenthesisInInvocationSpaceBefore>
+      <MethodCommaInDeclarationSpaceAfter>true</MethodCommaInDeclarationSpaceAfter>
+      <MethodCommaInDeclarationSpaceBefore>false</MethodCommaInDeclarationSpaceBefore>
+      <MethodCommaInInvocationSpaceAfter>true</MethodCommaInInvocationSpaceAfter>
+      <MethodCommaInInvocationSpaceBefore>false</MethodCommaInInvocationSpaceBefore>
+      <MethodOpenParenthesisInDeclarationSpaceAfter>false</MethodOpenParenthesisInDeclarationSpaceAfter>
+      <MethodOpenParenthesisInDeclarationSpaceBefore>false</MethodOpenParenthesisInDeclarationSpaceBefore>
+      <MethodOpenParenthesisInInvocationSpaceAfter>false</MethodOpenParenthesisInInvocationSpaceAfter>
+      <MethodOpenParenthesisInInvocationSpaceBefore>false</MethodOpenParenthesisInInvocationSpaceBefore>
+      <NamespaceBodySpaceBeforeOpenBrace>true</NamespaceBodySpaceBeforeOpenBrace>
+      <ObjectInitializerSpaceAfterComma>true</ObjectInitializerSpaceAfterComma>
+      <ObjectInitializerSpaceAfterOpenBrace>true</ObjectInitializerSpaceAfterOpenBrace>
+      <ObjectInitializerSpaceBeforeCloseBrace>true</ObjectInitializerSpaceBeforeCloseBrace>
+      <ObjectInitializerSpaceBeforeComma>false</ObjectInitializerSpaceBeforeComma>
+      <ObjectInitializerSpaceBeforeOpenBrace>true</ObjectInitializerSpaceBeforeOpenBrace>
+      <OperatorAdditiveSpaceAfter>true</OperatorAdditiveSpaceAfter>
+      <OperatorAdditiveSpaceBefore>true</OperatorAdditiveSpaceBefore>
+      <OperatorConditionalLogicalSpaceAfter>true</OperatorConditionalLogicalSpaceAfter>
+      <OperatorConditionalLogicalSpaceBefore>true</OperatorConditionalLogicalSpaceBefore>
+      <OperatorEqualitySpaceAfter>true</OperatorEqualitySpaceAfter>
+      <OperatorEqualitySpaceBefore>true</OperatorEqualitySpaceBefore>
+      <OperatorLambdaSpaceAfter>true</OperatorLambdaSpaceAfter>
+      <OperatorLambdaSpaceBefore>true</OperatorLambdaSpaceBefore>
+      <OperatorLogicalSpaceAfter>true</OperatorLogicalSpaceAfter>
+      <OperatorLogicalSpaceBefore>true</OperatorLogicalSpaceBefore>
+      <OperatorMultiplicativeSpaceAfter>true</OperatorMultiplicativeSpaceAfter>
+      <OperatorMultiplicativeSpaceBefore>true</OperatorMultiplicativeSpaceBefore>
+      <OperatorNullCoalescingSpaceAfter>true</OperatorNullCoalescingSpaceAfter>
+      <OperatorNullCoalescingSpaceBefore>true</OperatorNullCoalescingSpaceBefore>
+      <OperatorRelationalSpaceAfter>true</OperatorRelationalSpaceAfter>
+      <OperatorRelationalSpaceBefore>true</OperatorRelationalSpaceBefore>
+      <OperatorShiftSpaceAfter>true</OperatorShiftSpaceAfter>
+      <OperatorShiftSpaceBefore>true</OperatorShiftSpaceBefore>
+      <ParametersCloseParenthesisSpaceAfter>false</ParametersCloseParenthesisSpaceAfter>
+      <ParametersCloseParenthesisSpaceBefore>false</ParametersCloseParenthesisSpaceBefore>
+      <ParametersOpenParenthesisSpaceAfter>false</ParametersOpenParenthesisSpaceAfter>
+      <ParametersOpenParenthesisSpaceBefore>false</ParametersOpenParenthesisSpaceBefore>
+      <ParenSpace>false</ParenSpace>
+      <PropertySpaceAfterOpenBrace>true</PropertySpaceAfterOpenBrace>
+      <PropertySpaceBeforeCloseBrace>true</PropertySpaceBeforeCloseBrace>
+      <PropertySpaceBeforeOpenBrace>true</PropertySpaceBeforeOpenBrace>
+      <QuestionMarkInTernaryOperatorSpaceAfter>true</QuestionMarkInTernaryOperatorSpaceAfter>
+      <QuestionMarkInTernaryOperatorSpaceBefore>true</QuestionMarkInTernaryOperatorSpaceBefore>
+      <RemoveExtraSpace>true</RemoveExtraSpace>
+      <SizeofCloseParenthesisSpaceBefore>false</SizeofCloseParenthesisSpaceBefore>
+      <SizeofOpenParenthesisSpaceAfter>false</SizeofOpenParenthesisSpaceAfter>
+      <SwitchStatementSpaceBeforeOpenBrace>true</SwitchStatementSpaceBeforeOpenBrace>
+      <TypeArgumentsCloseAngleBracketSpaceBefore>false</TypeArgumentsCloseAngleBracketSpaceBefore>
+      <TypeArgumentsOpenAngleBracketSpaceAfter>false</TypeArgumentsOpenAngleBracketSpaceAfter>
+      <TypeParameterCommaSpaceAfter>true</TypeParameterCommaSpaceAfter>
+      <TypeParameterCommaSpaceBefore>false</TypeParameterCommaSpaceBefore>
+      <TypeParameterConstraintColonSpaceAfter>true</TypeParameterConstraintColonSpaceAfter>
+      <TypeParameterConstraintColonSpaceBefore>true</TypeParameterConstraintColonSpaceBefore>
+      <TypeParametersCloseAngleBracketSpaceBefore>false</TypeParametersCloseAngleBracketSpaceBefore>
+      <TypeParametersOpenAngleBracketSpaceAfter>false</TypeParametersOpenAngleBracketSpaceAfter>
+      <TypeSpaceBeforeOpenBrace>true</TypeSpaceBeforeOpenBrace>
+      <TypeofCloseParenthesisSpaceBefore>false</TypeofCloseParenthesisSpaceBefore>
+      <TypeofOpenParenthesisSpaceAfter>false</TypeofOpenParenthesisSpaceAfter>
+      <UsingCloseParenthesisSpaceBefore>false</UsingCloseParenthesisSpaceBefore>
+      <UsingOpenParenthesisSpaceAfter>false</UsingOpenParenthesisSpaceAfter>
+      <WhileCloseParenthesisSpaceBefore>false</WhileCloseParenthesisSpaceBefore>
+      <WhileOpenParenthesisSpaceAfter>false</WhileOpenParenthesisSpaceAfter>
+    </SpacesSettings>
+    <NewLines>
+      <AttributesOnSingleLine>false</AttributesOnSingleLine>
+      <AutoImplementedPropertiesOnSeparateLine>false</AutoImplementedPropertiesOnSeparateLine>
+      <CatchNewline>true</CatchNewline>
+      <ClosingBracketsOnSameLineAsLastArgument>true</ClosingBracketsOnSameLineAsLastArgument>
+      <ClosingParanthesisOnSameLineAsLastParameter>true</ClosingParanthesisOnSameLineAsLastParameter>
+      <ConstructorInitializerOnNewLine>false</ConstructorInitializerOnNewLine>
+      <ElseNewline>true</ElseNewline>
+      <FinallyNewline>true</FinallyNewline>
+      <MaxLinesAfterFileHeader>1</MaxLinesAfterFileHeader>
+      <MaxNewLinesAfterAutoImplementedProperty>1</MaxNewLinesAfterAutoImplementedProperty>
+      <MaxNewLinesAfterConstructor>1</MaxNewLinesAfterConstructor>
+      <MaxNewLinesAfterField>1</MaxNewLinesAfterField>
+      <MaxNewLinesAfterMethod>1</MaxNewLinesAfterMethod>
+      <MinLinesAfterFileHeader>0</MinLinesAfterFileHeader>
+      <MinNewLinesAfterAutoImplementedProperty>0</MinNewLinesAfterAutoImplementedProperty>
+      <MinNewLinesAfterConstructor1>1</MinNewLinesAfterConstructor1>
+      <MinNewLinesAfterField>0</MinNewLinesAfterField>
+      <MinNewLinesAfterMethod1>1</MinNewLinesAfterMethod1>
+      <OneLineAccessorBodiesOnSeparateLine>false</OneLineAccessorBodiesOnSeparateLine>
+      <OpeningBracketsOnSameLineAsIdentifier>true</OpeningBracketsOnSameLineAsIdentifier>
+      <OpeningParanthesisOnSameLineAsIdentifier>true</OpeningParanthesisOnSameLineAsIdentifier>
+      <SimpleStatementOnNewLine>true</SimpleStatementOnNewLine>
+      <WhileNewLine>true</WhileNewLine>
+    </NewLines>
+    <BlankLines>
+      <ClosingBraceNoEmptyLine>true</ClosingBraceNoEmptyLine>
+      <OpeningBraceNoEmptyLine>true</OpeningBraceNoEmptyLine>
+      <RemoveExtraLines>true</RemoveExtraLines>
+    </BlankLines>
+    <Ordering>
+      <version>1</version>
+      <ReorderCodeElements>false</ReorderCodeElements>
+      <SortElementsAlphabetically>false</SortElementsAlphabetically>
+      <NamespaceElementOrder>
+        <Extern-Alias-Directives />
+        <Using-Directives />
+        <Namespaces />
+        <Delegates />
+        <Enums />
+        <Interfaces />
+        <Structs />
+        <Classes />
+      </NamespaceElementOrder>
+      <TypeElementOrder>
+        <Fields />
+        <Constructors />
+        <Finalizes />
+        <Delegates />
+        <Events />
+        <Enums />
+        <Interfaces />
+        <Properties />
+        <Indexers />
+        <Methods />
+        <Overloaded-Operators />
+        <Structs />
+        <Classes />
+      </TypeElementOrder>
+      <AccessSequenceOrder>
+        <Public />
+        <Internal />
+        <Protected-Internal />
+        <Protected />
+        <Private />
+      </AccessSequenceOrder>
+      <StaticSequenceOrder>
+        <Static />
+        <Non-Static />
+      </StaticSequenceOrder>
+      <ConstancySequenceOrder>
+        <Constant />
+        <Read-Only />
+        <Non-Constant />
+      </ConstancySequenceOrder>
+    </Ordering>
+    <BracePositionSettings>
+      <AccessorBracePosition>NextLine</AccessorBracePosition>
+      <AnonymousClassBracePosition>NextLine</AnonymousClassBracePosition>
+      <AnonymousMethodBracePosition>NextLine</AnonymousMethodBracePosition>
+      <ArrayObjectAndCollectionInitializerBracePosition>NextLine</ArrayObjectAndCollectionInitializerBracePosition>
+      <BlocksBracePosition>NextLine</BlocksBracePosition>
+      <CaseLabelBracePosition>NextLine</CaseLabelBracePosition>
+      <IndentAtAnonymousClass>false</IndentAtAnonymousClass>
+      <IndentAtAnonymousMethod>false</IndentAtAnonymousMethod>
+      <IndentAtInitializer>false</IndentAtInitializer>
+      <IndexerBracePosition>NextLine</IndexerBracePosition>
+      <MethodBracePosition>NextLine</MethodBracePosition>
+      <NamespaceBracePosition>NextLine</NamespaceBracePosition>
+      <PropertyBracePosition>NextLine</PropertyBracePosition>
+      <SwitchStatementBracePosition>NextLine</SwitchStatementBracePosition>
+      <TypeBracePosition>NextLine</TypeBracePosition>
+    </BracePositionSettings>
+    <WrappingSettings>
+      <EnableCodeWrapping>true</EnableCodeWrapping>
+      <FormatSingleLineAnonymousClasses>false</FormatSingleLineAnonymousClasses>
+      <FormatSingleLineAnonymousMethods>false</FormatSingleLineAnonymousMethods>
+      <FormatSingleLineInitializers>false</FormatSingleLineInitializers>
+      <MaxLineLength>9999</MaxLineLength>
+      <PreserveNewLinesWhenWrapping>true</PreserveNewLinesWhenWrapping>
+      <StatementWrap>true</StatementWrap>
+      <WrapAnonymousClassInitializerClause>WhenNeeded</WrapAnonymousClassInitializerClause>
+      <WrapArrayArgumentsClause>38</WrapArrayArgumentsClause>
+      <WrapAssignmentClause>38</WrapAssignmentClause>
+      <WrapAttributesArgumentsClause>54</WrapAttributesArgumentsClause>
+      <WrapClassDeclarationBoundsClause>118</WrapClassDeclarationBoundsClause>
+      <WrapClassDeclarationBoundsConstraintClause>58</WrapClassDeclarationBoundsConstraintClause>
+      <WrapClassDeclarationTypeParametersClause>42</WrapClassDeclarationTypeParametersClause>
+      <WrapClassDeclarationsExtendsClause>38</WrapClassDeclarationsExtendsClause>
+      <WrapForStatementHeaderClause>42</WrapForStatementHeaderClause>
+      <WrapInfixExpressionClause>42</WrapInfixExpressionClause>
+      <WrapLinqClauses>122</WrapLinqClauses>
+      <WrapMethodChainingCalls>58</WrapMethodChainingCalls>
+      <WrapMethodDeclarationBoundsClause>118</WrapMethodDeclarationBoundsClause>
+      <WrapMethodDeclarationBoundsConstraintClause>58</WrapMethodDeclarationBoundsConstraintClause>
+      <WrapMethodDeclarationParametersClause>38</WrapMethodDeclarationParametersClause>
+      <WrapMethodDeclarationTypeParametersClause>42</WrapMethodDeclarationTypeParametersClause>
+      <WrapMethodInvocationArgumentsClause1>38</WrapMethodInvocationArgumentsClause1>
+      <WrapMethodInvocationTypeArgumentsClause>42</WrapMethodInvocationTypeArgumentsClause>
+      <WrapObjectInitializerClause>102</WrapObjectInitializerClause>
+    </WrappingSettings>
+    <UsingDirectivesSettings>
+      <NamespacesThatAlwaysShouldBeImported />
+      <NamespacesThatNeverShouldBeRemoved>System
+System.Linq
+</NamespacesThatNeverShouldBeRemoved>
+      <PutSystemNamespacesOnTop>true</PutSystemNamespacesOnTop>
+    </UsingDirectivesSettings>
+    <NamingConventionsSettings>
+      <AttributeTypesNamingOption>
+PascalCase
+Attribute
+True
+True</AttributeTypesNamingOption>
+      <ConstantFieldsNamingOption>
+PascalCase
+
+True
+True</ConstantFieldsNamingOption>
+      <ConstantVariablesNamingOption>
+PascalCase
+
+True
+True</ConstantVariablesNamingOption>
+      <EnumMembersNamingOption>
+PascalCase
+
+True
+True</EnumMembersNamingOption>
+      <EventsNamingOption>
+PascalCase
+
+True
+True</EventsNamingOption>
+      <ExceptionTypesNamingOption>
+PascalCase
+Exception
+True
+True</ExceptionTypesNamingOption>
+      <InterfacesNamingOption>I
+PascalCase
+
+True
+True</InterfacesNamingOption>
+      <MethodParametersNamingOption>
+CamelCase
+
+True
+True</MethodParametersNamingOption>
+      <MethodsNamingOption>
+PascalCase
+
+True
+True</MethodsNamingOption>
+      <NamespacesNamingOption>
+PascalCase
+
+True
+True</NamespacesNamingOption>
+      <NonPrivateReadonlyStaticFieldsNamingOption>
+PascalCase
+
+True
+True</NonPrivateReadonlyStaticFieldsNamingOption>
+      <NonReadonlyStaticFieldsNamingOption>
+CamelCase
+
+True
+True</NonReadonlyStaticFieldsNamingOption>
+      <PrivateFieldsNamingOption>
+CamelCase
+
+True
+True</PrivateFieldsNamingOption>
+      <PrivateReadonlyStaticFieldsNamingOption>
+CamelCase
+
+True
+True</PrivateReadonlyStaticFieldsNamingOption>
+      <PropertiesNamingOption>
+PascalCase
+
+True
+True</PropertiesNamingOption>
+      <ProtectedFieldsNamingOption>
+CamelCase
+
+True
+True</ProtectedFieldsNamingOption>
+      <PublicInternalFieldsNamingOption>
+PascalCase
+
+True
+True</PublicInternalFieldsNamingOption>
+      <TypesNamingOption>
+PascalCase
+
+True
+True</TypesNamingOption>
+      <VariablesNamingOption>
+CamelCase
+
+True
+True</VariablesNamingOption>
+    </NamingConventionsSettings>
+  </CSharpCodeStyleSettings>
+  <CodeCleanerSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <ActiveProfileName>Basic</ActiveProfileName>
+  </CodeCleanerSettings>
+  <CssCodeStyleSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <SpacesSettings>
+      <AfterColons>1</AfterColons>
+      <AfterCommas>1</AfterCommas>
+      <AfterOpenBrace>1</AfterOpenBrace>
+      <AfterParenthesisInSelectors>1</AfterParenthesisInSelectors>
+      <AfterSemicolons>1</AfterSemicolons>
+      <BeforeColons>0</BeforeColons>
+      <BeforeCommas>0</BeforeCommas>
+      <BeforeOpenBrace>1</BeforeOpenBrace>
+      <BeforeParenthesisInSelectors>1</BeforeParenthesisInSelectors>
+      <BeforeSemicolons>0</BeforeSemicolons>
+    </SpacesSettings>
+    <NewLines>
+      <MaxNewLinesAfterDeclaration>1</MaxNewLinesAfterDeclaration>
+      <MaxNewLinesAfterRule>1</MaxNewLinesAfterRule>
+      <MinNewLinesAfterDeclaration>0</MinNewLinesAfterDeclaration>
+      <MinNewLinesAfterRule>0</MinNewLinesAfterRule>
+    </NewLines>
+    <BracePositionSettings>
+      <BlocksBracePosition>NextLine</BlocksBracePosition>
+      <FormatRulesOnSingleLine>false</FormatRulesOnSingleLine>
+    </BracePositionSettings>
+  </CssCodeStyleSettings>
+  <HtmlCodeStyleSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <General>
+      <AttributesFormattingOption>PreserveManual</AttributesFormattingOption>
+    </General>
+    <Indentation>
+      <AlignByFirstAttribute>true</AlignByFirstAttribute>
+    </Indentation>
+  </HtmlCodeStyleSettings>
+  <IntroduceHeaderSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <HeaderText>Example header text. Can be configured in the options.</HeaderText>
+  </IntroduceHeaderSettings>
+  <JavaScriptCodeStyleSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <General>
+      <AdjustNewlines>true</AdjustNewlines>
+      <AdjustSpaces>true</AdjustSpaces>
+      <BlockUsage>
+        <DoStatements>Always</DoStatements>
+        <ForEachStatements>Always</ForEachStatements>
+        <ForStatements>Always</ForStatements>
+        <IfStatements>Always</IfStatements>
+        <WhileStatements>Always</WhileStatements>
+      </BlockUsage>
+    </General>
+    <Indentation>
+      <ArgumentIndent>true</ArgumentIndent>
+      <CaseIndent>true</CaseIndent>
+      <CaseLabelIndent>true</CaseLabelIndent>
+      <LabelLeftIndent>false</LabelLeftIndent>
+      <NextLineIndent>true</NextLineIndent>
+      <ParameterIndent>true</ParameterIndent>
+    </Indentation>
+    <Spacing>
+      <ArgumentCommaSpace>true</ArgumentCommaSpace>
+      <ArgumentSpace>false</ArgumentSpace>
+      <ArrayArgumentSpace>false</ArrayArgumentSpace>
+      <ArrayMethodCallSpace>false</ArrayMethodCallSpace>
+      <AssignmentOperatorSpace>true</AssignmentOperatorSpace>
+      <BinaryOperatorSpace>true</BinaryOperatorSpace>
+      <ConditionSpace>false</ConditionSpace>
+      <KeywordSpace>true</KeywordSpace>
+      <MethodCallSpace>false</MethodCallSpace>
+      <ParameterCommaSpace>true</ParameterCommaSpace>
+      <ParameterSpace>false</ParameterSpace>
+      <ParenSpace>false</ParenSpace>
+    </Spacing>
+    <NewLines>
+      <CatchNewline>true</CatchNewline>
+      <ElseNewline>true</ElseNewline>
+      <FinallyNewline>true</FinallyNewline>
+      <SimpleStatementOnNewLine>true</SimpleStatementOnNewLine>
+      <WhileInDoStatementNewline>true</WhileInDoStatementNewline>
+    </NewLines>
+    <BracePositionSettings>
+      <BlocksBracePosition>SameLine</BlocksBracePosition>
+      <CaseLabelBracePosition>SameLine</CaseLabelBracePosition>
+      <CatchClauseBracePosition>SameLine</CatchClauseBracePosition>
+      <DoWhileStatementBracePosition>SameLine</DoWhileStatementBracePosition>
+      <FinallyClauseBracePosition>SameLine</FinallyClauseBracePosition>
+      <ForStatementBracePosition>SameLine</ForStatementBracePosition>
+      <ForeachStatementBracePosition>SameLine</ForeachStatementBracePosition>
+      <FuntionBracePosition>SameLine</FuntionBracePosition>
+      <IfElseBracePosition>SameLine</IfElseBracePosition>
+      <ObjectLiteralBracePosition>SameLine</ObjectLiteralBracePosition>
+      <SwitchStatementBracePosition>SameLine</SwitchStatementBracePosition>
+      <TryStatementBracePosition>SameLine</TryStatementBracePosition>
+      <WhileStatementBracePosition>SameLine</WhileStatementBracePosition>
+      <WithStatementBracePosition>SameLine</WithStatementBracePosition>
+    </BracePositionSettings>
+    <Wrapping>
+      <FormatSingleLineInitializers>false</FormatSingleLineInitializers>
+      <MaxLineLength>9999</MaxLineLength>
+      <StatementWrap>true</StatementWrap>
+    </Wrapping>
+  </JavaScriptCodeStyleSettings>
+  <RazorCodeStyleSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <NewLines>
+      <CodeLineNewline>true</CodeLineNewline>
+      <ExpandSingleLineBlockNewline>true</ExpandSingleLineBlockNewline>
+      <FunctionsBlockNewline>true</FunctionsBlockNewline>
+      <HelperNewline>true</HelperNewline>
+      <SectionBlockNewline>true</SectionBlockNewline>
+    </NewLines>
+  </RazorCodeStyleSettings>
+  <VBCodeStyleSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <General>
+      <AddDocumentation>false</AddDocumentation>
+      <AdjustNewlines>false</AdjustNewlines>
+      <AdjustSpaces>false</AdjustSpaces>
+      <ArrangeMeQualifier>Always</ArrangeMeQualifier>
+      <UseImplicitlyTypedVariable>Always</UseImplicitlyTypedVariable>
+    </General>
+    <Indentation>
+      <ArgumentIndent>true</ArgumentIndent>
+      <ArrayIndent>true</ArrayIndent>
+      <BlockIndent>true</BlockIndent>
+      <BraceIndent>false</BraceIndent>
+      <CaseIndent>true</CaseIndent>
+      <CaseLabelIndent>true</CaseLabelIndent>
+      <LabelLeftIndent>false</LabelLeftIndent>
+      <NextLineIndent>false</NextLineIndent>
+      <ParameterIndent>true</ParameterIndent>
+    </Indentation>
+    <UsingDirectivesSettings>
+      <NamespacesThatAlwaysShouldBeImported />
+      <NamespacesThatNeverShouldBeRemoved>System
+System.Linq
+</NamespacesThatNeverShouldBeRemoved>
+      <PutSystemNamespacesOnTop>true</PutSystemNamespacesOnTop>
+    </UsingDirectivesSettings>
+    <NamingConventionsSettings>
+      <AttributeTypesNamingOption>
+PascalCase
+Attribute
+True
+True</AttributeTypesNamingOption>
+      <ConstantFieldsNamingOption>
+PascalCase
+
+True
+True</ConstantFieldsNamingOption>
+      <ConstantVariablesNamingOption>
+PascalCase
+
+True
+True</ConstantVariablesNamingOption>
+      <EnumMembersNamingOption>
+PascalCase
+
+True
+True</EnumMembersNamingOption>
+      <EventsNamingOption>
+PascalCase
+
+True
+True</EventsNamingOption>
+      <ExceptionTypesNamingOption>
+PascalCase
+Exception
+True
+True</ExceptionTypesNamingOption>
+      <InterfacesNamingOption>I
+PascalCase
+
+True
+True</InterfacesNamingOption>
+      <MethodParametersNamingOption>
+CamelCase
+
+True
+True</MethodParametersNamingOption>
+      <MethodsNamingOption>
+PascalCase
+
+True
+True</MethodsNamingOption>
+      <NamespacesNamingOption>
+PascalCase
+
+True
+True</NamespacesNamingOption>
+      <NonPrivateReadonlyStaticFieldsNamingOption>
+PascalCase
+
+True
+True</NonPrivateReadonlyStaticFieldsNamingOption>
+      <NonReadonlyStaticFieldsNamingOption>
+CamelCase
+
+True
+True</NonReadonlyStaticFieldsNamingOption>
+      <PrivateFieldsNamingOption>
+CamelCase
+
+True
+True</PrivateFieldsNamingOption>
+      <PrivateReadonlyStaticFieldsNamingOption>
+CamelCase
+
+True
+True</PrivateReadonlyStaticFieldsNamingOption>
+      <PropertiesNamingOption>
+PascalCase
+
+True
+True</PropertiesNamingOption>
+      <ProtectedFieldsNamingOption>
+CamelCase
+
+True
+True</ProtectedFieldsNamingOption>
+      <PublicInternalFieldsNamingOption>
+PascalCase
+
+True
+True</PublicInternalFieldsNamingOption>
+      <TypesNamingOption>
+PascalCase
+
+True
+True</TypesNamingOption>
+      <VariablesNamingOption>
+CamelCase
+
+True
+True</VariablesNamingOption>
+    </NamingConventionsSettings>
+  </VBCodeStyleSettings>
+  <XamlCodeStyleSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <General>
+      <AttributesFormattingOption>PreserveManual</AttributesFormattingOption>
+    </General>
+    <Indentation>
+      <AlignByFirstAttribute>true</AlignByFirstAttribute>
+    </Indentation>
+  </XamlCodeStyleSettings>
+  <XmlCodeStyleSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <General>
+      <AttributesFormattingOption>PreserveManual</AttributesFormattingOption>
+    </General>
+    <Indentation>
+      <AlignByFirstAttribute>true</AlignByFirstAttribute>
+    </Indentation>
+  </XmlCodeStyleSettings>
+</JustCodeSettings>

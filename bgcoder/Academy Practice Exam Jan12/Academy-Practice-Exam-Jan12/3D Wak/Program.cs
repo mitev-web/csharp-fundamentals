@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 
 namespace _3D_Wak
 {
@@ -19,6 +16,7 @@ namespace _3D_Wak
 
             FillCuboid();
             PrintCuboid();
+     
         }
 
         static void StartWalking(int w, int h, int d)

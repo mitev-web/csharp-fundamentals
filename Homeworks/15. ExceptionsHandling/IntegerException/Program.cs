@@ -1,12 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace IntegerException
 {
     class Program
     {
+        //Write a program that reads an integer number and
+        //calculates and prints its square root. If the
+        //number is invalid or negative, print "Invalid number".
+        //In all cases finally print "Good bye". Use try-catch-finally.
+
         static void Main(string[] args)
         {
             try
@@ -21,7 +24,6 @@ namespace IntegerException
             }
             finally
             {
-
                 Console.WriteLine("Bye bye!");
             }
         }

@@ -5,7 +5,7 @@ public static class DirectoryTraverserDFS
 {
     public static void Main()
     {
-        string directoryPath = @"C:\Windows";
+        string directoryPath = @"C:\Program Files\";
         TraverseDir(new DirectoryInfo(directoryPath));
     }
 

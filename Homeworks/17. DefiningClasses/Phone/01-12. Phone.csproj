@@ -49,7 +49,7 @@
     <Compile Include="GSM.cs" />
     <Compile Include="GSMCallHistoryTest.cs" />
     <Compile Include="GSMTest.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="StartDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

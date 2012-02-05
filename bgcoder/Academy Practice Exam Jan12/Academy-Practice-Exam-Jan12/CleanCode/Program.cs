@@ -19,7 +19,6 @@ namespace CleanCode
             //             "string str2 = \"/*no\"oo\\oo*/\";/*noo*/" + Environment.NewLine +
             //             " }" + Environment.NewLine +
             //             "}";
-
             string code = InputToString();
 
             bool inSingleLineComment = false;
@@ -117,12 +116,13 @@ namespace CleanCode
                     if (!inMultyLineComment && !inSingleLineComment)
                     {
                         sb.Append(line[i]);
+                        
                     }
                 }
             }
             Console.WriteLine(sb.ToString());
         }
-  
+
         private static string InputToString()
         {
             int N = int.Parse(Console.ReadLine());

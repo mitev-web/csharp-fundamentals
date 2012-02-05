@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace ReadNumbers
 {
@@ -20,20 +18,17 @@ namespace ReadNumbers
             {
                 ReadNumber(1, 100);
             }
-   
         }
 
         private static void ReadNumber(int start, int end)
         {
-            int number =0;
+            int number = 0;
             int.TryParse(Console.ReadLine(), out number);
 
             if (number < start || number > end)
             {
                 throw new FormatException("The number is not within allowed range");
-
             }
-
         }
     }
 }

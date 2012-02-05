@@ -22,12 +22,14 @@ namespace Phone
             this.manufacturer = manufacturer;
             this.price = price;
             this.owner = owner;
+            CallHistory = new List<Call>();
         }
 
         public GSM(string model, string manufacturer)
         {
             this.model = model;
             this.manufacturer = manufacturer;
+            CallHistory = new List<Call>();
         }
 
         public GSM(string model, string manufacturer, decimal price, string owner, Display display, Battery battery)
@@ -38,6 +40,7 @@ namespace Phone
             this.owner = owner;
             this.display = display;
             this.battery = battery;
+            CallHistory = new List<Call>();
         }
 
         public bool RemoveCall(Call call)
@@ -58,7 +61,6 @@ namespace Phone
         public decimal TotalCallsPrice(decimal pricePerMinute)
         {
             TimeSpan time = new TimeSpan();
-
             foreach (Call c in CallHistory)
             {
                 time += c.Duration;

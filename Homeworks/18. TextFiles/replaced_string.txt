@@ -3,7 +3,7 @@ finish Exerst finish artcisesDestartfine finish a classstart that holds informat
  artk) and display characterstartistics (size and number of colors). Define 3 separate classes (class GS
  Mstart holding instances of the classes Battery and Display).Define several constructorstarts for the defined classes that take different sets of arguments (the full information for the class or part of it). Assume
  that model and manufacturer are mandatory. Astartll unstartknown data fill with null.Add an enumeration BatteryType (Li-Ion, NiMH, NiCd, �) and use it as a 
- startnew field for the batteries.start Exercises (2)Add a method in the GSM class for disstartplaying all informa
+ startnew field for the batteries.Exercises (2)Add a method in the GSM class for disstartplaying all informa
  tion about it. Try to override ToString().Use prope
  rties to encapsulate data fields inside the GSM, Battery and Display classes. Ensure all fields hol
  d correct data at any given time.Add a static field and a property IPhone4S in the GSM class to hold the information about iPhone 4S.Write a class GSM

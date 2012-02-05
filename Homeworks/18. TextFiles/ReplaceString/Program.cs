@@ -21,24 +21,15 @@ namespace ReplaceString
             fileContent = FileToString(filePath);
             string pattern = @".*(start).*";
 
-            Stopwatch watch = new Stopwatch();
-            watch.Start();
-            //substrings
+            //uncomment row below to replace substrings
             //fileContent = Regex.Replace(fileContent, "start", "finish");
-            //whole words
+
+            //uncomment row below to replace whole words
             fileContent = Regex.Replace(fileContent, @"(\s|^)start(\s)", "$1finish$2");
 
-            watch.Stop();
-
-            Console.WriteLine(watch.Elapsed);
-            watch.Reset();
-            watch.Start();
             StreamWriter sw = new StreamWriter("../../../replaced_string.txt");
             sw.Write(fileContent);
             sw.Close();
-            watch.Stop();
-
-            Console.WriteLine(watch.Elapsed);
         }
 
         public static string FileToString(string filePath)

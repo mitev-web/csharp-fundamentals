@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. ReadNumbers", "ReadNumb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. FullFilePath", "FullFilePath\03. FullFilePath.csproj", "{13D27446-7ED6-4EC9-B051-9AD90EA3D25A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownloader", "FileDownloader\FileDownloader.csproj", "{4B532059-03FC-48CE-A03A-CD7157024742}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. FileDownloader", "FileDownloader\04. FileDownloader.csproj", "{4B532059-03FC-48CE-A03A-CD7157024742}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

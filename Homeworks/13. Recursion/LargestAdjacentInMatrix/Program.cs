@@ -8,6 +8,14 @@ class PathsBetweenCells
 
     static int maxPathCount = 0;
 
+    static void Main()
+    {
+        FillMatrix(30);
+        FindNumberOfPaths(0, 0, 0);
+        Print();
+        Console.WriteLine("Number of adjacent cells is {0}", maxPathCount);
+    }
+
     static void FindNumberOfPaths(int row, int col, int pathCount)
     {
         if ((col < 0) || (row < 0) || (col >= matrix.GetLength(1)) || (row >= matrix.GetLength(0)))
@@ -34,14 +42,6 @@ class PathsBetweenCells
         FindNumberOfPaths(row + 1, col, pathCount); // down
     }
 
-    static void Main()
-    {
-        FillMatrix(30);
-        FindNumberOfPaths(0, 0, 0);
-        Print();
-        Console.WriteLine(maxPathCount);
-    }
-
     static void Print()
     {
         for (int i = 0; i < matrix.GetLength(0); i++)
@@ -53,7 +53,7 @@ class PathsBetweenCells
             Console.WriteLine();
         }
 
-        Console.WriteLine("\n\n\n\n");
+        Console.WriteLine();
     }
 
     static void FillMatrix(int matrixLenght)

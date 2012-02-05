@@ -1,8 +1,12 @@
- y char racteristics (size and number of colors). De
  the classes Battery and Display).Define several constructo
- known data fill with null.Add an enumeration Batter
  ate a class Call to hold a call rmed through a GSM. It sho
- lHistory in the GSM class to hold a list of the per
  .Add methods in the GSM class for adding and deleting c
- all history.Add isplay the informatio
+ rice of the calls in the history.Remove the longest call from the history andormng 
+ the classes Battery and Display).Define several constructo
+ ate a class Call to hold a call rmed through a GSM. It sho
+ .Add methods in the GSM class for adding and deleting c
+ rice of the calls in the history.Remove the longest call from the history andormng 
+ the classes Battery and Display).Define several constructo
+ ate a class Call to hold a call rmed through a GSM. It sho
+ .Add methods in the GSM class for adding and deleting c
  rice of the calls in the history.Remove the longest call from the history andormng 

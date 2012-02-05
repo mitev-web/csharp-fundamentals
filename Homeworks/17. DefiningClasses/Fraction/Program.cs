@@ -8,6 +8,7 @@ namespace Fraction
         static void Main(string[] args)
         {
             new FractionTest();
+
         }
     }
 }

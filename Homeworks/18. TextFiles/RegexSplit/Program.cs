@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -11,31 +10,26 @@ namespace CompareTextFiles
     {
         static void Main(string[] args)
         {
-                string filePath1 = "../../../file_1.txt";
-                string filePath2 = "../../../file_2.txt";
-                string text1 = FileToString(filePath1);
-                string text2 = FileToString(filePath2);
+            string filePath1 = "../../../file_1.txt";
+            string filePath2 = "../../../file_2.txt";
+            string text1 = FileToString(filePath1);
+            string text2 = FileToString(filePath2);
 
-                string[] linesFile1 = Regex.Split(text1, "\r\n");
-                string[] linesFile2 = Regex.Split(text2, "\r\n");
+            string[] linesFile1 = Regex.Split(text1, Environment.NewLine);
+            string[] linesFile2 = Regex.Split(text2, Environment.NewLine);
 
-
-                for (int i = 0; i < linesFile1.Count(); i++)
+            for (int i = 0; i < linesFile1.Count(); i++)
+            {
+                Console.Write("Line: {0}:", i + 1);
+                if (linesFile1[i] == linesFile2[i])
                 {
-                    Console.Write("Line: {0}:",i+1);
-                    if (linesFile1[i] == linesFile2[i])
-                    {
-                        Console.WriteLine("Match");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Different");
-                    }
+                    Console.WriteLine("Match");
                 }
-       
-
-            
-
+                else
+                {
+                    Console.WriteLine("Different");
+                }
+            }
         }
 
         public static string FileToString(string filePath)
@@ -49,13 +43,12 @@ namespace CompareTextFiles
                 {
                     sb.Append(line);
                     if (!sr.EndOfStream)
-                    sb.Append(Environment.NewLine);
+                        sb.Append(Environment.NewLine);
                 }
             }
 
             return sb.ToString();
         }
-
 
         static long CountLinesInString(string s)
         {
