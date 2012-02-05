@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. AirplaneDrinks", "Airpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. TicTacToe", "TicTacToe\02. TicTacToe.csproj", "{A83BB769-4279-4CE6-A416-2E90A19E23A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. GenomeDecoder", "GenomeDecoder\01. GenomeDecoder.csproj", "{2F1F5B23-1243-4DD8-98D1-69BB4161DAB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{A83BB769-4279-4CE6-A416-2E90A19E23A5}.Debug|x86.Build.0 = Debug|x86
 		{A83BB769-4279-4CE6-A416-2E90A19E23A5}.Release|x86.ActiveCfg = Release|x86
 		{A83BB769-4279-4CE6-A416-2E90A19E23A5}.Release|x86.Build.0 = Release|x86
+		{2F1F5B23-1243-4DD8-98D1-69BB4161DAB4}.Debug|x86.ActiveCfg = Debug|x86
+		{2F1F5B23-1243-4DD8-98D1-69BB4161DAB4}.Debug|x86.Build.0 = Debug|x86
+		{2F1F5B23-1243-4DD8-98D1-69BB4161DAB4}.Release|x86.ActiveCfg = Release|x86
+		{2F1F5B23-1243-4DD8-98D1-69BB4161DAB4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
