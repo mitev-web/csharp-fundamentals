@@ -35,11 +35,11 @@ namespace DistinctLettersInString
 
         static void DeleteRepeatingLetters()
         {
-            Regex deleteRepeatingLetters = new Regex("(.)(?<=\\1\1)+",RegexOptions.IgnoreCase);
-          //  Console.Write("Enter sentence: ");
-            string text = "aaaaabbbbbcdddeeeedssaa";
-            text = deleteRepeatingLetters.Replace(text, string.Empty);
-            Console.WriteLine("Result is: {0}",text);
+          //  Regex deleteRepeatingLetters = new Regex("(.)(?<=\\1\1)+",RegexOptions.IgnoreCase);
+          ////  Console.Write("Enter sentence: ");
+          //  string text = "aaaaabbbbbcdddeeeedssaa";
+          //  text = deleteRepeatingLetters.Replace(text, string.Empty);
+          //  Console.WriteLine("Result is: {0}",text);
 
 
 

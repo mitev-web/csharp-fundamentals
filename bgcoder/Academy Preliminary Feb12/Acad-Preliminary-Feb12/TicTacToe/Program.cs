@@ -20,6 +20,7 @@ namespace TicTacToe
 
         static void Main(string[] args)
         {
+
             try
             {
                 CheckForCombinations(0, 0,1);
@@ -187,6 +188,7 @@ namespace TicTacToe
             //{
             //    return false;
             //}
+
         }
 
         public static void Print()
