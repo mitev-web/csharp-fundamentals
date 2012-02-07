@@ -16,6 +16,8 @@ namespace Problem_4_3D_Lines
 
         static void Main()
         {
+
+            
             // Read the cuboid size
             ReadCuboid();
 
@@ -130,6 +132,7 @@ namespace Problem_4_3D_Lines
                     lineMaxLen = len;
                     linesCount = 1;
                 }
+                //reset to their prev state
                 w -= stepW;
                 h -= stepH;
                 d -= stepD;

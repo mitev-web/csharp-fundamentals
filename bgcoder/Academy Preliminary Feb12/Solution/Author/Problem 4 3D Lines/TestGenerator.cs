@@ -16,7 +16,7 @@ namespace Problem_4_3D_Lines
 
         static char[, ,] cuboid = new char[width, height, depth];
 
-        static void Main222()
+        static void Main22()
         {
             // Randomize
             Random rnd = new Random();
