@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace TicTacToe
 {
@@ -16,19 +14,15 @@ namespace TicTacToe
         static int xComb = 0;
         static int evenComb = 0;
         static int zeroComb = 0;
+        static int startsWith = 0;
    
 
         static void Main(string[] args)
         {
 
-            try
-            {
+        
                 CheckForCombinations(0, 0,1);
-            }
-            catch (Exception)
-            {
-            }
-            
+
             
             Console.WriteLine(xComb);
             Console.WriteLine(evenComb);
@@ -37,12 +31,17 @@ namespace TicTacToe
   
         private static void CheckForCombinations(int row, int col, int startsWith)
         {
-             
+
             if (CountForCombinations(0) > 0)
-                zeroComb += CountForCombinations(0);
+            {
+                zeroComb += 1;
+            }
 
             if (CountForCombinations(1) > 0)
-                xComb += CountForCombinations(0);
+            {
+                xComb += 1;
+            }
+          
  
         
             if (row > 2)
@@ -78,9 +77,18 @@ namespace TicTacToe
 
                 for (int num = 0; num < 2; num++)
                 {
+
+                    if (CountDigit(0) == CountDigit(1))
+                    {
+                        startsWith = 1;
+                    }
+                    else
+                    {
+                        startsWith = 0;
+                    }
                     board[row, col] = startsWith;
                    
-                    startsWith = ++startsWith % 2;
+
 
                     // Delegate work on the next cell to a recursive call
                     if (col < 2)
@@ -88,8 +96,6 @@ namespace TicTacToe
                     else
                         CheckForCombinations(row + 1, 0, startsWith);
                 }
- 
-
                 // No valid number was found, clean up and return to caller
                 board[row, col] = 3;
             }

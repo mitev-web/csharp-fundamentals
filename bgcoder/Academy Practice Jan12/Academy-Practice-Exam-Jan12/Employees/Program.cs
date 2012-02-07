@@ -22,6 +22,7 @@ namespace Employees
         public string lastName;
         public string position;
 
+
         public Employee(string firstName, string lastName, string position)
         {
             this.firstName = firstName;
@@ -32,10 +33,11 @@ namespace Employees
 
     class Program
     {
+                public static  List<Position> positions = new List<Position>();
+        public static List<Employee> employees = new List<Employee>();
         static void Main(string[] args)
         {
-            List<Position> positions = new List<Position>();
-            List<Employee> employees = new List<Employee>();
+
 
             int N = int.Parse(Console.ReadLine());
 
@@ -46,6 +48,8 @@ namespace Employees
                 string name = words[0].Trim();
 
                 string priority = words[1].Trim();
+
+                
                 positions.Add(new Position(name, int.Parse(priority)));
             }
 
@@ -62,7 +66,7 @@ namespace Employees
                 string lname = names[1].Trim();
 
                 string position = words[1].Trim();
-
+                if(PositionExists(position))
                 employees.Add(new Employee(fname, lname, position));
             }
 
@@ -73,6 +77,21 @@ namespace Employees
             foreach (Employee e in emp)
             {
                 Console.WriteLine(e.firstName.Trim() + " " + e.lastName.Trim());
+            }
+        }
+
+
+        private static bool PositionExists(string position)
+        {
+        	var e = from p in positions
+                    where p.name.Equals(position)
+                    select p;
+
+            if (e.Count() > 0)
+            {
+            	return true;
+            }else{
+                return false;
             }
         }
     }
