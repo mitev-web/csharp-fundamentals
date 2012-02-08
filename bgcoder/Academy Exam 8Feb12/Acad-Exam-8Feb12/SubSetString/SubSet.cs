@@ -7,8 +7,8 @@ namespace SubSetStrings
 {
     class SubSetString
     {
-        public static string[] words = { "ala", "bala", "portokala", "banana", "limon", "kjufte" };
-       // public static int K = 4;
+        public static string[] words = { "FIRE", "ACID", "CENG", "EDGE", "FACE", "ICED", "RING", "CERN" };
+        // public static int K = 4;
 
         //Write a program for generating and 
         //printing all subsets of k strings from given set of strings.
@@ -17,7 +17,7 @@ namespace SubSetStrings
 
         static void Main(string[] args)
         {
-            int[] arr = new int[5];
+            int[] arr = new int[words.Count()];
             GenerateVariations(arr, 0, words.Length - 1);
         }
 
@@ -25,8 +25,11 @@ namespace SubSetStrings
         {
             if (startIndex >= arr.Length)
             {
-                //if (arr.Distinct().Count() == K)
-                    //Print(arr);
+                //if (arr.Distinct().Count() == words.Count())
+                //{
+                	
+                //}
+                   // PrintVariation(arr);
             }
             else
             {
@@ -38,13 +41,16 @@ namespace SubSetStrings
             }
         }
 
-        private static void Print(int[] arr)
+        private static void PrintVariation(int[] arr)
         {
+
             foreach (var item in arr)
             {
                 Console.Write(" {0} ", words[item]);
             }
             Console.WriteLine();
+            Console.WriteLine();
+
         }
     }
 }

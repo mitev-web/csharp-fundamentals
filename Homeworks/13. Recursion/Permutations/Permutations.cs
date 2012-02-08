@@ -11,7 +11,7 @@ namespace Permutations
         //{2, 3, 1}, {3, 1, 2},{3, 2, 1}
         static void Main(string[] args)
         {
-            int N = 3;
+            int N = 8;
             int[] arr = new int[N];
             GeneratePermutation(arr, N - 1, N);
         }

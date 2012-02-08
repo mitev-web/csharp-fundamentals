@@ -11,8 +11,8 @@ class SubSetFromElementSet
 
         static void Main(string[] args)
         {
-            int K = 2;
-            int N = 3;
+            int K = 4;
+            int N = 8;
             int[] arr = new int[K];
 
             GenerateVariations(arr, 0, N);

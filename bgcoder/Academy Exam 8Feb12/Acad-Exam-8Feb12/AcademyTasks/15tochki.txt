@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace AcademyTasks
+{
+    class Program
+    {
+        static List<int> numbers;
+        static int N;
+        static int minNum = 0;
+        static int maxNum = 0;
+        static void Main(string[] args)
+        {
+            GetInput();
+
+            Calculate();
+        }
+  
+        private static void Calculate()
+        {
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] > maxNum)
+                {
+                    maxNum = numbers[i];
+                }
+
+                if (numbers[i] < minNum)
+                {
+                    minNum = numbers[i];
+                }
+                int variety = maxNum - minNum;
+
+                if (i > 0 && variety >= N)
+                {
+
+                    Console.WriteLine(i+1);
+                    return;
+                    
+                }
+            }
+        }
+
+        private static void GetInput()
+        {
+            numbers = Console.ReadLine().Split(new string[] { ", " },
+                StringSplitOptions.None).Select(x => int.Parse(x)).ToList();
+
+            N = int.Parse(Console.ReadLine());
+        }
+    }
+}

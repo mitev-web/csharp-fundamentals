@@ -7,8 +7,8 @@ namespace K_CustomSubSetFromN
     {
         public static void Main()
         {
-            int n = 3;
-            int k = 2;
+            int n = 8;
+            int k = 4;
             int startIndex = 0;
             int startNumber = 1;
             int maxNumber = n;

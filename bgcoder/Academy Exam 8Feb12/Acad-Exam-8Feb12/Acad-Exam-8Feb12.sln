@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Crossword", "Crossword\02. Crossword.csproj", "{185246F0-3E6E-46E4-B01E-279CD77C8353}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B7ADE25-F95A-463E-A8A9-C67D1877F45D}"
+	ProjectSection(SolutionItems) = preProject
+		10tochki.cs = 10tochki.cs
+		current.txt = current.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubSetString", "SubSetString\SubSetString.csproj", "{E9686D01-91EC-47BF-B09B-3E3247C9AFED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permu", "Permu\Permu.csproj", "{E2906C74-7D0F-430D-942F-AF06E47742F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutation", "Permutation\Permutation.csproj", "{F7082C1E-BF97-40EE-A36B-0CDBD9557669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic", "Basic\Basic.csproj", "{31ECAD32-2247-4FDC-ACB1-E94A2984640D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Indices", "Indices\03. Indices.csproj", "{FF6D1BE8-6FB0-4E94-82B2-4385CD7762E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. AcademyTasks", "AcademyTasks\05. AcademyTasks.csproj", "{F2AC858C-23B9-4138-99F0-3036F847ED30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{185246F0-3E6E-46E4-B01E-279CD77C8353}.Debug|x86.ActiveCfg = Debug|x86
+		{185246F0-3E6E-46E4-B01E-279CD77C8353}.Debug|x86.Build.0 = Debug|x86
+		{185246F0-3E6E-46E4-B01E-279CD77C8353}.Release|x86.ActiveCfg = Release|x86
+		{185246F0-3E6E-46E4-B01E-279CD77C8353}.Release|x86.Build.0 = Release|x86
+		{E9686D01-91EC-47BF-B09B-3E3247C9AFED}.Debug|x86.ActiveCfg = Debug|x86
+		{E9686D01-91EC-47BF-B09B-3E3247C9AFED}.Debug|x86.Build.0 = Debug|x86
+		{E9686D01-91EC-47BF-B09B-3E3247C9AFED}.Release|x86.ActiveCfg = Release|x86
+		{E9686D01-91EC-47BF-B09B-3E3247C9AFED}.Release|x86.Build.0 = Release|x86
+		{E2906C74-7D0F-430D-942F-AF06E47742F7}.Debug|x86.ActiveCfg = Debug|x86
+		{E2906C74-7D0F-430D-942F-AF06E47742F7}.Debug|x86.Build.0 = Debug|x86
+		{E2906C74-7D0F-430D-942F-AF06E47742F7}.Release|x86.ActiveCfg = Release|x86
+		{E2906C74-7D0F-430D-942F-AF06E47742F7}.Release|x86.Build.0 = Release|x86
+		{F7082C1E-BF97-40EE-A36B-0CDBD9557669}.Debug|x86.ActiveCfg = Debug|x86
+		{F7082C1E-BF97-40EE-A36B-0CDBD9557669}.Debug|x86.Build.0 = Debug|x86
+		{F7082C1E-BF97-40EE-A36B-0CDBD9557669}.Release|x86.ActiveCfg = Release|x86
+		{F7082C1E-BF97-40EE-A36B-0CDBD9557669}.Release|x86.Build.0 = Release|x86
+		{31ECAD32-2247-4FDC-ACB1-E94A2984640D}.Debug|x86.ActiveCfg = Debug|x86
+		{31ECAD32-2247-4FDC-ACB1-E94A2984640D}.Debug|x86.Build.0 = Debug|x86
+		{31ECAD32-2247-4FDC-ACB1-E94A2984640D}.Release|x86.ActiveCfg = Release|x86
+		{31ECAD32-2247-4FDC-ACB1-E94A2984640D}.Release|x86.Build.0 = Release|x86
+		{FF6D1BE8-6FB0-4E94-82B2-4385CD7762E1}.Debug|x86.ActiveCfg = Debug|x86
+		{FF6D1BE8-6FB0-4E94-82B2-4385CD7762E1}.Debug|x86.Build.0 = Debug|x86
+		{FF6D1BE8-6FB0-4E94-82B2-4385CD7762E1}.Release|x86.ActiveCfg = Release|x86
+		{FF6D1BE8-6FB0-4E94-82B2-4385CD7762E1}.Release|x86.Build.0 = Release|x86
+		{F2AC858C-23B9-4138-99F0-3036F847ED30}.Debug|x86.ActiveCfg = Debug|x86
+		{F2AC858C-23B9-4138-99F0-3036F847ED30}.Debug|x86.Build.0 = Debug|x86
+		{F2AC858C-23B9-4138-99F0-3036F847ED30}.Release|x86.ActiveCfg = Release|x86
+		{F2AC858C-23B9-4138-99F0-3036F847ED30}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

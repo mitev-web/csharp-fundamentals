@@ -15,8 +15,8 @@ namespace Task21
 
         public static void Main()
         {
-            int n = 5;
-            int k = 5;
+            int n = 12;
+            int k = 8;
           
             int[] numbers = new int[n];            
             GenerateCombination(1, 0, n, k, numbers);
