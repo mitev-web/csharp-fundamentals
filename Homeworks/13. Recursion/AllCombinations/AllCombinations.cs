@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Linq;
 
 namespace NestedLoops
@@ -11,17 +12,23 @@ namespace NestedLoops
         //         2 1     
         //         2 2     
         static void Main(string[] args)
-        { 
-            int N = 3;
+        {
+            //Stopwatch sw = Stopwatch.StartNew();
+            int N = 8;
             int[] arr = new int[N];
             GenerateVariations(arr, N - 1, N);
-        }
+
+            //sw.Stop();
+            //Console.WriteLine(sw.ElapsedMilliseconds);
+
+
+}
 
         static void GenerateVariations(int[] arr, int startIndex, int endIndex)
         {
             if (startIndex == -1)
             {
-                Print(arr);
+                //Print(arr);
             }
             else
             {

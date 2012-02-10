@@ -10,8 +10,8 @@ class TicTacToe
     static int[,] board = new int[3, 3]
     {
         { 0, 0, 3, },
-        { 1, 1, 0, },
-        { 1, 1, 0, }
+        { 1, 3, 1, },
+        { 3, 3, 3, }
     };
 
     //1 is X
@@ -70,13 +70,8 @@ class TicTacToe
                 if (board[i, j] == 3)
                 {
                     //cell is empty - so try recursion
-
-                    board[i, j] = nextDigit;
+                    board[i, j] = 0;
                     FindNumberOfWins(i, j);
-                    //board[i, j] = 0;
-                    //FindNumberOfWins(i, j);
-                    //board[i, j] = 1;
-                    //FindNumberOfWins(i, j);
              
                     
                 }

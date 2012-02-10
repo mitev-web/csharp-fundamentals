@@ -1,56 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
 class Crossword
 {
-    public static string[] words = { "FIRE", "ACID", "CENG", "EDGE", "FACE", "ICED", "RING", "CERN" };
-    static int N = 4;
+    //public static string[] words = { "FIRE", "ACID", "CENG", "EDGE", "FACE", "ICED", "RING", "CERN" };
+    //static int N = 4;
 
-    //static int N;
-    //public static string[] words;
+    static int N;
+    public static string[] words;
     static List<string> crossWords = new List<string>();
-    static char[,] board = new char[N,N];
+
+    static bool solutionFound;
+    static char[,] board = new char[N, N];
 
     static void Main(string[] args)
     {
-       // InputWords();
+         InputWords();
+        Stopwatch sw = Stopwatch.StartNew();
 
-     
-        //int[] rgNum = new int[100];
-        //int i;
+        int[] arr = new int[N * 2];
 
-        ///* create a workspace of numbers in their respective places */
-        //for (i = 1; i <= N*2; i++)
-        //{
-        //    rgNum[i] = i;
-        //}
-        //GeneratePermutation(1, N * 2, rgNum);
+        GenerateVariations(arr, N * 2 - 1, N * 2 - 1);
 
-        List<string> result = new List<string>();
-        permuteString(ref result, "", "ABCD");
-
-        foreach (string a in result)
-            if (Array.IndexOf(words, a) == -1)
-                Console.WriteLine(a + " is a missing Permutation");
-     
-       // PrintResult();
-        
+        PrintResult();
+        //sw.Stop();
+        //Console.WriteLine(sw.ElapsedMilliseconds);
     }
 
-    public static void permuteString(ref List<string> result, string beginningString, string endingString)
+    static void GenerateVariations(int[] arr, int startIndex, int endIndex)
     {
-        if (endingString.Length <= 1)
+        if (solutionFound)
+            return;
+
+        if (startIndex == -1)
         {
-            result.Add(beginningString + endingString);
+            FindCrosswords(arr);
         }
         else
         {
-            for (int i = 0; i < endingString.Length; i++)
+            for (int i = 1; i <= endIndex; i++)
             {
-                string newString = endingString.Substring(0, i) + endingString.Substring(i + 1);
-                permuteString(ref result, beginningString + (endingString.ToCharArray())[i], newString);
+                arr[startIndex] = i;
+
+                GenerateVariations(arr, startIndex - 1, endIndex);
             }
         }
     }
@@ -104,62 +99,6 @@ class Crossword
         Console.WriteLine();
     }
 
-    static void GeneratePermutation(int k, int max, int[] nums)
-    {
-        int i, j, tmp;
-
-        /* when k > n we are done and should print */
-        if (k <= max)
-        {
-            for (i = k; i <= max; i++)
-            {
-                tmp = nums[i];
-                for (j = i; j > k; j--)
-                {
-                    nums[j] = nums[j - 1];
-                }
-                nums[k] = tmp;
-
-                /* recurse on k+1 to n */
-                GeneratePermutation(k + 1, max, nums);
-
-                for (j = k; j < i; j++)
-                {
-                    nums[j] = nums[j + 1];
-                }
-                nums[i] = tmp;
-            }
-        }
-        else
-        {
-            int count = 0;
-            for (i = 1; i <= max; i++)
-            {
-                for (int col = 0; col < N; col++)
-                {
-                    if (count == N)
-                    {
-                        if (IsCrossword())
-                        {
-                            string boardStr = BoardToString();
-                            if (!crossWords.Contains(boardStr))
-                            {
-                                crossWords.Add(boardStr);
-                            }
-                        }
-
-                        count = 0;
-                    }
-                    board[count, col] = words[nums[i] - 1][col];
-                    //Console.Write(words[nums[i] - 1]+" ");
-                }
-
-                count++;
-            }
-            //Console.WriteLine();
-        }
-    }
-
     private static bool IsCrossword()
     {
         StringBuilder sb = new StringBuilder();
@@ -211,12 +150,34 @@ class Crossword
         return sb.ToString();
     }
 
-    private static void Print(int[] arr)
+    private static void FindCrosswords(int[] arr)
     {
-        foreach (var item in arr)
+        int count = 0;
+        foreach (int word in arr)
         {
-            Console.Write(" {0} ", words[item]);
+            for (int col = 0; col < N; col++)
+            {
+                if (count == N)
+                {
+                    if (IsCrossword())
+                    {
+                        solutionFound = true;
+                        string boardStr = BoardToString();
+                        if (!crossWords.Contains(boardStr))
+                        {
+                            crossWords.Add(boardStr);
+                            return;
+                        }
+                    }
+
+                    count = 0;
+                }
+                board[count, col] = words[word][col];
+                //Console.Write(words[word][col]);
+            }
+
+            count++;
         }
-        Console.WriteLine();
+        //Console.WriteLine();
     }
 }

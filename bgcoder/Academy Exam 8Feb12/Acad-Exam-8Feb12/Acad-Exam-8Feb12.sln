@@ -5,7 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Crossword", "Crossword\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B7ADE25-F95A-463E-A8A9-C67D1877F45D}"
 	ProjectSection(SolutionItems) = preProject
-		10tochki.cs = 10tochki.cs
 		current.txt = current.txt
 	EndProjectSection
 EndProject

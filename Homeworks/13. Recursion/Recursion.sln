@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Permutations", "Permutations\03. Permutations.csproj", "{65A8C277-BB4B-4FFC-9370-FE72C023A818}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. TraverseDirectory", "TraverseDirectory\10. TraverseDirectory.csproj", "{7B4C3F53-E26D-4F54-B529-61D6BD654212}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. SubSetStrings", "SubSetStrings\05. SubSetStrings.csproj", "{03754CFE-FEA4-4107-AF14-DE2A17F5F59A}"
@@ -21,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. K-CustomSubSetFromN", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. K-SubSetFromN", "K-SubSetFromN\04. K-SubSetFromN.csproj", "{159F0D71-68FA-40A3-B427-4318BD1AAD46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Permutation [fast]", "Permutation\03. Permutation [fast].csproj", "{64C09122-EC00-4CEB-A07B-0873E8082DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.B Permutations [slow]", "Permutations B\03.B Permutations [slow].csproj", "{65A8C277-BB4B-4FFC-9370-FE72C023A818}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,16 +33,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|x86.ActiveCfg = Debug|x86
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|x86.Build.0 = Debug|x86
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|Any CPU.ActiveCfg = Release|x86
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|Mixed Platforms.Build.0 = Release|x86
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|x86.ActiveCfg = Release|x86
-		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|x86.Build.0 = Release|x86
 		{7B4C3F53-E26D-4F54-B529-61D6BD654212}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{7B4C3F53-E26D-4F54-B529-61D6BD654212}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{7B4C3F53-E26D-4F54-B529-61D6BD654212}.Debug|Mixed Platforms.Build.0 = Debug|x86
@@ -131,6 +123,26 @@ Global
 		{159F0D71-68FA-40A3-B427-4318BD1AAD46}.Release|Mixed Platforms.Build.0 = Release|x86
 		{159F0D71-68FA-40A3-B427-4318BD1AAD46}.Release|x86.ActiveCfg = Release|x86
 		{159F0D71-68FA-40A3-B427-4318BD1AAD46}.Release|x86.Build.0 = Release|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Debug|x86.ActiveCfg = Debug|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Debug|x86.Build.0 = Debug|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Release|Any CPU.ActiveCfg = Release|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Release|Mixed Platforms.Build.0 = Release|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Release|x86.ActiveCfg = Release|x86
+		{64C09122-EC00-4CEB-A07B-0873E8082DDC}.Release|x86.Build.0 = Release|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|x86.ActiveCfg = Debug|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Debug|x86.Build.0 = Debug|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|Any CPU.ActiveCfg = Release|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|Mixed Platforms.Build.0 = Release|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|x86.ActiveCfg = Release|x86
+		{65A8C277-BB4B-4FFC-9370-FE72C023A818}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
