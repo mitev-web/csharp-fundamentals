@@ -6,10 +6,15 @@ using System.Text.RegularExpressions;
 
 namespace ExtractHTML
 {
+    //Write a program that extracts from given
+    //HTML file its title (if available), and 
+    //its body text without the HTML tags. Example:
+
     class Program
     {
         static void Main(string[] args)
         {
+         
             string htmlPage =
                              "<html>" +
                              "<head><title>News</title></head>" +
@@ -36,6 +41,17 @@ namespace ExtractHTML
             Console.Write("Body Tag: ");
             Console.WriteLine(Regex.Replace(body, @"</?(?:.*?)(.|\n)*?>", ""));
 
+                
+            //Console.WriteLine(RemoveAllTags(htmlPage));
+
+
+        }
+        private static string RemoveAllTags(string str)
+        {
+            string strWithoutTags = Regex.Replace(str, @"<[^>]*>",
+                  " ");
+            return strWithoutTags;
         }
     }
+
 }

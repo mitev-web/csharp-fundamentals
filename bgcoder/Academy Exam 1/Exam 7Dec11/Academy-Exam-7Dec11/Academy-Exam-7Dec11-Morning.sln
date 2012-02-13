@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. AstrologicalDigits", "AstrologicalDigits\02. AstrologicalDigits.csproj", "{679A0C65-DA24-469C-BDF4-7226D041AE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. SandGlass", "SandGlass\03. SandGlass.csproj", "{2E84ECFF-A129-4150-A0AE-2B15F6EFED65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. FighterJet", "FighterJet\01. FighterJet.csproj", "{71BA14B0-DFD3-4F81-8975-82B673AE87FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{679A0C65-DA24-469C-BDF4-7226D041AE24}.Debug|x86.ActiveCfg = Debug|x86
+		{679A0C65-DA24-469C-BDF4-7226D041AE24}.Debug|x86.Build.0 = Debug|x86
+		{679A0C65-DA24-469C-BDF4-7226D041AE24}.Release|x86.ActiveCfg = Release|x86
+		{679A0C65-DA24-469C-BDF4-7226D041AE24}.Release|x86.Build.0 = Release|x86
+		{2E84ECFF-A129-4150-A0AE-2B15F6EFED65}.Debug|x86.ActiveCfg = Debug|x86
+		{2E84ECFF-A129-4150-A0AE-2B15F6EFED65}.Debug|x86.Build.0 = Debug|x86
+		{2E84ECFF-A129-4150-A0AE-2B15F6EFED65}.Release|x86.ActiveCfg = Release|x86
+		{2E84ECFF-A129-4150-A0AE-2B15F6EFED65}.Release|x86.Build.0 = Release|x86
+		{71BA14B0-DFD3-4F81-8975-82B673AE87FE}.Debug|x86.ActiveCfg = Debug|x86
+		{71BA14B0-DFD3-4F81-8975-82B673AE87FE}.Debug|x86.Build.0 = Debug|x86
+		{71BA14B0-DFD3-4F81-8975-82B673AE87FE}.Release|x86.ActiveCfg = Release|x86
+		{71BA14B0-DFD3-4F81-8975-82B673AE87FE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
