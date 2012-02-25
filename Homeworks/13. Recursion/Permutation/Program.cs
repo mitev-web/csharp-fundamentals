@@ -9,7 +9,7 @@ namespace Recursion
     {
         static void Main(string[] args)
         {
-            int N = 10;
+            int N = 8;
 
 
             int[] rgNum = new int[100];

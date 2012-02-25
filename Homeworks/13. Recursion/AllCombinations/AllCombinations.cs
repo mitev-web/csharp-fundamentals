@@ -14,7 +14,7 @@ namespace NestedLoops
         static void Main(string[] args)
         {
             //Stopwatch sw = Stopwatch.StartNew();
-            int N = 8;
+            int N = 3;
             int[] arr = new int[N];
             GenerateVariations(arr, N - 1, N);
 
@@ -28,7 +28,7 @@ namespace NestedLoops
         {
             if (startIndex == -1)
             {
-                //Print(arr);
+                Print(arr);
             }
             else
             {

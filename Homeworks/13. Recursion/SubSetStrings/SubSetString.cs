@@ -26,7 +26,7 @@ namespace SubSetStrings
             if (startIndex >= arr.Length)
             {
                 //if (arr.Distinct().Count() == K)
-                    //Print(arr);
+                    Print(arr);
             }
             else
             {
