@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. TraverseDir", "TraverseDir\01. TraverseDir.csproj", "{F219BE55-C17B-4C47-8AE6-1626CFDCAF56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. FolderFileTree", "FolderFileTree\02. FolderFileTree.csproj", "{12601D73-94B2-495D-8855-146C88CBF680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. RecursiveDFS", "RecursiveDFS\03. RecursiveDFS.csproj", "{0EC595A3-8945-45E3-844E-8B6B2A9B0648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. QueueBasedBFS", "QueueBasedBFS\04. QueueBasedBFS.csproj", "{AB39E052-B5EF-4166-9F8C-F3DA468326DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F219BE55-C17B-4C47-8AE6-1626CFDCAF56}.Debug|x86.ActiveCfg = Debug|x86
+		{F219BE55-C17B-4C47-8AE6-1626CFDCAF56}.Debug|x86.Build.0 = Debug|x86
+		{F219BE55-C17B-4C47-8AE6-1626CFDCAF56}.Release|x86.ActiveCfg = Release|x86
+		{F219BE55-C17B-4C47-8AE6-1626CFDCAF56}.Release|x86.Build.0 = Release|x86
+		{12601D73-94B2-495D-8855-146C88CBF680}.Debug|x86.ActiveCfg = Debug|x86
+		{12601D73-94B2-495D-8855-146C88CBF680}.Debug|x86.Build.0 = Debug|x86
+		{12601D73-94B2-495D-8855-146C88CBF680}.Release|x86.ActiveCfg = Release|x86
+		{12601D73-94B2-495D-8855-146C88CBF680}.Release|x86.Build.0 = Release|x86
+		{0EC595A3-8945-45E3-844E-8B6B2A9B0648}.Debug|x86.ActiveCfg = Debug|x86
+		{0EC595A3-8945-45E3-844E-8B6B2A9B0648}.Debug|x86.Build.0 = Debug|x86
+		{0EC595A3-8945-45E3-844E-8B6B2A9B0648}.Release|x86.ActiveCfg = Release|x86
+		{0EC595A3-8945-45E3-844E-8B6B2A9B0648}.Release|x86.Build.0 = Release|x86
+		{AB39E052-B5EF-4166-9F8C-F3DA468326DC}.Debug|x86.ActiveCfg = Debug|x86
+		{AB39E052-B5EF-4166-9F8C-F3DA468326DC}.Debug|x86.Build.0 = Debug|x86
+		{AB39E052-B5EF-4166-9F8C-F3DA468326DC}.Release|x86.ActiveCfg = Release|x86
+		{AB39E052-B5EF-4166-9F8C-F3DA468326DC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
