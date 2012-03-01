@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSwitch", "SimpleSwitch\SimpleSwitch.csproj", "{0D282ED7-1C1F-4655-8962-DC46E89A69A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "compare", "compare\compare.csproj", "{A31B1B8B-CB83-4158-B034-FF2D45F40A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeBIts", "ConsoleApplication1\ExchangeBIts.csproj", "{3D37D9BE-A9E4-4A71-B497-73D23DBD2294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitwiseMethods", "BitwiseMethods\BitwiseMethods.csproj", "{456837B1-2151-444C-ACAB-79972653DF0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D282ED7-1C1F-4655-8962-DC46E89A69A1}.Debug|x86.ActiveCfg = Debug|x86
+		{0D282ED7-1C1F-4655-8962-DC46E89A69A1}.Debug|x86.Build.0 = Debug|x86
+		{0D282ED7-1C1F-4655-8962-DC46E89A69A1}.Release|x86.ActiveCfg = Release|x86
+		{0D282ED7-1C1F-4655-8962-DC46E89A69A1}.Release|x86.Build.0 = Release|x86
+		{A31B1B8B-CB83-4158-B034-FF2D45F40A9D}.Debug|x86.ActiveCfg = Debug|x86
+		{A31B1B8B-CB83-4158-B034-FF2D45F40A9D}.Debug|x86.Build.0 = Debug|x86
+		{A31B1B8B-CB83-4158-B034-FF2D45F40A9D}.Release|x86.ActiveCfg = Release|x86
+		{A31B1B8B-CB83-4158-B034-FF2D45F40A9D}.Release|x86.Build.0 = Release|x86
+		{3D37D9BE-A9E4-4A71-B497-73D23DBD2294}.Debug|x86.ActiveCfg = Debug|x86
+		{3D37D9BE-A9E4-4A71-B497-73D23DBD2294}.Debug|x86.Build.0 = Debug|x86
+		{3D37D9BE-A9E4-4A71-B497-73D23DBD2294}.Release|x86.ActiveCfg = Release|x86
+		{3D37D9BE-A9E4-4A71-B497-73D23DBD2294}.Release|x86.Build.0 = Release|x86
+		{456837B1-2151-444C-ACAB-79972653DF0B}.Debug|x86.ActiveCfg = Debug|x86
+		{456837B1-2151-444C-ACAB-79972653DF0B}.Debug|x86.Build.0 = Debug|x86
+		{456837B1-2151-444C-ACAB-79972653DF0B}.Release|x86.ActiveCfg = Release|x86
+		{456837B1-2151-444C-ACAB-79972653DF0B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

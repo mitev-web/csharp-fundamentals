@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{DA814FC9-8B51-42BB-97F5-EE644810A766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FallingRocks", "FallingRocks\FallingRocks.csproj", "{D60363F6-0EBB-481E-B9CC-4C033A773281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rocks2", "Rocks2\Rocks2.csproj", "{2A374791-5F09-4005-83B9-5694C248979A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA814FC9-8B51-42BB-97F5-EE644810A766}.Debug|x86.ActiveCfg = Debug|x86
+		{DA814FC9-8B51-42BB-97F5-EE644810A766}.Debug|x86.Build.0 = Debug|x86
+		{DA814FC9-8B51-42BB-97F5-EE644810A766}.Release|x86.ActiveCfg = Release|x86
+		{DA814FC9-8B51-42BB-97F5-EE644810A766}.Release|x86.Build.0 = Release|x86
+		{D60363F6-0EBB-481E-B9CC-4C033A773281}.Debug|x86.ActiveCfg = Debug|x86
+		{D60363F6-0EBB-481E-B9CC-4C033A773281}.Debug|x86.Build.0 = Debug|x86
+		{D60363F6-0EBB-481E-B9CC-4C033A773281}.Release|x86.ActiveCfg = Release|x86
+		{D60363F6-0EBB-481E-B9CC-4C033A773281}.Release|x86.Build.0 = Release|x86
+		{2A374791-5F09-4005-83B9-5694C248979A}.Debug|x86.ActiveCfg = Debug|x86
+		{2A374791-5F09-4005-83B9-5694C248979A}.Debug|x86.Build.0 = Debug|x86
+		{2A374791-5F09-4005-83B9-5694C248979A}.Release|x86.ActiveCfg = Release|x86
+		{2A374791-5F09-4005-83B9-5694C248979A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
