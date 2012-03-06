@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{12601D73-94B2-495D-8855-146C88CBF680}</ProjectGuid>
+    <ProjectGuid>{23D1FD3E-D04F-46ED-B15E-23CE9402AC13}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FolderFileTree</RootNamespace>
-    <AssemblyName>FolderFileTree</AssemblyName>
+    <RootNamespace>Annonymous_Types</RootNamespace>
+    <AssemblyName>Annonymous-Types</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExtensionMethods.cs" />
-    <Compile Include="FileTree.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AnnonymousTypes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
