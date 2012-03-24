@@ -1,6 +1,0 @@
-test start Exerst start artcisesDestartfine teststart a classstart testthat 
-holds information testabout a mobile phone testdevice: model, manufacturer, 
-price, owner, battery cstart
- haracteristics (model, testhours istartdle and hours talst
- artk) and display characterstartistics (size and number
- of colors). Define test3 separate classes (class end

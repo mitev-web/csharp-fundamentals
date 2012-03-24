@@ -1,0 +1,6 @@
+Exercises George Alamar Define a class that holds information
+ about George a mobile Peter Peter masaka phone device: model, George manufacturer,
+ price, owner, Maria  Mariabattery characteristics (model, 
+ hours Ivan Ivan
+ idle and hours talk) iPhone and display Mariacharacteristics
+ (size and Peter number ChairRide of colors). Define 3 separate classes 

@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. RecursiveDFS", "Recursi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. QueueBasedBFS", "QueueBasedBFS\04. QueueBasedBFS.csproj", "{AB39E052-B5EF-4166-9F8C-F3DA468326DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. UndirectedGraphRecursiveDFS", "UndirectedGraphRecursiveDFS\05. UndirectedGraphRecursiveDFS.csproj", "{80EE4018-C9FC-470A-ABE5-A695E2230A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. UndirectedGraphFindConnectedComponents", "UndirectedGraphFindConnectedComponents\06. UndirectedGraphFindConnectedComponents.csproj", "{92098700-782C-4617-8FF5-704DA1508954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. DijkstraShortestPath", "DijkstraShortestPath\07. DijkstraShortestPath.csproj", "{C1BB884A-FA5B-4A7D-ACBE-15A5230A85E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -31,6 +37,18 @@ Global
 		{AB39E052-B5EF-4166-9F8C-F3DA468326DC}.Debug|x86.Build.0 = Debug|x86
 		{AB39E052-B5EF-4166-9F8C-F3DA468326DC}.Release|x86.ActiveCfg = Release|x86
 		{AB39E052-B5EF-4166-9F8C-F3DA468326DC}.Release|x86.Build.0 = Release|x86
+		{80EE4018-C9FC-470A-ABE5-A695E2230A6B}.Debug|x86.ActiveCfg = Debug|x86
+		{80EE4018-C9FC-470A-ABE5-A695E2230A6B}.Debug|x86.Build.0 = Debug|x86
+		{80EE4018-C9FC-470A-ABE5-A695E2230A6B}.Release|x86.ActiveCfg = Release|x86
+		{80EE4018-C9FC-470A-ABE5-A695E2230A6B}.Release|x86.Build.0 = Release|x86
+		{92098700-782C-4617-8FF5-704DA1508954}.Debug|x86.ActiveCfg = Debug|x86
+		{92098700-782C-4617-8FF5-704DA1508954}.Debug|x86.Build.0 = Debug|x86
+		{92098700-782C-4617-8FF5-704DA1508954}.Release|x86.ActiveCfg = Release|x86
+		{92098700-782C-4617-8FF5-704DA1508954}.Release|x86.Build.0 = Release|x86
+		{C1BB884A-FA5B-4A7D-ACBE-15A5230A85E0}.Debug|x86.ActiveCfg = Debug|x86
+		{C1BB884A-FA5B-4A7D-ACBE-15A5230A85E0}.Debug|x86.Build.0 = Debug|x86
+		{C1BB884A-FA5B-4A7D-ACBE-15A5230A85E0}.Release|x86.ActiveCfg = Release|x86
+		{C1BB884A-FA5B-4A7D-ACBE-15A5230A85E0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

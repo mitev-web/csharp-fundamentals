@@ -1,0 +1,16 @@
+isplay the information about the calls.
+Assuming that the price per minute is 0.37 calculate and print the total price of the calls in the history.
+Remove the longest call from the history 
+Define several constructors for the defined classes that take different sets of arguments (the full information for the class or part of it). Assume that model and manufacturer are mandatory. All unknown data fill with null.
+Add an enumeration BatteryType (Li-Ion, NiMH, NiCd, …) and use it as a new field for the batteries.
+Exercises (2)
+Add a method in the GSM class for displaying all information about it. Try to override ToString().
+isplay the information about the calls.
+Assuming that the price per minute is 0.37 calculate and print the total price of the calls in the history.
+Remove the longest call from the history 
+Define several constructors for the defined classes that take different sets of arguments (the full information for the class or part of it). Assume that model and manufacturer are mandatory. All unknown data fill with null.
+Add an enumeration BatteryType (Li-Ion, NiMH, NiCd, …) and use it as a new field for the batteries.
+Exercises (2)
+Add a method in the GSM class for displaying all information about it. Try to override ToString().
+isplay the information about the calls.
+Assuming that the price per minute is 0.37 calculate and print the total price of the calls in the history.
